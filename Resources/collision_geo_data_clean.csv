@@ -1,0 +1,1001 @@
+collision_id,crash_date,crash_time,street_name,borough,county,zip_code,latitude,longitude,number_of_persons_injured,number_of_persons_killed,number_of_pedestrians_injured,number_of_pedestrians_killed,number_of_cyclist_injured,number_of_cyclist_killed,number_of_motorist_injured,number_of_motorist_killed,contributing_factor_vehicle
+4455765,2021-09-11,2:39,Whitestone Expressway & 20 Avenue,Queens,Queens County,11356,40.7127281,-74.0060152,2,0,0,0,0,0,2,0,Aggressive Driving/Road Rage
+4513547,2022-03-26,11:45,Queensboro Bridge Upper,Manhattan,Queens County,10044,40.746402,-73.940191,1,0,0,0,0,0,1,0,Pavement Slippery
+4541903,2022-06-29,6:55,Throgs Neck Bridge,Bronx,Bronx County,10465,40.8164164,-73.7986156,0,0,0,0,0,0,0,0,Following Too Closely
+4456314,2021-09-11,9:35,1211      Loring Avenue,Brooklyn,Kings County,11208,40.667202,-73.8665,0,0,0,0,0,0,0,0,Unspecified
+4486609,2021-12-14,8:13,Saratoga Avenue & Decatur Street,Brooklyn,Kings County,11233,40.683304,-73.917274,0,0,0,0,0,0,0,0,
+4407458,2021-04-14,12:47,Major Deegan Expressway Ramp,Bronx,Bronx County,10451,40.81166,-73.931423,0,0,0,0,0,0,0,0,Unspecified
+4486555,2021-12-14,17:05,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.709183,-73.956825,0,0,0,0,0,0,0,0,Passing Too Closely
+4486660,2021-12-14,8:17,344       Baychester Avenue,Bronx,Bronx County,10475,40.86816,-73.83148,2,0,0,0,0,0,2,0,Unspecified
+4487074,2021-12-14,21:10,2047      Pitkin Avenue,Brooklyn,Kings County,11207,40.67172,-73.8971,0,0,0,0,0,0,0,0,Driver Inexperience
+4486519,2021-12-14,14:58,3 Avenue & East 43 Street,Manhattan,Kings County,10017,40.75144,-73.97397,0,0,0,0,0,0,0,0,Passing Too Closely
+4486934,2021-12-13,0:34,Myrtle Avenue,Queens,Queens County,11237,40.701275,-73.88887,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4487127,2021-12-14,16:50,Springfield Boulevard & East Gate Plaza,Queens,Kings County,11413,40.675884,-73.75577,0,0,0,0,0,0,0,0,Turning Improperly
+4486634,2021-12-14,8:30,Broadway & West 80 Street -West 81 Street,Manhattan,New York County,10024,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4486564,2021-12-14,0:59,Belt Parkway,Brooklyn,Kings County,11229,40.59662,-74.00231,0,0,0,0,0,0,0,0,Unsafe Speed
+4486635,2021-12-14,23:10,North Conduit Avenue & 150 Street,Queens,Queens County,11434,40.66684,-73.78941,2,0,0,0,0,0,2,0,Reaction To Uninvolved Vehicle
+4486604,2021-12-14,17:58,480       Dean Street,Brooklyn,Kings County,11217,40.68158,-73.97463,0,0,0,0,0,0,0,0,Passing Too Closely
+4486991,2021-12-14,20:03,878       Flatbush Avenue,Brooklyn,Kings County,11226,40.65068,-73.95881,4,0,0,0,0,0,4,0,Steering Failure
+4486284,2021-12-14,1:28,Meeker Avenue & Lorimer Street,Brooklyn,Kings County,11211,40.7127281,-74.0060152,3,0,0,0,0,0,3,0,Traffic Control Disregarded
+4487040,2021-12-11,19:43,West Kingsbridge Road & Heath Avenue,Bronx,Bronx County,10463,40.87262,-73.904686,1,0,0,0,0,0,1,0,Unspecified
+4486537,2021-12-14,14:30,Whitestone Expressway,Queens,Queens County,11357,40.783268,-73.82485,0,0,0,0,0,0,0,0,Following Too Closely
+4486905,2021-12-11,4:45,232       West 30 Street,Manhattan,New York County,10001,40.748917,-73.993546,0,0,0,0,0,0,0,0,Following Too Closely
+4487122,2021-12-14,5:46,Long Island Expressway,Queens,Queens County,11364,40.744644,-73.77041,1,0,0,0,0,0,1,0,Other Vehicular
+4486967,2021-12-13,6:30,82 Street & 34 Avenue,Queens,Queens County,11372,40.75373,-73.88505,0,0,0,0,0,0,0,0,Unspecified
+4486304,2021-12-14,3:43,Lexington Avenue,Manhattan,New York County,10037,40.804375,-73.93742,1,0,1,0,0,0,0,0,Unspecified
+4487001,2021-12-13,17:40,Victory Boulevard & Woodstock Avenue,Staten Island,Richmond County,10301,40.63165,-74.08762,1,0,0,0,0,0,1,0,Unspecified
+4486516,2021-12-14,17:31,East 18 Street & Avenue K,Brooklyn,Kings County,11230,40.623104,-73.95809,1,0,1,0,0,0,0,0,Unspecified
+4486605,2021-12-14,20:13,366       12 Street,Brooklyn,Kings County,11215,40.66576,-73.9845,0,0,0,0,0,0,0,0,Passing Too Closely
+4487052,2021-12-14,12:54,Fulton Street & Saint Felix Street,Brooklyn,Kings County,11217,40.687534,-73.9775,1,0,0,0,1,0,0,0,Unspecified
+4486556,2021-12-14,17:15,Grand Street & Union Avenue,Brooklyn,Kings County,11211,40.710957,-73.951126,1,0,0,0,0,0,1,0,Passing Or Lane Usage Improper
+4486875,2021-12-14,22:49,713       Eagle Avenue,Bronx,Bronx County,10455,40.81813,-73.910126,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4486933,2021-12-12,9:00,59-14     67 Avenue,Queens,Queens County,11385,40.70447,-73.90148,0,0,0,0,0,0,0,0,Passing Too Closely
+4486581,2021-12-14,16:25,East 93 Street,Manhattan,New York County,10128,40.784615,-73.953964,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4407520,2021-04-14,14:30,Eastchester Road & Pelham Parkway North,Bronx,Bronx County,10461,40.8572477,-73.8440597,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4486960,2021-12-16,6:59,Kingsland Avenue & Meeker Avenue,Brooklyn,Kings County,11222,40.7224806,-73.9409335,1,0,1,0,0,0,0,0,Traffic Control Disregarded
+4542336,2022-06-29,16:00,Williamsburg Bridge Outer Roadwa,Brooklyn,Kings County,11211,40.710185,-73.958669,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407665,2021-04-15,16:15,Hutchinson River Parkway,Bronx,Bronx County,10461,40.8576403,-73.8311141,0,0,0,0,0,0,0,0,Pavement Slippery
+4456591,2021-07-07,11:42,Throgs Neck Bridge,Bronx,Bronx County,10465,40.8164164,-73.7986156,1,0,0,0,0,0,1,0,Unsafe Lane Changing
+4545699,2022-07-12,17:50,44        Empire Boulevard,Brooklyn,Kings County,11225,40.663303,-73.96049,0,0,0,0,0,0,0,0,Oversized Vehicle
+4512922,2022-03-23,10:00,71        East Drive,Staten Island,Richmond County,10314,40.588008,-74.162155,0,0,0,0,0,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4456659,2021-07-09,0:43,Eliot Avenue,Queens,Queens County,11374,40.720535,-73.88885,0,1,0,1,0,0,0,0,Unspecified
+4521660,2022-04-24,16:45,Staten Island Expressway,Staten Island,Richmond County,10305,40.607685,-74.13892,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4521759,2022-04-24,4:49,Boston Road & Bronx Park East,Bronx,Kings County,10462,40.855972,-73.869896,0,0,0,0,0,0,0,0,Unspecified
+4522226,2022-04-22,17:17,East 107 Street,Manhattan,New York County,11203,40.790276,-73.9396,1,0,1,0,0,0,0,0,Traffic Control Disregarded
+4522015,2022-04-24,1:30,5610      4 Avenue,Brooklyn,Kings County,11220,40.642986,-74.01621,0,0,0,0,0,0,0,0,Unspecified
+4521460,2022-04-24,6:00,116-44    234 Street,Queens,Queens County,11411,0.0,0.0,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4522156,2022-04-24,21:40,Boscobel Place & University Avenue,Bronx,Kings County,10452,40.843906,-73.92413,0,0,0,0,0,0,0,0,Alcohol Involvement
+4521633,2022-04-24,17:45,Bronx River Parkway & East 233 Street,Bronx,Kings County,10466,40.89481,-73.86183,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4522124,2022-04-15,6:11,East 162 Street,Bronx,Bronx County,11203,40.8249578,-73.9139615,1,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4521937,2022-04-24,9:51,Cross Bronx Expy,Bronx,New York County,10040,40.85169,-73.95238,0,0,0,0,0,0,0,0,Unspecified
+4521801,2022-04-24,0:00,Major Deegan Expressway & West Fordham Road,Bronx,Kings County,10453,40.861862,-73.91275,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4522285,2022-03-08,20:00,360       Snediker Avenue,Brooklyn,Kings County,11207,40.666256,-73.900215,0,0,0,0,0,0,0,0,Unspecified
+4521853,2022-04-24,15:35,West 56 Street & 9 Avenue,Manhattan,New York County,10019,40.767242,-73.986206,1,0,0,0,1,0,0,0,View Obstructed/Limited
+4522228,2022-04-22,12:00,Avenue J & Ocean Parkway,Brooklyn,Kings County,11230,40.62417,-73.97048,1,0,0,0,0,0,1,0,Unspecified
+4521702,2022-04-24,13:10,Saint Marks Avenue & 6 Avenue,Brooklyn,New York County,10003,40.679955,-73.97491,0,0,0,0,0,0,0,0,Turning Improperly
+4522167,2022-04-24,4:20,Throop Avenue & De Kalb Avenue,Brooklyn,Kings County,11221,40.692356,-73.94282,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4522196,2022-04-20,19:37,Henry Hudson Parkway,Manhattan,New York County,10034,40.78291,-73.98578,0,0,0,0,0,0,0,0,Driver Inexperience
+4521758,2022-04-24,16:14,Rockaway Avenue,Brooklyn,Kings County,11236,40.67308,-73.91124,0,0,0,0,0,0,0,0,Unspecified
+4522136,2022-04-12,19:56,Utica Avenue & Snyder Avenue,Brooklyn,Kings County,11203,40.65011,-73.930214,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4521469,2022-04-24,0:30,Belt Parkway,Brooklyn,Kings County,11229,40.638382,-74.03668,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4521859,2022-04-24,20:13,102-24    Vanwyck Expressway,Queens,Queens County,11419,40.69261,-73.81143,0,0,0,0,0,0,0,0,Aggressive Driving/Road Rage
+4521590,2022-04-24,15:21,Thomson Avenue & Skillman Avenue,Queens,Queens County,11101,40.745235,-73.937706,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4521902,2022-04-24,10:27,Vanwyck Expressway & 109 Avenue,Queens,Queens County,11435,40.7127281,-74.0060152,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4521684,2022-04-24,21:00,21 Street & 37 Avenue,Queens,Queens County,11106,40.758705,-73.93793,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4521858,2022-04-24,21:40,Jamaica Avenue & 102 Street,Queens,Queens County,11418,40.695156,-73.845406,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4522242,2022-04-07,14:14,1 Avenue & East 41 Street,Manhattan,New York County,10017,40.748158,-73.97033,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456672,2021-06-29,17:35,Beach Channel Drive,Queens,Queens County,11693,40.609535,-73.75372,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4485150,2021-12-09,20:20,East 7 Street & Crawford Avenue,Brooklyn,Kings County,11223,40.59207,-73.96299,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4485116,2021-12-09,14:50,West 177 Street,Bronx,New York County,10024,40.850018,-73.9107,0,0,0,0,0,0,0,0,Unspecified
+4485026,2021-12-09,2:45,149 Avenue & Huxley Street,Queens,Queens County,11422,40.653023,-73.73895,1,0,0,0,0,0,1,0,Alcohol Involvement
+4485528,2021-12-06,22:16,Avenue J,Brooklyn,Kings County,11234,40.62573,-73.9564,0,0,0,0,0,0,0,0,Unsafe Speed
+4485333,2021-12-04,12:00,Crown Street & Schenectady Avenue,Brooklyn,Kings County,11213,40.665375,-73.934235,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4485234,2021-12-08,16:20,East End Avenue & East 88 Street,Manhattan,New York County,10128,40.776237,-73.943825,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4485355,2021-12-09,23:15,12 Avenue & 41 Street,Brooklyn,Kings County,11218,40.640835,-73.98967,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4485581,2021-12-01,14:34,437       Beach 68 Street,Queens,Queens County,11692,40.593636,-73.797264,0,0,0,0,0,0,0,0,Unsafe Speed
+4485866,2021-12-10,7:00,122-42    134 Street,Queens,Queens County,11420,40.674263,-73.80453,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4485192,2021-12-07,9:20,Taylor Street,Staten Island,Richmond County,11211,40.70476,-73.96491,0,0,0,0,0,0,0,0,Steering Failure
+4485214,2021-12-09,8:00,West Shore Expressway,Staten Island,Richmond County,10311,40.569626,-74.190735,0,0,0,0,0,0,0,0,Following Too Closely
+4485437,2021-12-07,17:08,Flushing Avenue & Kent Avenue,Brooklyn,Kings County,11205,40.698463,-73.960205,0,0,0,0,0,0,0,0,Following Too Closely
+4485408,2021-12-05,8:20,393       Rockaway Parkway,Brooklyn,Kings County,11212,40.658413,-73.9171,0,0,0,0,0,0,0,0,Unspecified
+4484852,2021-12-08,19:30,127       East 58 Street,Manhattan,New York County,10022,40.76175,-73.96899,1,0,0,0,1,0,0,0,Following Too Closely
+4485542,2021-12-08,12:00,44        West 14 Street,Manhattan,New York County,10011,40.736614,-73.9951,1,0,0,0,1,0,0,0,Passing Or Lane Usage Improper
+4485170,2021-12-10,8:06,Flatbush Avenue & Grand Army Plaza,Brooklyn,Kings County,11238,40.6722889,-73.9690022,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4485523,2021-12-08,19:30,Ocean Parkway,Brooklyn,Kings County,11224,40.6447512,-73.9744601,4,0,0,0,0,0,4,0,Unsafe Speed
+4484906,2021-12-08,22:37,288       Manor Road,Staten Island,Richmond County,10314,40.62121,-74.12385,0,0,0,0,0,0,0,0,Pavement Slippery
+4485036,2021-12-08,17:56,Major Deegan Expressway,Bronx,Bronx County,10453,40.873737,-73.90593,0,0,0,0,0,0,0,0,Unspecified
+4485772,2021-12-07,7:50,Carroll Street,Brooklyn,Kings County,11215,40.66718,-73.95076,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4485565,2021-12-08,0:44,23 Street & 40 Avenue,Queens,Queens County,11101,40.754295,-73.93946,0,0,0,0,0,0,0,0,View Obstructed/Limited
+4484836,2021-12-08,15:00,Avenue Y,Brooklyn,Kings County,11234,40.588116,-73.97261,0,0,0,0,0,0,0,0,Passing Too Closely
+4485340,2021-12-10,11:00,2123      Lurting Avenue,Bronx,Bronx County,10461,40.854935,-73.85822,0,0,0,0,0,0,0,0,Oversized Vehicle
+4485706,2021-12-10,1:10,Schenectady Avenue,Brooklyn,Kings County,11203,40.662575,-73.93448,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4485384,2021-12-09,0:00,47 Road,Queens,Kings County,11225,40.7448,-73.953415,1,0,1,0,0,0,0,0,Unspecified
+4484799,2021-12-08,18:36,Henry Hudson Parkway,Manhattan,New York County,10034,40.79672,-73.97618,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4485077,2021-12-09,20:30,269-01    76 Avenue,Queens,Queens County,11004,40.752777,-73.70743,0,0,0,0,0,0,0,0,Illnes
+4485090,2021-12-09,10:13,Kings Highway & Farragut Road,Brooklyn,Kings County,11203,40.638523,-73.92607,2,0,0,0,0,0,2,0,Traffic Control Disregarded
+4513697,2022-03-26,14:00,Corson Avenue & Westervelt Avenue,Staten Island,Richmond County,10301,40.637833,-74.08193,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513935,2022-03-26,1:02,West 101 Street & Broadway,Manhattan,Kings County,10025,40.797836,-73.96946,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4513794,2022-03-26,16:02,Queens Boulevard & 57 Avenue,Queens,Queens County,11373,40.734375,-73.87342,1,0,0,0,0,0,1,0,Lost Consciousness
+4514267,2022-03-26,16:05,115 Avenue & 221 Street,Queens,Queens County,11411,40.699947,-73.736626,1,0,0,0,0,0,1,0,Following Too Closely
+4514237,2022-03-21,12:05,515       West 36 Street,Manhattan,New York County,10018,40.75632,-73.999275,1,0,0,0,0,0,1,0,Following Too Closely
+4513470,2022-03-26,5:13,131 Street & Atlantic Avenue,Queens,Queens County,11418,40.69614,-73.81789,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4513751,2022-03-26,17:42,935       East 58 Street,Brooklyn,Kings County,11234,40.631687,-73.9205,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514075,2022-03-26,12:18,Laconia Avenue & East 231 Street,Bronx,Bronx County,10466,40.88839,-73.84666,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4513857,2022-03-26,20:10,1706      Holland Avenue,Bronx,Bronx County,10462,40.844425,-73.8639,0,0,0,0,0,0,0,0,Unspecified
+4514202,2022-03-26,15:45,White Plains Road & Cross Bronx Expressway,Bronx,Kings County,10472,40.833965,-73.8629,2,0,0,0,0,0,2,0,Alcohol Involvement
+4514347,2022-03-26,17:55,Manhattan Avenue & Boerum Street,Brooklyn,Kings County,11206,40.705738,-73.944695,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513495,2022-03-26,0:50,Avenue N & East 102 Street,Brooklyn,New York County,11236,40.637905,-73.8878,0,0,0,0,0,0,0,0,Unsafe Speed
+4513874,2022-03-26,14:05,2067      Nostrand Avenue,Brooklyn,Kings County,11210,40.635063,-73.94788,1,0,0,0,0,0,1,0,Unsafe Speed
+4514263,2022-03-26,9:30,Bruckner Boulevard & East 137 Street,Bronx,Bronx County,10454,40.804153,-73.91304,0,0,0,0,0,0,0,0,Unspecified
+4514323,2022-03-10,8:30,Prospect Place & Grand Avenue,Brooklyn,Kings County,11238,40.676403,-73.96287,4,0,0,0,0,0,4,0,Other Vehicular
+4514182,2022-03-24,23:00,Watson Avenue & Castle Hill Avenue,Bronx,Bronx County,10472,40.829777,-73.85055,1,0,1,0,0,0,0,0,Unspecified
+4513515,2022-03-26,7:36,Fort Hamilton Parkway & 97 Street,Brooklyn,Kings County,11209,40.613926,-74.030174,0,0,0,0,0,0,0,0,Brakes Defective
+4513663,2022-03-26,11:50,East 94 Street & Avenue M,Brooklyn,Kings County,11236,40.635563,-73.89577,2,0,2,0,0,0,0,0,Failure To Yield Right-Of-Way
+4513953,2022-03-26,17:42,114 Street & Sutter Avenue,Queens,Queens County,11420,40.675167,-73.825264,0,0,0,0,0,0,0,0,Passing Too Closely
+4513985,2022-03-26,1:45,East 62 Street & 1 Avenue,Manhattan,New York County,10065,40.761486,-73.96061,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514084,2022-03-26,17:00,98        South 4 Street,Brooklyn,Kings County,11249,40.712284,-73.964005,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4514144,2022-02-25,11:48,Jamaica Avenue & 165 Street,Queens,Queens County,11432,40.70546,-73.7949,0,0,0,0,0,0,0,0,Following Too Closely
+4513606,2022-03-26,22:51,West 30 Street,Manhattan,New York County,10011,40.74967,-73.99531,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4513564,2022-03-26,8:21,Saint Nicholas Avenue & West 159 Street,Manhattan,New York County,10032,40.833786,-73.94037,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514412,2022-03-17,8:00,139 Street,Manhattan,New York County,10002,40.67794,-73.8023,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4513587,2022-03-26,10:30,736       56 Street,Brooklyn,Kings County,11220,40.637985,-74.0076,0,0,0,0,0,0,0,0,Backing Unsafely
+4487185,2021-12-16,9:23,Jackie Robinson Expy & Jamaica Avenue,Brooklyn,Kings County,11207,40.68295,-73.9708,0,0,0,0,0,0,0,0,Unspecified
+4513565,2022-03-26,13:48,1016      Saint Nicholas Avenue,Manhattan,New York County,10032,40.835037,-73.93979,1,0,1,0,0,0,0,0,
+4514286,2022-03-25,9:56,East 241 Street,Bronx,Bronx County,11203,40.9046,-73.852936,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513637,2022-03-26,23:45,47 Street & Greenpoint Avenue,Queens,Queens County,11104,40.742508,-73.91788,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4513528,2022-03-26,1:26,Gowanus Ramp,Brooklyn,Kings County,11375,40.644985,-74.017402,0,0,0,0,0,0,0,0,Unsafe Speed
+4514139,2022-03-22,9:07,Grand Avenue & Greene Avenue,Brooklyn,Kings County,11238,40.6870667,-73.9621433,1,0,1,0,0,0,0,0,Aggressive Driving/Road Rage
+4513833,2022-03-26,16:00,Sutter Avenue & Schenck Avenue,Brooklyn,Kings County,11207,40.67046,-73.88788,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4513887,2022-03-26,23:17,Essex Street & East Houston Street,Manhattan,New York County,10002,40.72224,-73.9863,1,0,0,0,0,0,1,0,Following Too Closely
+4514160,2022-03-23,9:00,Flatbush Avenue,Brooklyn,Kings County,11234,40.67639,-73.97189,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4514002,2022-03-26,5:00,Bronx River Parkway,Bronx,Bronx County,10467,40.88893,-73.86579,0,0,0,0,0,0,0,0,Following Too Closely
+4514152,2022-03-25,6:15,East 120 Street,Manhattan,New York County,11203,40.80118,-73.93975,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4513626,2022-03-26,21:50,Fdr Drive,Manhattan,New York County,10128,40.757668,-73.95915,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4513774,2022-03-26,21:25,200       Rogers Avenue,Brooklyn,Kings County,11225,40.668896,-73.95339,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514376,2022-03-25,18:13,604       East 2 Street,Brooklyn,Kings County,11218,40.63654,-73.97707,2,0,0,0,0,0,2,0,Unspecified
+4513982,2022-03-26,20:10,East 168 Street & 3 Avenue,Bronx,Bronx County,10456,40.831055,-73.905846,1,0,1,0,0,0,0,0,Unspecified
+4514220,2022-03-25,12:55,Grand Concourse,Bronx,Bronx County,10467,40.85868,-73.89922,0,0,0,0,0,0,0,0,Passing Too Closely
+4514413,2022-03-23,11:00,Gulf Avenue,Staten Island,Richmond County,10311,40.62466,-74.17856,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513664,2022-03-26,3:05,Avenue J & East 92 Street,Brooklyn,New York County,11236,40.63947,-73.902756,1,0,0,0,0,0,1,0,Unspecified
+4513725,2022-03-26,4:34,West Fordham Road & Cedar Avenue,Bronx,Bronx County,10468,40.86173,-73.91182,1,0,0,0,0,0,1,0,Unspecified
+4514298,2022-03-26,19:56,11        Metrotech Center,Brooklyn,Kings County,11201,40.69538,-73.985115,0,0,0,0,0,0,0,0,Unspecified
+4513573,2022-03-26,12:40,65 Street & Fort Hamilton Parkway,Brooklyn,Kings County,11219,40.63063,-74.00923,0,0,0,0,0,0,0,0,Unspecified
+4514201,2022-03-26,1:58,1670      Watson Avenue,Bronx,Bronx County,10472,40.82707,-73.87075,0,0,0,0,0,0,0,0,Turning Improperly
+4514030,2022-03-26,19:56,Gerritsen Avenue & Avenue S,Brooklyn,Kings County,11229,40.60548,-73.93922,0,0,0,0,0,0,0,0,Unspecified
+4514125,2022-03-26,0:30,Madison Street & Central Avenue,Brooklyn,Queens County,11221,40.692593,-73.91551,0,0,0,0,0,0,0,0,Unspecified
+4514194,2022-03-16,15:44,49 Street & 5 Avenue,Manhattan,New York County,10017,40.7127281,-74.0060152,1,0,1,0,0,0,0,0,Unspecified
+4514278,2022-03-26,20:05,Bushwick Avenue & Conway Street,Brooklyn,Kings County,11207,40.680664,-73.902626,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513803,2022-03-26,17:54,168       East 29 Street,Brooklyn,New York County,11226,40.645718,-73.95002,4,0,0,0,0,0,4,0,Passing Too Closely
+4514241,2022-03-25,17:55,Nostrand Avenue,Brooklyn,Kings County,11235,40.68327,-73.95016,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4487210,2021-12-12,9:09,Jerome Avenue,Bronx,Bronx County,10468,40.84036,-73.91807,0,1,0,1,0,0,0,0,Unspecified
+4407811,2021-04-13,16:00,Vandervort Avenue & Anthony Street,Brooklyn,Kings County,11222,40.68295,-73.9708,0,0,0,0,0,0,0,0,Following Too Closely
+4456746,2021-08-05,18:17,Verrazano Bridge,Brooklyn,Kings County,11238,40.68295,-73.9708,0,0,0,0,0,0,0,0,Glare
+4513878,2022-03-26,16:35,3071      Brighton 4 Street,Brooklyn,Kings County,11235,40.577652,-73.96344,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513735,2022-03-26,19:50,60        Washington Square South,Manhattan,New York County,10012,40.730145,-73.99781,1,0,0,0,1,0,0,0,Passenger Distraction
+4513958,2022-03-26,13:19,Rockaway Boulevard & 132 Street,Queens,Queens County,11420,40.67478,-73.806206,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4514367,2022-03-25,8:45,1175      Mc Donald Avenue,Brooklyn,Kings County,11230,40.624622,-73.97598,2,0,0,0,0,0,2,0,Unspecified
+4513681,2022-03-26,10:10,Union Street & Plaza Street West,Brooklyn,New York County,11217,40.67271,-73.97089,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4514212,2022-03-26,11:45,Brooklyn Queens Expressway,Queens,Queens County,11104,40.7314,-73.926094,1,0,0,0,0,0,1,0,Reaction To Uninvolved Vehicle
+4514420,2022-03-25,14:35,Port Richmond Avenue & Hatfield Place,Staten Island,Richmond County,10302,40.632786,-74.13712,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4513923,2022-03-26,14:30,Mcclean Avenue & Sand Lane,Staten Island,Richmond County,10305,40.596733,-74.07045,0,0,0,0,0,0,0,0,Backing Unsafely
+4513752,2022-03-26,19:00,1549      East 56 Street,Brooklyn,Kings County,11234,40.617645,-73.92092,0,0,0,0,0,0,0,0,Backing Unsafely
+4513924,2022-03-26,2:05,Parsons Boulevard & Grand Central Parkway,Queens,Queens County,11432,40.7156103,-73.8076418,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513860,2022-03-26,16:40,436       Atlantic Avenue,Brooklyn,Kings County,11217,40.68651,-73.98378,2,0,0,0,0,0,2,0,Passing Or Lane Usage Improper
+4514251,2022-03-24,18:05,Marcy Avenue & Ellery Street,Brooklyn,Kings County,11206,40.69831,-73.9498,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513478,2022-03-26,3:35,179 Street,Queens,Queens County,11434,40.692455,-73.76814,1,0,0,0,0,0,1,0,Reaction To Uninvolved Vehicle
+4514302,2022-03-20,10:34,West 76 Street & Central Park West,Manhattan,New York County,10024,40.778805,-73.974075,1,0,1,0,0,0,0,0,Backing Unsafely
+4513708,2022-03-26,14:54,Avenue Of The Americas & West 31 Street,Manhattan,New York County,10001,40.747894,-73.989174,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4514189,2022-03-25,6:35,1700      Cross Bronx Expressway,Bronx,Bronx County,10472,40.83578,-73.871445,0,0,0,0,0,0,0,0,Following Too Closely
+4514419,2022-03-25,14:00,Leonard Avenue & Fiske Avenue,Staten Island,Richmond County,10314,40.61763,-74.133575,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514234,2022-03-21,19:13,Washington Square North,Manhattan,New York County,10012,40.731407,-73.99698,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4513496,2022-03-26,5:02,Coney Island Avenue & Quentin Road,Brooklyn,Kings County,11223,40.60784,-73.961975,0,0,0,0,0,0,0,0,Fell Asleep
+4514266,2022-03-25,9:45,Cross Island Parkway,Queens,Queens County,11439,40.752563,-73.74328,0,0,0,0,0,0,0,0,Unspecified
+4513680,2022-03-26,22:54,177       4 Avenue,Brooklyn,Kings County,11217,40.67848,-73.98232,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4513861,2022-03-26,21:00,1115      63 Street,Brooklyn,Kings County,11219,40.629475,-74.004166,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514326,2022-03-26,17:29,Eastern Parkway & Utica Avenue,Brooklyn,Kings County,11213,40.668797,-73.93113,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4513739,2022-03-26,2:10,West 38 Street & 8 Avenue,Manhattan,New York County,10018,40.754707,-73.99164,1,0,0,0,1,0,0,0,Failure To Yield Right-Of-Way
+4514180,2022-03-25,0:00,East Fordham Road & Southern Boulevard,Bronx,Bronx County,10458,40.85713,-73.8808,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514209,2022-03-26,4:00,Grand Concourse & East 183 Street,Bronx,Bronx County,10468,40.857418,-73.89996,0,0,0,0,0,0,0,0,Unsafe Speed
+4513795,2022-03-26,4:34,Central Avenue & 66 Place,Queens,Richmond County,11385,40.702972,-73.888054,0,0,0,0,0,0,0,0,Unsafe Speed
+4514297,2022-03-09,11:56,West 84 Street,Manhattan,New York County,10024,40.786366,-73.97598,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4513572,2022-03-26,14:41,70 Street & 12 Avenue,Brooklyn,Kings County,11228,40.624474,-74.00668,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4513591,2022-03-26,18:00,39 Avenue & Bell Boulevard,Queens,Queens County,11361,40.76532,-73.771904,0,0,0,0,0,0,0,0,Unspecified
+4514011,2022-03-26,13:30,Avenue U,Brooklyn,Kings County,11223,40.597683,-73.96686,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513701,2022-03-26,13:20,Saint Johns Avenue & Tompkins Avenue,Staten Island,Kings County,10305,40.609768,-74.06969,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4514155,2022-03-25,21:35,231       East 117 Street,Manhattan,New York County,10035,40.798286,-73.938705,0,0,0,0,0,0,0,0,Following Too Closely
+4514334,2022-03-23,21:00,25-03     120 Street,Queens,Queens County,11354,40.776764,-73.848015,0,0,0,0,0,0,0,0,Unspecified
+4513548,2022-03-26,12:00,39-34     51 Street,Queens,Queens County,11377,40.747498,-73.91309,0,0,0,0,0,0,0,0,Unspecified
+4514046,2022-03-26,13:28,Graham Avenue & Debevoise Street,Brooklyn,Kings County,11206,40.701637,-73.942276,1,0,0,0,0,0,1,0,Following Too Closely
+4513581,2022-03-26,19:12,94-39     120 Street,Queens,Queens County,11419,40.69349,-73.826546,0,0,0,0,0,0,0,0,Unsafe Speed
+4513772,2022-03-26,21:29,Wetherole Street & 65 Road,Queens,Queens County,11374,40.726463,-73.85943,1,0,1,0,0,0,0,0,Unsafe Speed
+4514221,2022-03-25,13:21,East 188 Street & Arthur Avenue,Bronx,Bronx County,10458,40.856434,-73.886826,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4514277,2022-03-22,8:20,Burke Avenue & Bronx Park East,Bronx,Bronx County,10467,40.87151,-73.87057,1,0,0,0,1,0,0,0,Turning Improperly
+4514166,2022-03-26,22:30,386       Clinton Avenue,Brooklyn,Kings County,11238,40.68686,-73.96758,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4513691,2022-03-26,11:20,Coney Island Avenue,Brooklyn,Kings County,11235,40.624763,-73.96518,1,0,0,0,0,0,1,0,Alcohol Involvement
+4513782,2022-03-26,18:17,130 Avenue & Brookville Boulevard,Queens,Queens County,11422,40.678417,-73.729225,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4514390,2022-03-14,10:30,160-18    110 Avenue,Queens,Queens County,11433,40.692596,-73.79078,0,0,0,0,0,0,0,0,Unspecified
+4514215,2022-03-26,1:30,Calamus Avenue & 72 Street,Queens,Queens County,11378,40.734486,-73.891754,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4513994,2022-03-26,3:23,2291      New England Thruway,Bronx,Bronx County,10475,40.88399,-73.82641,1,0,0,0,0,0,1,0,Following Too Closely
+4513503,2022-03-26,1:45,41        Irving Place,Brooklyn,Kings County,11238,40.683872,-73.95998,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4514151,2022-03-05,14:52,30        Paladino Avenue,Manhattan,New York County,10035,40.799484,-73.92929,0,0,0,0,0,0,0,0,Unspecified
+4513655,2022-03-26,20:27,Fulton Street,Manhattan,New York County,10048,40.70839,-74.00482,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4514070,2022-03-26,18:19,West 51 Street & 11 Avenue,Manhattan,New York County,10019,40.766502,-73.99418,0,0,0,0,0,0,0,0,Unspecified
+4513952,2022-03-26,23:00,115-36    122 Street,Queens,Queens County,11420,40.676304,-73.816284,0,0,0,0,0,0,0,0,Alcohol Involvement
+4513827,2022-03-26,18:00,Georgia Avenue & Livonia Avenue,Brooklyn,Kings County,11207,40.66447,-73.89593,0,0,0,0,0,0,0,0,Unsafe Speed
+4514285,2022-03-23,20:40,West Street,Manhattan,New York County,10280,40.709835,-74.014885,0,0,0,0,0,0,0,0,Unsafe Speed
+4521782,2022-04-24,11:45,Belt Parkway,Brooklyn,Kings County,11229,40.585342,-73.94157,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4457012,2021-09-11,12:01,3         East 31 Street,Manhattan,New York County,10016,40.746395,-73.9856,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4457022,2021-09-10,11:00,Ocean Parkway & Avenue M,Brooklyn,Kings County,11230,40.617004,-73.96912,0,0,0,0,0,0,0,0,Unspecified
+4456987,2021-09-11,20:15,116       Franklin Street,Manhattan,New York County,10013,40.718662,-74.00615,0,0,0,0,0,0,0,0,Unspecified
+4456970,2021-09-09,8:15,590       Dean Street,Brooklyn,Kings County,11238,40.680664,-73.97028,0,0,0,0,0,0,0,0,Backing Unsafely
+4485574,2021-12-10,23:07,Bergen Street & Eastern Parkway,Brooklyn,Kings County,11233,40.67392,-73.91012,0,0,0,0,0,0,0,0,Unspecified
+4485894,2021-12-10,21:50,Major Deegan Expressway,Bronx,Bronx County,10453,40.806835,-73.924355,0,0,0,0,0,0,0,0,Other Vehicular
+4485637,2021-11-27,5:40,1100      East 58 Street,Brooklyn,Kings County,11234,40.627735,-73.920105,0,0,0,0,0,0,0,0,Unspecified
+4484930,2021-12-09,5:15,Rockaway Boulevard & Vanwyck Expressway,Queens,Queens County,11436,40.6743736,-73.8020451,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4484996,2021-12-08,12:58,203       Lincoln Road,Brooklyn,Kings County,11225,40.661263,-73.955765,0,0,0,0,0,0,0,0,Unspecified
+4484861,2021-12-08,17:50,Cross Bronx Expy,Bronx,New York County,10040,40.844883,-73.907295,0,0,0,0,0,0,0,0,Following Too Closely
+4485177,2021-12-10,4:30,30-27     87 Street,Queens,Queens County,11369,40.76104,-73.88162,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4485316,2021-12-10,21:22,Franklin Avenue,Brooklyn,Kings County,11216,40.669777,-73.9583,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4485668,2021-12-10,8:30,425       Claremont Parkway,Bronx,Bronx County,10457,40.839443,-73.90436,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4485385,2021-12-10,12:15,13 Street & Queens Plaza South,Queens,Queens County,11101,40.75245,-73.94507,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4484892,2021-12-08,14:38,25        Flatbush Avenue,Brooklyn,Kings County,11217,40.687748,-73.980125,0,0,0,0,0,0,0,0,Passing Too Closely
+4485246,2021-12-03,13:40,Hutchinson River Parkway,Bronx,Bronx County,10461,40.87356,-73.81853,0,0,0,0,0,0,0,0,Unspecified
+4485893,2021-12-10,8:50,800       East 156 Street,Bronx,Bronx County,10455,40.8176,-73.90373,1,0,0,0,0,0,1,0,Other Vehicular
+4485586,2021-12-09,19:45,Glenwood Road & East 83 Street,Brooklyn,Kings County,11236,40.638428,-73.91275,0,0,0,0,0,0,0,0,Unspecified
+4485696,2021-12-10,16:07,416       West 129 Street,Manhattan,New York County,10027,40.813885,-73.95211,0,0,0,0,0,0,0,0,Unspecified
+4485123,2021-12-08,6:37,Verrazano Bridge Upper,Queens,Queens County,11101,40.753702,-73.94712,0,0,0,0,0,0,0,0,Following Too Closely
+4485914,2021-12-10,21:20,204       East 84 Street,Manhattan,New York County,10028,40.77733,-73.95456,0,0,0,0,0,0,0,0,Unsafe Speed
+4485304,2021-12-10,23:16,Chambers Street,Manhattan,New York County,10007,40.713135,-74.00407,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4485055,2021-12-09,17:21,Broadway,Manhattan,New York County,10034,40.775486,-73.98217,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4485539,2021-12-09,7:30,Boynton Place & West 7 Street,Brooklyn,Kings County,11223,40.591137,-73.97752,0,0,0,0,0,0,0,0,Unspecified
+4485241,2021-11-24,23:58,Broadway,Manhattan,New York County,10034,40.865536,-73.92728,1,0,1,0,0,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4485153,2021-12-09,17:00,140       West 58 Street,Manhattan,New York County,10019,40.76551,-73.97795,1,0,0,0,1,0,0,0,Following Too Closely
+4484897,2021-12-08,8:15,Ocean Parkway & 18 Avenue,Brooklyn,Kings County,11230,40.63311,-73.97217,0,0,0,0,0,0,0,0,Unspecified
+4456035,2021-09-11,2:20,Bronx River Parkway,Bronx,Bronx County,10467,40.823772,-73.87245,1,0,0,0,0,0,1,0,Alcohol Involvement
+4456704,2021-07-09,12:00,Ittner Place,Bronx,Bronx County,10457,40.84497,-73.90247,0,0,0,0,0,0,0,0,Passing Too Closely
+4456122,2021-09-11,15:25,Verrazano Bridge Upper,Queens,Queens County,11101,40.753702,-73.94712,0,0,0,0,0,0,0,0,Unspecified
+4456919,2021-09-10,14:50,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.675507,-74.00075,0,0,0,0,0,0,0,0,Unspecified
+4456686,2021-07-01,17:45,Beach Channel Drive & Horton Avenue,Queens,Kings County,11691,40.609535,-73.75372,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456588,2021-07-07,13:45,Leroy Street & Bedford Street,Manhattan,New York County,10014,40.730446,-74.00431,0,0,0,0,0,0,0,0,Driver Inexperience
+4456879,2021-09-11,12:00,80-25     165 Street,Queens,Queens County,11432,40.721645,-73.8026,0,0,0,0,0,0,0,0,Unspecified
+4456573,2021-07-07,17:30,Bruckner Expressway,Bronx,Bronx County,10474,40.853477,-73.82622,0,0,0,0,0,0,0,0,Unspecified
+4455749,2021-09-11,2:55,135 Place & 133 Avenue,Queens,Queens County,11420,40.66901,-73.80265,0,0,0,0,0,0,0,0,Alcohol Involvement
+4456087,2021-09-11,17:15,694       Forest Avenue,Staten Island,Richmond County,10310,40.629475,-74.1123,1,0,1,0,0,0,0,0,Unspecified
+4456941,2021-09-03,17:14,Clinton Street & De Graw Street,Brooklyn,Kings County,11231,40.6843,-73.99724,0,0,0,0,0,0,0,0,Passing Too Closely
+4456691,2021-07-08,12:30,Fdr Drive,Manhattan,New York County,10128,40.767612,-73.950005,0,0,0,0,0,0,0,0,Following Too Closely
+4456765,2021-08-23,11:50,7 Avenue,Manhattan,Kings County,11205,40.80066,-73.9544,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456435,2021-09-11,21:34,Boston Road & Fenton Avenue,Bronx,Bronx County,10469,40.87645,-73.848175,0,0,0,0,0,0,0,0,Turning Improperly
+4456181,2021-09-11,11:30,87-46     52 Avenue,Queens,Queens County,11373,40.737865,-73.876144,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456550,2021-09-06,10:34,21 Street & 33 Road,Queens,Queens County,11106,40.764103,-73.93277,1,0,0,0,0,0,1,0,Reaction To Uninvolved Vehicle
+4456615,2021-07-08,15:56,Belt Parkway,Queens,Queens County,11229,40.66735,-73.76994,1,0,0,0,0,0,1,0,Other Vehicular
+4456647,2021-07-07,23:06,Henry Hudson Parkway,Manhattan,New York County,10034,40.824265,-73.95642,0,0,0,0,0,0,0,0,Passing Too Closely
+4455820,2021-09-11,6:51,Greene Avenue,Brooklyn,Kings County,11221,40.702045,-73.9156,0,0,0,0,0,0,0,0,Backing Unsafely
+4456845,2021-09-07,12:30,Saint Nicholas Avenue,Manhattan,New York County,10040,40.85306,-73.931,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456191,2021-09-11,4:10,West 181 Street & Fort Washington Avenue,Manhattan,New York County,10033,0.0,0.0,0,0,0,0,0,0,0,0,Unspecified
+4456586,2021-07-08,9:25,Bushwick Avenue,Brooklyn,Kings County,11207,40.697315,-73.932274,0,0,0,0,0,0,0,0,Turning Improperly
+4456718,2021-09-11,6:40,Liberty Avenue,Queens,Queens County,11419,40.679344,-73.859535,0,0,0,0,0,0,0,0,Passing Too Closely
+4456821,2021-09-11,17:35,137-65    Queens Boulevard,Queens,Queens County,11435,40.708923,-73.81877,0,0,0,0,0,0,0,0,Unspecified
+4456608,2021-07-08,17:17,Rome Avenue & Upton Street,Staten Island,Richmond County,10304,40.60203,-74.09572,1,0,0,0,0,0,1,0,Lost Consciousness
+4456531,2021-09-10,3:00,Van Wyck Expwy,Queens,Queens County,11367,40.693787,-73.81173,1,0,0,0,0,0,1,0,Unsafe Speed
+4455832,2021-09-11,5:59,East 167 Street & Bryant Avenue,Bronx,Bronx County,10459,40.826767,-73.888855,0,0,0,0,0,0,0,0,Unspecified
+4456735,2021-09-09,11:39,Clawson Street & Princeton Avenue,Staten Island,Richmond County,10306,40.56692,-74.116234,1,0,0,0,0,0,1,0,Passing Or Lane Usage Improper
+4408019,2021-04-13,17:30,33 St & 31Ave,Queens,New York County,11106,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456734,2021-09-11,17:40,12 Avenue & 71 Street,Brooklyn,Kings County,11228,40.623913,-74.00726,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455983,2021-09-11,22:15,Belt Parkway,Brooklyn,Kings County,11229,40.592422,-73.99508,0,0,0,0,0,0,0,0,Following Too Closely
+4456323,2021-09-11,7:15,Fulton Street & Schenck Avenue,Brooklyn,Kings County,11207,40.6783,-73.88988,0,0,0,0,0,0,0,0,Unspecified
+4456889,2021-09-10,17:00,74 Street & 37 Avenue,Queens,Queens County,11372,40.748962,-73.89176,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456679,2021-07-08,11:33,1222      East 83 Street,Brooklyn,Kings County,11236,40.631508,-73.90506,0,0,0,0,0,0,0,0,Driver Inexperience
+4456373,2021-09-11,21:48,Sutphin Boulevard,Queens,Queens County,11434,40.677322,-73.790955,0,0,0,0,0,0,0,0,Alcohol Involvement
+4513885,2022-03-26,10:30,Brighton Beach Avenue,Brooklyn,Kings County,11235,40.57666,-73.965836,0,0,0,0,0,0,0,0,Following Too Closely
+4456758,2021-09-11,19:00,West 120 Street,Manhattan,New York County,10027,40.804585,-73.94782,1,0,0,0,1,0,0,0,Traffic Control Disregarded
+4456498,2021-09-11,22:23,Ogden Avenue & West 164 Street,Bronx,Bronx County,10452,40.832916,-73.92939,0,0,0,0,0,0,0,0,Following Too Closely
+4455941,2021-09-11,15:00,222 Street & 93 Road,Queens,New York County,11428,40.722515,-73.73332,1,0,1,0,0,0,0,0,Unspecified
+4456778,2021-09-10,10:20,Atlantic Avenue & 111 Street,Queens,Queens County,11419,40.692127,-73.83484,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4455883,2021-09-11,0:00,Halleck Street & Viele Avenue,Bronx,Bronx County,10474,40.807537,-73.8798,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4456627,2021-07-06,15:01,Bronx Boulevard & East Gun Hill Road,Bronx,Bronx County,10467,40.878128,-73.86944,0,0,0,0,0,0,0,0,Other Vehicular
+4456640,2021-07-09,4:00,Grand Central Pkwy,Queens,Queens County,11102,40.75777,-73.854164,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456812,2021-09-10,8:45,940       Rockaway Avenue,Brooklyn,Kings County,11212,40.6569,-73.907486,0,0,0,0,0,0,0,0,Unspecified
+4455924,2021-09-11,11:51,Cross Bronx Expy,Bronx,New York County,10040,40.845024,-73.92632,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4455894,2021-09-11,18:50,Bruckner Boulevard & Tiffany Street,Bronx,Bronx County,10459,40.817795,-73.89319,1,0,0,0,0,0,1,0,Unspecified
+4456596,2021-07-02,7:10,Major Deegan Expressway,Bronx,Bronx County,10453,40.81915,-73.93062,1,0,0,0,0,0,1,0,Driver Inexperience
+4456742,2021-09-06,13:26,1466      Manor Road,Staten Island,Richmond County,10314,40.591778,-74.12734,0,0,0,0,0,0,0,0,Backing Unsafely
+4455969,2021-09-11,5:30,21 Street & 41 Avenue,Queens,Queens County,11101,40.753994,-73.94244,1,0,0,0,0,0,1,0,Following Too Closely
+4455841,2021-09-11,12:55,101       Prince Street,Manhattan,New York County,10012,40.724846,-73.999,1,0,0,0,1,0,0,0,Passing Or Lane Usage Improper
+4456497,2021-09-11,14:00,Cross Bronx Expy Ramp,Bronx,Bronx County,10452,40.845225,-73.915574,2,0,0,0,0,0,2,0,Following Too Closely
+4456711,2021-07-09,12:30,West 147 Street,Manhattan,New York County,10011,40.822933,-73.93813,0,0,0,0,0,0,0,0,Other Vehicular
+4456154,2021-09-11,13:00,Fulton Street,Brooklyn,New York County,10048,40.680477,-73.951164,1,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456204,2021-09-11,15:00,Tilden Avenue & East 51 Street,Brooklyn,Kings County,11203,40.648243,-73.929,0,0,0,0,0,0,0,0,Backing Unsafely
+4456683,2021-07-08,15:30,Rockaway Parkway & Flatlands Avenue,Brooklyn,Kings County,11236,40.64366,-73.90067,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456696,2021-07-09,11:15,Jefferson Avenue,Brooklyn,Kings County,11216,40.6843,-73.94121,0,0,0,0,0,0,0,0,Passing Too Closely
+4456521,2021-09-02,10:45,Targee Street,Staten Island,Richmond County,10304,40.602425,-74.091354,1,0,0,0,0,0,1,0,Lost Consciousness
+4456865,2021-09-07,17:35,1065      Nostrand Avenue,Brooklyn,Kings County,11225,40.662037,-73.95077,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4456389,2021-09-11,19:08,Nevins Street & Butler Street,Brooklyn,Kings County,11217,40.68164,-73.98568,0,0,0,0,0,0,0,0,Following Too Closely
+4456512,2021-09-11,10:25,1 Avenue & East 93 Street,Manhattan,Kings County,10128,40.781315,-73.94614,0,0,0,0,0,0,0,0,Backing Unsafely
+4455860,2021-09-11,14:00,72 Street & 41 Avenue,Queens,Queens County,11377,40.74498,-73.89325,0,0,0,0,0,0,0,0,Unspecified
+4456782,2021-08-29,0:12,Victory Boulevard & Harvey Avenue,Staten Island,Richmond County,10314,40.6117,-74.13918,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4455949,2021-09-11,23:48,Flatbush Avenue & Avenue O,Brooklyn,Kings County,11234,40.616295,-73.92991,0,0,0,0,0,0,0,0,Unsafe Speed
+4456097,2021-09-11,1:45,18 Avenue & College Point Boulevard,Queens,Queens County,11356,40.78322,-73.84586,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4456623,2021-07-08,17:13,1851      Adee Avenue,Bronx,Bronx County,10469,40.87122,-73.83709,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456775,2021-09-09,11:39,86 Street & 103 Avenue,Queens,Queens County,11416,40.680077,-73.852684,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4456664,2021-07-06,19:00,1908      Prospect Avenue,Bronx,Bronx County,10457,40.843384,-73.88987,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456370,2021-09-11,17:19,146 Street,Queens,Queens County,11436,40.680023,-73.794624,0,0,0,0,0,0,0,0,Passing Too Closely
+4456567,2021-07-06,18:00,133       Milton Street,Brooklyn,Kings County,11222,40.72937,-73.955444,0,0,0,0,0,0,0,0,Obstruction/Debris
+4456628,2021-07-05,17:20,Elton Street & Jamaica Avenue,Brooklyn,Kings County,11208,40.683754,-73.88565,0,0,0,0,0,0,0,0,Driver Inexperience
+4456844,2021-09-11,9:10,Dunlop Avenue,Queens,Queens County,11412,40.70413,-73.76984,0,0,0,0,0,0,0,0,Turning Improperly
+4455985,2021-09-11,21:45,Avenue P & Coney Island Avenue,Brooklyn,Kings County,11223,40.609985,-73.96239,0,0,0,0,0,0,0,0,Unspecified
+4456655,2021-07-09,6:51,Sutter Avenue & Sheridan Avenue,Brooklyn,Kings County,11208,40.673676,-73.86576,1,0,1,0,0,0,0,0,View Obstructed/Limited
+4456058,2021-09-11,21:00,Lexington Avenue & East 42 Street,Manhattan,New York County,10168,40.751442,-73.97606,1,0,0,0,0,0,1,0,Unspecified
+4456600,2021-07-08,14:30,1         Orchard Beach Road,Bronx,Bronx County,10464,40.86514,-73.801544,1,0,0,0,0,0,1,0,Unspecified
+4455907,2021-09-11,18:38,70-31     108 Street,Queens,Queens County,11375,40.72218,-73.84406,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456549,2021-09-11,15:28,90        Paladino Avenue,Manhattan,New York County,10035,40.797924,-73.9296,0,0,0,0,0,0,0,0,Unspecified
+4456897,2021-09-05,16:40,62 Street,Brooklyn,Queens County,11219,40.626373,-73.99754,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456407,2021-09-11,5:26,West Gun Hill Road,Bronx,Bronx County,10467,40.883133,-73.882095,1,0,0,0,0,0,1,0,Lost Consciousness
+4456480,2021-09-11,12:30,4526      Bronx Boulevard,Bronx,Bronx County,10470,40.90222,-73.85589,0,0,0,0,0,0,0,0,Aggressive Driving/Road Rage
+4456829,2021-09-10,12:10,Union Turnpike & 181 Street,Queens,Queens County,11366,40.72717,-73.78739,0,0,0,0,0,0,0,0,Backing Unsafely
+4456660,2021-06-26,10:30,31-29     Dwight Avenue,Queens,Queens County,11691,40.600792,-73.76711,0,0,0,0,0,0,0,0,Unspecified
+4456715,2021-07-01,21:00,Jerome Avenue,Bronx,Bronx County,10468,40.84434,-73.91475,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4408080,2021-04-16,17:55,Broadway & Conway Street,Brooklyn,Kings County,11233,40.67922,-73.90405,0,0,0,0,0,0,0,0,Unspecified
+4456543,2021-09-11,13:10,129       East 123 Street,Manhattan,New York County,10035,40.802982,-73.93815,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456592,2021-07-04,0:58,145       Java Street,Brooklyn,Kings County,11222,40.731544,-73.955315,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456140,2021-09-11,2:38,111-48    Vanwyck Expressway,Queens,Queens County,11420,40.683323,-73.80648,1,0,1,0,0,0,0,0,Unsafe Speed
+4456577,2021-07-04,21:00,Franklin Street & India Street,Brooklyn,Kings County,11222,40.732006,-73.95795,1,0,0,0,1,0,0,0,Alcohol Involvement
+4456200,2021-09-11,18:00,Linden Boulevard & East 91 Street,Brooklyn,Kings County,11212,40.6544,-73.92044,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4456687,2021-07-02,16:45,57-07     Shore Front Parkway,Queens,Queens County,11692,40.589592,-73.786385,0,0,0,0,0,0,0,0,Unsafe Speed
+4456076,2021-09-11,15:10,East 22 Street,Manhattan,New York County,11203,40.736164,-73.97891,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4456692,2021-07-03,10:18,Deerfield Road & Beach 29 Street,Queens,Kings County,11691,40.59723,-73.76237,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4456921,2021-09-11,14:40,Hamilton Avenue & Court Street,Brooklyn,Kings County,11231,40.67393,-73.999954,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4456350,2021-09-11,2:00,Cross Bronx Expy,Bronx,New York County,10040,40.840153,-73.88572,0,0,0,0,0,0,0,0,Unsafe Speed
+4456751,2021-09-11,23:00,Hastings Street,Staten Island,Richmond County,11235,40.599503,-74.067116,0,0,0,0,0,0,0,0,Unspecified
+4456619,2021-07-04,8:00,851       Noble Avenue,Bronx,Bronx County,10473,40.822456,-73.868065,0,0,0,0,0,0,0,0,Unspecified
+4456001,2021-09-11,15:30,2014      West 4 Street,Brooklyn,Kings County,11223,40.59841,-73.97592,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456560,2021-09-11,14:30,84-22     91 Street,Queens,Queens County,11421,40.697083,-73.85476,0,0,0,0,0,0,0,0,Passing Too Closely
+4456632,2021-07-08,6:00,4203      Oneida Avenue,Bronx,Bronx County,10470,40.896385,-73.87246,0,0,0,0,0,0,0,0,Turning Improperly
+4456853,2021-08-11,0:01,105 Avenue,Queens,Kings County,11205,40.695637,-73.80372,0,0,0,0,0,0,0,0,Unsafe Speed
+4456250,2021-09-11,9:30,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.69982,-73.996254,0,0,0,0,0,0,0,0,Passing Too Closely
+4456750,2021-09-11,16:40,Jefferson Street,Staten Island,Richmond County,11221,40.590313,-74.09794,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456089,2021-09-11,18:05,Whitestone Expressway,Queens,Queens County,11357,40.787544,-73.82394,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4456279,2021-09-11,2:00,Shepherd Avenue & Glenmore Avenue,Brooklyn,Kings County,11208,40.67539,-73.88113,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456768,2021-09-07,8:03,331       Bay Street,Staten Island,Richmond County,10301,40.634007,-74.07516,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4456183,2021-09-11,13:53,77-00     Queens Boulevard,Queens,Queens County,11373,40.73844,-73.88628,0,0,0,0,0,0,0,0,Backing Unsafely
+4456582,2021-07-08,11:50,Bradley Avenue & North Gannon Avenue,Staten Island,Richmond County,10314,40.60855,-74.13216,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4456789,2021-09-11,14:00,2505      Richmond Avenue,Staten Island,Richmond County,10314,40.58573,-74.16865,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455757,2021-09-11,7:09,Bedford Avenue & Avenue U,Brooklyn,Kings County,11229,40.599907,-73.94664,1,0,0,0,0,0,1,0,Unspecified
+4456604,2021-07-08,15:40,1871      Park Avenue,Manhattan,New York County,10035,40.806713,-73.93782,0,0,0,0,0,0,0,0,Driver Inexperience
+4457032,2021-09-07,3:00,Roosevelt Avenue & 89 Street,Queens,Queens County,11372,40.748318,-73.87742,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4456651,2021-07-05,6:00,Baisley Boulevard & 119 Road,Queens,Queens County,11434,40.68651,-73.76815,0,0,0,0,0,0,0,0,Other Vehicular
+4456045,2021-09-11,10:48,Bronx River Parkway Ramp,Bronx,Bronx County,10466,40.887063,-73.865309,1,0,0,0,0,0,1,0,Unspecified
+4456537,2021-09-10,19:15,Staten Island Expressway,Staten Island,Richmond County,10305,40.624203,-74.177124,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456646,2021-07-06,9:37,Clearview Expressway,Queens,Queens County,11427,40.744526,-73.77161,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4456631,2021-07-01,15:30,Richmond Avenue & Yukon Avenue,Staten Island,Richmond County,10311,40.576965,-74.16974,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456572,2021-07-07,18:04,Arnow Place & Westchester Avenue,Bronx,Bronx County,10461,40.8502,-73.8302,1,0,0,0,0,0,1,0,Following Too Closely
+4456851,2021-09-08,17:40,65        Bayard Street,Manhattan,New York County,10013,40.715477,-73.998085,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455822,2021-09-11,7:33,Bedford Avenue & Avenue P,Brooklyn,Kings County,11229,40.611477,-73.94883,1,0,0,0,0,0,1,0,Unspecified
+4456587,2021-07-08,11:50,Bushwick Avenue & Eastern Parkway,Brooklyn,Kings County,11207,40.681515,-73.90412,1,0,0,0,0,0,1,0,Passing Or Lane Usage Improper
+4455993,2021-09-11,8:00,Bay Ridge Parkway & New Utrecht Avenue,Brooklyn,Kings County,11204,40.61578,-73.99995,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456721,2021-09-08,8:43,West 140 Street & Amsterdam Avenue,Manhattan,New York County,10031,40.82207,-73.94993,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456186,2021-09-11,23:00,108-10    48 Avenue,Queens,Queens County,11368,40.74606,-73.85583,0,0,0,0,0,0,0,0,Unspecified
+4456819,2021-09-09,12:00,Grand Central Parkway & Utopia Parkway,Queens,Queens County,11432,40.72013,-73.79038,1,0,0,0,0,0,1,0,Unspecified
+4456609,2021-07-07,17:13,Linden Boulevard & Bedell Street,Queens,Queens County,11433,40.688435,-73.78765,1,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456078,2021-09-11,18:03,East 179 Street & Washington Avenue,Bronx,New York County,10457,40.84964,-73.89661,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4456529,2021-09-09,17:00,85-01     Rockaway Boulevard,Queens,Queens County,11416,40.68329,-73.85491,0,0,0,0,0,0,0,0,Driver Inexperience
+4456726,2021-09-08,18:13,415       West 127 Street,Manhattan,New York County,10027,40.812912,-73.95364,0,0,0,0,0,0,0,0,Driver Inexperience
+4456558,2021-09-11,20:50,145-26    158 Street,Queens,Queens County,11434,40.6639,-73.7804,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456705,2021-07-05,0:16,Edgemere Avenue & Beach 41 Street,Queens,Queens County,11691,40.59312,-73.772705,0,0,0,0,0,0,0,0,Driver Inexperience
+4456123,2021-09-11,18:21,Verrazano Bridge Lower,Queens,Queens County,11101,40.752984,-73.945363,0,0,0,0,0,0,0,0,Unspecified
+4456673,2021-06-29,16:26,Beach 9 Street & Seagirt Boulevard,Queens,Queens County,11691,40.596687,-73.74422,0,0,0,0,0,0,0,0,Following Too Closely
+4456641,2021-07-09,3:52,Henry Hudson Parkway Ramp,Manhattan,New York County,10023,40.783512,-73.985346,0,0,0,0,0,0,0,0,Pavement Slippery
+4456599,2021-07-08,8:50,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.673107,-73.99959,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4456688,2021-07-09,10:38,Rockaway Parkway & Avenue L,Brooklyn,Kings County,11236,40.63874,-73.8952,1,0,1,0,0,0,0,0,Tinted Windows
+4455904,2021-09-11,17:45,Brookville Boulevard & 133 Avenue,Queens,Queens County,11422,40.675255,-73.73207,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455927,2021-09-11,1:30,1523      Undercliff Avenue,Bronx,Bronx County,10453,40.846313,-73.92385,0,0,0,0,0,0,0,0,Passing Too Closely
+4456395,2021-09-11,2:00,East 16 Street & Quentin Road,Brooklyn,Kings County,11229,40.608364,-73.95727,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456745,2021-09-11,17:08,Verrazano Bridge Upper,Queens,Queens County,11101,40.753702,-73.94712,0,0,0,0,0,0,0,0,Following Too Closely
+4456636,2021-07-08,23:25,Elton Street & Ridgewood Avenue,Brooklyn,Kings County,11208,40.682724,-73.88539,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456036,2021-09-11,1:20,Sound View Avenue & Stephens Avenue,Bronx,Kings County,10473,40.80789,-73.852844,0,0,0,0,0,0,0,0,Aggressive Driving/Road Rage
+4456785,2021-09-10,0:00,Bradley Avenue & South Gannon Avenue,Staten Island,Richmond County,10314,40.607754,-74.13205,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4456517,2021-09-08,16:33,West 33 Street & 7 Avenue,Manhattan,New York County,10001,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4456764,2021-09-10,11:17,Jackie Robinson Pkwy,Queens,Queens County,11415,40.708324,-73.84314,1,0,0,0,0,0,1,0,Following Too Closely
+4456791,2021-09-10,17:08,1212      5 Avenue,Manhattan,New York County,10029,40.79194,-73.95281,1,0,0,0,0,0,1,0,Unspecified
+4456614,2021-07-08,17:55,Delancey Street & Ludlow Street,Manhattan,New York County,10002,40.718792,-73.98902,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4455863,2021-09-11,13:35,East 194 Street,Bronx,Bronx County,11203,40.86463,-73.892136,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456313,2021-09-11,0:50,Fulton Street & Barbey Street,Brooklyn,Kings County,11207,40.67856,-73.889015,0,0,0,0,0,0,0,0,Fell Asleep
+4456409,2021-09-11,3:00,East Houston Street,Manhattan,New York County,10009,40.721474,-73.98383,0,0,0,0,0,0,0,0,Passing Too Closely
+4455916,2021-09-11,4:41,East 111 Street & Fdr Drive,Manhattan,New York County,10029,40.79184,-73.93556,0,0,0,0,0,0,0,0,Unspecified
+4456096,2021-09-11,21:05,Whitestone Expressway,Queens,Queens County,11357,40.78076,-73.825424,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456878,2021-09-11,20:59,Brooklyn Queens Expressway,Queens,Queens County,11104,40.7359,-73.91338,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456568,2021-07-04,22:22,Layton Avenue & Throgmortan Avenue,Brooklyn,New York County,10007,40.7127281,-74.0060152,1,0,1,0,0,0,0,0,
+4456953,2021-09-10,21:03,299       South Street,Manhattan,New York County,10002,40.710697,-73.984634,1,0,0,0,0,0,0,0,Unspecified
+4456522,2021-09-10,14:35,Fdr Drive,Manhattan,New York County,10128,40.760777,-73.95702,1,0,0,0,0,0,1,0,Following Too Closely
+4456700,2021-06-26,17:23,770       Barry Street,Bronx,Bronx County,10474,40.81358,-73.89385,0,0,0,0,0,0,0,0,Unspecified
+4456023,2021-09-11,23:18,Surf Avenue,Brooklyn,Kings County,11235,40.575302,-73.98453,1,0,0,0,0,0,1,0,Passing Or Lane Usage Improper
+4456810,2021-09-10,13:10,Pitkin Avenue & Grafton Street,Brooklyn,Kings County,11212,40.66843,-73.91919,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456105,2021-09-11,15:45,Saint Clair Place,Manhattan,New York County,10027,40.81701,-73.9595,0,0,0,0,0,0,0,0,Unspecified
+4456668,2021-07-08,16:00,2488      Cambreleng Avenue,Bronx,Bronx County,10458,40.85755,-73.882835,0,0,0,0,0,0,0,0,Backing Unsafely
+4456867,2021-09-02,19:56,Major Deegan Expressway,Bronx,Bronx County,10453,40.89711,-73.88008,0,0,0,0,0,0,0,0,Unspecified
+4456988,2021-09-11,15:45,Bushwick Avenue,Brooklyn,Kings County,11207,40.685795,-73.911644,0,0,0,0,0,0,0,0,Following Too Closely
+4456859,2021-09-07,22:30,108 Avenue & Sutphin Boulevard,Queens,Queens County,11435,40.69305,-73.799446,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456663,2021-06-25,14:35,Beach Channel Drive & Hassock Street,Queens,Queens County,11691,40.609535,-73.75372,0,0,0,0,0,0,0,0,Unspecified
+4456624,2021-07-08,18:40,Avenue Of The Americas,Manhattan,New York County,10013,40.720627,-74.00522,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4456563,2021-07-04,4:00,91-07     Astoria Boulevard,Queens,Queens County,11369,40.763496,-73.87814,1,0,1,0,0,0,0,0,Unspecified
+4456656,2021-07-08,21:19,93 Street & 95 Avenue,Queens,Queens County,11416,40.686646,-73.849075,1,0,0,0,0,0,1,0,Unsafe Speed
+4456388,2021-09-11,15:01,101       Corbin Place,Brooklyn,Kings County,11235,40.579445,-73.9544,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456757,2021-09-10,19:00,5 Avenue & East 57 Street,Manhattan,New York County,10019,40.762966,-73.973976,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455827,2021-09-11,0:20,Van Wyck Expwy,Queens,Queens County,11367,40.76555,-73.83911,3,0,0,0,0,0,3,0,Driver Inexperience
+4456511,2021-09-10,10:55,1280      Lexington Avenue,Manhattan,New York County,10028,40.779602,-73.95553,0,0,0,0,0,0,0,0,Backing Unsafely
+4456741,2021-09-11,1:39,Ridgewood Avenue & Genesee Avenue,Staten Island,Richmond County,10312,40.553192,-74.164345,0,0,0,0,0,0,0,0,Unsafe Speed
+4455973,2021-09-11,18:16,1005      East 174 Street,Bronx,Bronx County,10460,40.836094,-73.883995,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4456695,2021-07-08,12:58,3540      Nostrand Avenue,Brooklyn,Kings County,11229,40.59692,-73.94122,0,0,0,0,0,0,0,0,Unspecified
+4456420,2021-09-11,22:30,18 Avenue & 58 Street,Brooklyn,Kings County,11204,40.62318,-73.98611,0,0,0,0,0,0,0,0,Unspecified
+4456317,2021-09-11,18:55,Liberty Avenue & Barbey Street,Brooklyn,Kings County,11207,40.67562,-73.88826,0,0,0,0,0,0,0,0,Unspecified
+4456781,2021-09-07,12:42,2200      8 Avenue,Manhattan,Kings County,10026,40.80609,-73.95414,0,0,0,0,0,0,0,0,Unsafe Speed
+4457006,2021-09-10,17:39,White Plains Road & East Gun Hill Road,Bronx,Bronx County,10467,40.87739,-73.8665,1,0,0,0,0,0,0,0,Unsafe Lane Changing
+4456149,2021-09-11,19:20,Nostrand Avenue,Brooklyn,Kings County,11235,40.689133,-73.951324,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456667,2021-06-30,19:20,2         East 167 Street,Bronx,Bronx County,10452,40.83604,-73.92222,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456885,2021-09-10,20:19,East 70 Street & 1 Avenue,Manhattan,New York County,10021,40.76649,-73.95696,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456595,2021-07-08,13:26,Manhattan Avenue & Java Street,Brooklyn,Kings County,11222,40.731613,-73.9545,1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4456980,2021-09-11,8:45,294       Pearl Street,Manhattan,New York County,10038,40.708324,-74.00311,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456203,2021-09-11,19:00,730       Linden Boulevard,Brooklyn,Kings County,11203,40.65375,-73.931274,0,0,0,0,0,0,0,0,Unsafe Speed
+4456564,2021-07-04,23:50,Beach 17 Street & Seagrit Boulevard,Brooklyn,Kings County,11238,40.68295,-73.9708,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456678,2021-07-01,8:10,22-59     Dix Avenue,Queens,Queens County,11691,40.60675,-73.756645,0,0,0,0,0,0,0,0,Passing Too Closely
+4456052,2021-09-11,3:00,Gowanus Ramp,Brooklyn,Kings County,11220,40.644985,-74.017402,0,0,0,0,0,0,0,0,Unspecified
+4514217,2022-03-25,9:55,28 Street & 47 Avenue,Queens,Queens County,11101,40.743534,-73.93951,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456903,2021-09-01,19:30,Brewer Boulevard & Baisley Boulevard,Queens,Queens County,11434,40.678364,-73.77949,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4456982,2021-09-10,15:20,West Street & Watts Street,Manhattan,Kings County,10013,40.724274,-74.01136,1,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456544,2021-09-11,15:30,Staten Island Expressway,Staten Island,Richmond County,10305,40.6032366,-74.0679285,0,0,0,0,0,0,0,0,Following Too Closely
+4456104,2021-09-11,14:34,Broadway & West 133 Street,Manhattan,New York County,10031,40.8188,-73.956024,0,0,0,0,0,0,0,0,Driver Inexperience
+4456860,2021-09-10,9:00,164-21    109 Avenue,Queens,Queens County,11433,40.69558,-73.788704,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456454,2021-09-11,3:25,Jackson Avenue,Bronx,Bronx County,10455,40.80484,-73.912796,0,0,0,0,0,0,0,0,Unspecified
+4455840,2021-09-11,1:00,609       Flatbush Avenue,Brooklyn,Kings County,11225,40.658466,-73.96049,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456235,2021-09-11,11:25,79        West Kingsbridge Road,Bronx,Bronx County,10468,40.868164,-73.90054,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4455935,2021-09-11,21:30,Flatbush Avenue & Lefferts Avenue,Brooklyn,Kings County,11225,40.66169,-73.96143,2,0,0,0,0,0,2,0,Driver Inexperience
+4456710,2021-07-09,12:30,2970      Bronx Park East,Bronx,Bronx County,10467,40.87037,-73.87052,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4457021,2021-09-05,21:18,114 Drive & Mexico Street,Queens,Queens County,11412,40.69674,-73.76292,5,0,0,0,0,0,5,0,Unspecified
+4456296,2021-09-11,3:00,Sheffield Avenue & Hegeman Avenue,Brooklyn,Kings County,11207,40.65958,-73.89247,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456043,2021-09-11,11:30,Bronx River Parkway,Bronx,Bronx County,10467,40.83232,-73.87395,3,0,0,0,0,0,3,0,Unsafe Speed
+4456227,2021-09-11,21:35,De Kalb Avenue & Onderdonk Avenue,Queens,Kings County,11385,40.708534,-73.914925,0,0,0,0,0,0,0,0,Unspecified
+4456682,2021-07-08,16:04,31-20     21 Avenue,Queens,Queens County,11105,40.777496,-73.90784,0,0,0,0,0,0,0,0,Unspecified
+4456576,2021-07-02,14:00,Broadway,Manhattan,New York County,10034,40.83406,-73.944885,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456134,2021-09-11,23:20,South Conduit Avenue & 134 Street,Queens,Queens County,11430,40.66615,-73.80575,1,0,0,0,0,0,1,0,Following Too Closely
+4456583,2021-07-08,12:25,New England Thruway,Bronx,Westchester County,10803,40.8861139,-73.8048561,1,0,0,0,0,0,1,0,Unspecified
+4456605,2021-07-08,15:15,211       West 147 Street,Manhattan,New York County,10039,40.82324,-73.938835,0,0,0,0,0,0,0,0,Passing Too Closely
+4456699,2021-07-09,12:22,143 Street & 95 Avenue,Queens,Queens County,11435,40.6974,-73.80952,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4456536,2021-09-09,15:15,Staten Island Expressway,Staten Island,Richmond County,10305,40.6032366,-74.0679285,0,0,0,0,0,0,0,0,Unsafe Speed
+4456650,2021-07-09,3:25,Merrick Boulevard & Belknap Street,Queens,Queens County,11434,40.67897,-73.75985,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4456752,2021-09-11,2:05,Garretson Avenue & Jefferson Street,Staten Island,Richmond County,10304,40.590313,-74.09794,0,0,0,0,0,0,0,0,Animals Action
+4456637,2021-07-09,0:00,11629     Seaview Avenue,Brooklyn,Kings County,11239,40.654343,-73.864204,0,0,0,0,0,0,0,0,Passing Too Closely
+4456769,2021-09-11,15:30,Forest Avenue & Clove Road,Staten Island,Richmond County,10310,40.62782,-74.12126,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456786,2021-09-10,21:27,1128      Rockland Avenue,Staten Island,Richmond County,10314,40.592037,-74.15436,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4456798,2021-09-08,10:10,East 105 Street,Manhattan,New York County,11203,40.79293,-73.950005,1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4456410,2021-09-11,10:00,Cross Bronx Expy,Bronx,New York County,10040,40.8452,-73.916885,1,0,0,0,0,0,1,0,Reaction To Uninvolved Vehicle
+4455912,2021-09-11,7:58,70-07     Park Drive East,Queens,Queens County,11367,40.72609,-73.830154,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455917,2021-09-11,16:25,3 Avenue & East 58 Street,Manhattan,Kings County,10022,40.76092,-73.96704,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4136992,2019-05-21,22:50,Gold Street & Concord Street,Brooklyn,Bronx County,11201,40.69754,-73.98312,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4277087,2020-01-21,15:49,Bruckner Blvd & �St 138 Street,Bronx,Bronx County,10454,40.8044025,-73.911466,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4395664,2021-02-26,14:50,2819      Middletown Road,Bronx,Bronx County,10461,40.843464,-73.836,0,0,0,0,0,0,0,0,Unspecified
+4397513,2021-03-09,11:00,Court Street & Joralemon Street,Brooklyn,Kings County,11201,40.692547,-73.990974,1,0,0,0,0,0,1,0,Following Too Closely
+4403773,2021-03-31,22:20,Ralph Avenue & Avenue K,Brooklyn,Kings County,11234,40.626457,-73.918,1,0,0,0,0,0,1,0,Driver Inexperience
+4405244,2021-04-06,22:58,Barclay Avenue & Hylan Boulevard,Staten Island,Richmond County,10312,40.526894,-74.16728,7,0,0,0,0,0,7,0,Failure To Yield Right-Of-Way
+4405914,2021-04-09,14:45,Bronx River Parkway,Bronx,Bronx County,10467,40.840775,-73.87246,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4408191,2021-04-14,13:00,Major Deegan Expressway Ramp,Bronx,Bronx County,10451,40.81166,-73.931423,0,0,0,0,0,0,0,0,Following Too Closely
+4407366,2021-04-14,11:00,Cross Island Parkway,Queens,Nassau County,11439,40.694035,-73.72679,1,0,0,0,0,0,1,0,Brakes Defective
+4408149,2021-04-16,21:15,Bronx River Parkway Ramp,Bronx,Bronx County,10466,40.887063,-73.865309,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407778,2021-04-15,13:30,1400      Pelham Parkway South,Bronx,Bronx County,10461,40.857365,-73.84657,0,0,0,0,0,0,0,0,Following Too Closely
+4407461,2021-04-14,14:40,Myrtle Avenue,Brooklyn,Kings County,11237,40.698807,-73.91837,0,0,0,0,0,0,0,0,Passing Too Closely
+4407407,2021-04-14,21:43,211-20    99 Avenue,Queens,Queens County,11429,40.71402,-73.74827,0,0,0,0,0,0,0,0,Turning Improperly
+4407900,2021-04-16,17:40,Garrison Avenue & Longwood Avenue,Bronx,Bronx County,10474,40.815,-73.89402,0,0,0,0,0,0,0,0,Unspecified
+4407760,2021-04-16,0:50,Huguenot Avenue,Staten Island,Richmond County,10312,40.55079,-74.20098,0,0,0,0,0,0,0,0,Driver Inexperience
+4407746,2021-04-15,10:30,319       De Witt Avenue,Brooklyn,Kings County,11207,40.655903,-73.89817,0,0,0,0,0,0,0,0,Unspecified
+4408143,2021-04-16,16:35,Boston Road & Ropes Avenue,Bronx,Bronx County,10475,40.890076,-73.819855,2,0,0,0,0,0,2,0,Unsafe Speed
+4407638,2021-04-15,17:20,Glenwood Road & East 108 Street,Brooklyn,Kings County,11236,40.650402,-73.89422,1,0,0,0,0,0,1,0,Following Too Closely
+4407958,2021-04-16,21:20,West 94 Street & Broadway,Manhattan,Kings County,10025,40.79335,-73.97275,0,0,0,0,0,0,0,0,Backing Unsafely
+4407885,2021-04-16,17:20,Prince Street & Wooster Street,Manhattan,New York County,10012,40.72538,-74.00011,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407616,2021-04-15,14:30,Broadway & 58 Street,Queens,Queens County,11377,40.75184,-73.90358,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456355,2021-09-11,22:57,Fdr Drive,Manhattan,New York County,10128,40.755516,-73.961105,2,0,0,0,0,0,2,0,Unsafe Speed
+4408038,2021-04-16,23:20,East 19 Street & Church Avenue,Brooklyn,Kings County,11226,40.649788,-73.9622,3,0,0,0,0,0,3,0,Unspecified
+4408224,2021-04-16,18:15,50        Howard Avenue,Brooklyn,Kings County,11221,40.686928,-73.920815,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407392,2021-04-14,13:00,950       Grand Street,Brooklyn,Kings County,11211,40.712963,-73.93647,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4456603,2021-06-30,11:47,203 Street & 118 Avenue,Queens,Queens County,11412,40.694294,-73.74868,0,0,0,0,0,0,0,0,Passing Too Closely
+4407765,2021-04-14,20:14,7 Avenue,Manhattan,Kings County,11205,40.801285,-73.95394,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407821,2021-04-14,15:16,459       Bay Ridge Avenue,Brooklyn,Kings County,11220,40.633976,-74.02211,1,0,0,0,0,0,1,0,Passing Too Closely
+4407971,2021-04-15,19:30,Gowanus Expy (Bqe),Brooklyn,Kings County,11215,40.670296,-73.997604,0,0,0,0,0,0,0,0,Unspecified
+4408071,2021-04-16,13:15,Howard Avenue & Blake Avenue,Brooklyn,Kings County,11212,40.66423,-73.919106,0,0,0,0,0,0,0,0,View Obstructed/Limited
+4407430,2021-04-14,21:08,558       Morris Avenue,Bronx,Bronx County,10451,40.817696,-73.922615,0,0,0,0,0,0,0,0,Steering Failure
+4408259,2021-04-13,20:34,Eastern Parkway & Buffalo Avenue,Brooklyn,Kings County,11213,40.668495,-73.925606,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407049,2021-04-13,14:10,146-22    Brewer Boulevard,Queens,Queens County,11434,40.662476,-73.768326,0,0,0,0,0,0,0,0,Unspecified
+4408369,2021-04-14,22:00,Rockaway Boulevard & 225 Street,Brooklyn,New York County,10007,40.7127281,-74.0060152,3,0,0,0,0,0,3,0,Unspecified
+4407592,2021-04-15,12:16,East Tremont Avenue & White Plains Road,Bronx,Bronx County,10460,40.841087,-73.86447,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407674,2021-04-15,18:15,Havemeyer Street & South 5 Street,Brooklyn,Kings County,11211,40.70955,-73.95887,0,0,0,0,0,0,0,0,Unspecified
+4407708,2021-04-15,19:30,Long Island Expressway,Queens,Queens County,11374,40.733376,-73.86665,1,0,0,0,0,0,1,0,Passing Or Lane Usage Improper
+4408396,2021-04-14,21:04,693       Bedford Avenue,Brooklyn,Kings County,11206,40.700356,-73.95732,1,0,0,0,0,0,1,0,Drugs (Illegal)
+4407152,2021-04-14,1:40,Bronx River Parkway,Bronx,Bronx County,10467,40.83801,-73.87329,0,0,0,0,0,0,0,0,Other Vehicular
+4407862,2021-04-16,18:00,Belt Parkway,Queens,Queens County,11229,40.66584,-73.75551,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4407435,2021-04-14,8:30,Whitestone Expressway,Queens,Queens County,11357,40.7927903,-73.8239062,0,0,0,0,0,0,0,0,Following Too Closely
+4407636,2021-04-15,12:05,Bell Boulevard,Queens,Queens County,11364,40.761436,-73.76995,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407792,2021-04-16,11:00,100-10    Roosevelt Avenue,Queens,Queens County,11368,40.74958,-73.86541,1,0,0,0,1,0,0,0,Turning Improperly
+4407853,2021-04-16,17:00,73 Avenue & 184 Street,Queens,Queens County,11366,40.73197,-73.78651,5,0,0,0,0,0,5,0,Traffic Control Disregarded
+4408205,2021-04-16,12:00,Van Wyck Expwy,Queens,Queens County,11367,40.76249,-73.839584,0,0,0,0,0,0,0,0,Unspecified
+4407945,2021-04-16,20:27,140 Avenue & 155 Street,Queens,Queens County,11434,40.668507,-73.779625,0,0,0,0,0,0,0,0,Unspecified
+4408118,2021-04-15,18:25,1411      Schenectady Avenue,Brooklyn,Kings County,11203,40.638268,-73.93187,0,0,0,0,0,0,0,0,Unspecified
+4408242,2021-04-12,16:08,Broadway & Stuyvesant Avenue,Brooklyn,Kings County,11221,40.696735,-73.93481,1,0,0,0,0,0,1,0,Unspecified
+4407563,2021-04-14,11:55,Bronx River Parkway,Bronx,Bronx County,10467,40.870823,-73.8721,0,0,0,0,0,0,0,0,Aggressive Driving/Road Rage
+4408098,2021-04-14,1:30,West 35 Street,Brooklyn,New York County,10011,40.574867,-74.00069,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407169,2021-04-14,3:25,Bronx River Parkway,Bronx,Bronx County,10467,40.866577,-73.8722,3,0,0,0,0,0,3,0,Unsafe Speed
+4407798,2021-04-16,8:05,24 Street & 24 Avenue,Queens,Queens County,11102,40.775414,-73.91984,1,0,0,0,0,0,1,0,Following Too Closely
+4407797,2021-04-15,20:13,East Tremont Avenue & Park Avenue,Bronx,Bronx County,10457,40.84744,-73.89968,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407349,2021-04-14,16:30,Armstrong Avenue & Sycamore Street,Staten Island,Kings County,10308,40.542908,-74.15579,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4407994,2021-04-14,20:15,Clintonville Street,Queens,Queens County,11357,40.78468,-73.80911,0,0,0,0,0,0,0,0,Passing Too Closely
+4408032,2021-04-15,16:37,1582      Flatbush Avenue,Brooklyn,Kings County,11210,40.632416,-73.94724,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407478,2021-04-15,6:05,Metropolitan Avenue & Stewart Avenue,Brooklyn,Kings County,11237,40.714207,-73.92817,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407924,2021-04-16,8:40,Eliot Avenue & 85 Street,Queens,Queens County,11379,40.727913,-73.873245,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408315,2021-04-15,20:15,2013      Williamsbridge Road,Bronx,Bronx County,10461,40.854485,-73.854645,0,0,0,0,0,0,0,0,Turning Improperly
+4407892,2021-04-13,23:00,1479      Myrtle Avenue,Brooklyn,Kings County,11237,40.698986,-73.91671,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408280,2021-04-16,20:55,1051      Riverside Drive,Manhattan,New York County,10032,40.841717,-73.94435,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408403,2021-04-15,17:25,2400      Hunter Avenue,Bronx,Bronx County,10475,40.861687,-73.82435,0,0,0,0,0,0,0,0,Unspecified
+4407753,2021-04-16,6:45,Bushwick Avenue & Grove Street,Brooklyn,Kings County,11221,40.691822,-73.92223,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4408003,2021-04-10,12:00,West 180 Street & Andrews Avenue,Bronx,Bronx County,10453,40.856014,-73.91213,0,0,0,0,0,0,0,0,Unspecified
+4407497,2021-04-14,15:53,Gerard Avenue,Bronx,Bronx County,10451,40.83383,-73.921234,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4408229,2021-04-09,17:00,Madison Street,Brooklyn,New York County,10002,40.68781,-73.9237,0,0,0,0,0,0,0,0,Backing Unsafely
+4407525,2021-04-14,19:10,Story Street & Church Avenue,Brooklyn,Kings County,11218,40.642044,-73.98124,0,0,0,0,0,0,0,0,Unspecified
+4407817,2021-04-16,13:55,Cooper Avenue & 64 Place,Queens,Queens County,11385,40.69814,-73.89111,0,0,0,0,0,0,0,0,Unsafe Speed
+4407539,2021-04-14,0:00,Kings Highway & Beverley Road,Brooklyn,Kings County,11203,40.64664,-73.9246,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4455944,2021-09-11,20:00,Murdock Avenue & 223 Street,Queens,Queens County,11429,40.703217,-73.73427,0,0,0,0,0,0,0,0,Unspecified
+4408306,2021-04-16,16:00,Arlington Place,Brooklyn,Kings County,10303,40.680897,-73.95118,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407830,2021-04-15,22:25,West 42 Street & 11 Avenue,Manhattan,New York County,10036,40.760822,-73.99832,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407282,2021-04-14,10:09,2 Avenue & East 36 Street,Manhattan,New York County,10016,40.74608,-73.974945,0,0,0,0,0,0,0,0,Unspecified
+4407688,2021-04-16,0:01,Fort Hamilton Parkway & 74 Street,Brooklyn,Kings County,11228,40.626293,-74.01572,0,0,0,0,0,0,0,0,Driver Inexperience
+4407701,2021-04-15,20:45,East 66 Street & Madison Avenue,Manhattan,New York County,10065,40.767967,-73.96822,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407728,2021-04-15,7:00,472       Glenmore Avenue,Brooklyn,Kings County,11207,40.673634,-73.89294,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408052,2021-04-15,10:45,West 8 Street & Sheepshead Bay Road,Brooklyn,Kings County,11224,40.579212,-73.976265,0,0,0,0,0,0,0,0,Following Too Closely
+4407849,2021-04-16,12:00,Edison Street & Bache Avenue,Staten Island,Kings County,10306,40.57365,-74.11252,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407320,2021-04-14,6:50,Long Island Expressway,Queens,Queens County,11374,40.73632,-73.85631,0,0,0,0,0,0,0,0,Following Too Closely
+4407291,2021-04-14,3:39,Ocean Parkway & Avenue L,Brooklyn,Kings County,11230,40.619396,-73.969574,0,0,0,0,0,0,0,0,Unspecified
+4408200,2021-04-16,22:00,River Avenue,Bronx,Bronx County,10452,40.820263,-73.92976,0,0,0,0,0,0,0,0,Unspecified
+4407649,2021-04-14,0:00,Bath Avenue,Brooklyn,Kings County,11214,40.601864,-74.00232,1,0,0,0,1,0,0,0,Failure To Yield Right-Of-Way
+4407802,2021-04-15,19:10,Lenox Avenue,Manhattan,New York County,10037,40.810318,-73.943634,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407345,2021-04-14,13:35,Belt Parkway,Queens,Queens County,11229,40.666306,-73.79171,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4408356,2021-04-16,15:05,Stewart Avenue & Johnson Avenue,Brooklyn,Kings County,11237,40.708805,-73.92577,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407245,2021-04-14,9:33,Bruckner Boulevard & Virginia Avenue,Bronx,Bronx County,10472,40.826424,-73.85868,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408057,2021-04-13,16:05,Foster Avenue & East 8 Street,Brooklyn,Kings County,11230,40.63174,-73.96793,0,0,0,0,0,0,0,0,Unspecified
+4407538,2021-04-15,9:27,Norway Avenue,Staten Island,Richmond County,10305,40.5945372,-74.0793371,0,0,0,0,0,0,0,0,Backing Unsafely
+4408332,2021-04-16,11:45,190       Guernsey Street,Brooklyn,Kings County,11222,40.727146,-73.954735,0,0,0,0,0,0,0,0,Passing Too Closely
+4407785,2021-04-11,8:56,Sutter Avenue,Queens,Queens County,11208,40.67253,-73.798386,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407929,2021-04-16,13:02,Central Avenue & 65 Street,Queens,Queens County,11385,40.702335,-73.89073,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407425,2021-04-14,0:00,1415      Avenue Z,Brooklyn,Kings County,11235,40.587894,-73.95504,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408123,2021-04-16,5:30,679       Remsen Avenue,Brooklyn,Kings County,11236,40.65047,-73.917366,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408290,2021-04-16,20:26,Broadway & West 161 Street,Manhattan,New York County,10032,40.836555,-73.94306,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408412,2021-04-13,9:00,100       Aldrich Street,Bronx,Bronx County,10475,40.870056,-73.83222,0,0,0,0,0,0,0,0,Unspecified
+4407757,2021-04-15,11:45,Richmond Avenue & Platinum Avenue,Staten Island,Richmond County,10311,40.579372,-74.16948,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407770,2021-04-01,0:10,West 122 Street & Mount Morris Park West,Manhattan,New York County,10027,40.805138,-73.945244,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4407554,2021-04-15,11:41,2324      Davidson Avenue,Bronx,Bronx County,10468,40.85968,-73.90427,0,0,0,0,0,0,0,0,Passing Too Closely
+4407873,2021-04-15,2:00,Kings Highway,Brooklyn,Kings County,11234,40.605595,-73.98404,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407502,2021-04-15,0:05,2245      Randall Avenue,Bronx,Bronx County,10473,40.819214,-73.84662,0,0,0,0,0,0,0,0,Steering Failure
+4408044,2021-04-16,11:30,1074      Home Street,Bronx,Bronx County,10459,40.827972,-73.88707,0,0,0,0,0,0,0,0,Unspecified
+4408165,2021-04-16,15:30,Belt Parkway,Queens,Queens County,11229,40.66496,-73.82226,0,0,0,0,0,0,0,0,Fell Asleep
+4407544,2021-04-14,15:00,Grand Central Pkwy,Queens,Queens County,11102,40.719177,-73.79223,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407277,2021-04-14,8:03,East 42 Street & 1 Avenue,Manhattan,New York County,10017,40.748825,-73.96984,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407834,2021-04-16,7:45,53-15     58 Street,Queens,New York County,11377,40.733597,-73.91062,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407338,2021-04-14,6:45,Armstrong Avenue & Hillcrest Street,Staten Island,Kings County,10308,40.54048,-74.153404,0,0,0,0,0,0,0,0,View Obstructed/Limited
+4407397,2021-04-14,22:43,30 Street & Borden Avenue,Queens,Queens County,11101,40.738403,-73.93864,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408109,2021-04-15,16:55,Fulton Street,Brooklyn,New York County,10048,40.68039,-73.94956,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407683,2021-04-14,18:00,249       East 149 Street,Bronx,Bronx County,10451,40.817627,-73.92366,0,0,0,0,0,0,0,0,Backing Unsafely
+4407829,2021-04-15,12:26,West 29 Street & 10 Avenue,Manhattan,New York County,10001,40.751446,-74.001434,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4456397,2021-09-11,22:15,Davidson Avenue & West 190 Street,Bronx,Bronx County,10468,40.86418,-73.90119,1,0,0,0,0,0,1,0,Unspecified
+4407496,2021-04-15,8:10,East 57 Street & Park Avenue,Manhattan,New York County,10022,40.76161,-73.97076,0,0,0,0,0,0,0,0,Driver Inexperience
+4407609,2021-04-15,16:00,Madison Street & Bushwick Avenue,Brooklyn,Kings County,11221,40.689648,-73.9184,0,0,0,0,0,0,0,0,Unspecified
+4407441,2021-04-14,16:00,82-22     45 Avenue,Queens,Queens County,11373,40.741634,-73.88266,1,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407689,2021-04-15,18:30,Mc Donald Avenue & Avenue U,Brooklyn,Kings County,11223,40.596977,-73.97324,0,0,0,0,0,0,0,0,Unspecified
+4407861,2021-04-16,14:56,350       65 Street,Brooklyn,Kings County,11220,40.63864,-74.02245,0,0,0,0,0,0,0,0,Unspecified
+4407350,2021-04-14,17:30,Amboy Road & Guyon Avenue,Staten Island,Richmond County,10306,40.565254,-74.1301,0,0,0,0,0,0,0,0,Unspecified
+4407721,2021-04-14,7:15,317       De Witt Avenue,Brooklyn,Kings County,11207,40.655895,-73.898224,0,0,0,0,0,0,0,0,Unspecified
+4407381,2021-04-14,20:10,Washington Avenue & Lafayette Avenue,Brooklyn,Kings County,11238,40.68821,-73.96583,0,0,0,0,0,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4407653,2021-04-15,9:28,154       Broome Street,Manhattan,New York County,10002,40.71649,-73.98484,0,0,0,0,0,0,0,0,Unspecified
+4407299,2021-04-14,9:05,Parsons Blvd & 90 Avenue,Queens,New York County,11432,40.7127281,-74.0060152,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407590,2021-04-14,10:49,Staten Island Expressway,Staten Island,Richmond County,10305,40.6032366,-74.0679285,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407896,2021-04-16,14:30,East 209 Street & Hull Avenue,Bronx,Kings County,10467,40.876785,-73.87446,0,0,0,0,0,0,0,0,Passing Too Closely
+4407914,2021-04-16,18:05,2516      White Plains Road,Bronx,Bronx County,10467,40.86367,-73.86741,0,0,0,0,0,0,0,0,Alcohol Involvement
+4407512,2021-04-14,0:00,1600      Boston Road,Bronx,Bronx County,10460,40.835827,-73.89068,0,0,0,0,0,0,0,0,Driver Inexperience
+4408427,2021-04-15,15:37,2145      2 Avenue,Manhattan,New York County,10029,40.793396,-73.94043,0,0,0,0,0,0,0,0,Unspecified
+4407532,2021-04-14,17:20,Southern Boulevard & East 182 Street,Bronx,Bronx County,10472,40.84827,-73.88312,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408086,2021-04-14,23:17,Hegeman Avenue,Brooklyn,Kings County,11212,40.656273,-73.90731,1,0,0,0,0,0,1,0,Driver Inexperience
+4407856,2021-04-16,9:25,492       Myrtle Avenue,Brooklyn,Kings County,11205,40.693462,-73.965485,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407729,2021-04-15,16:00,Dumont Avenue & Hendrix Street,Brooklyn,Kings County,11207,40.66725,-73.88799,1,0,0,0,0,0,1,0,Unspecified
+4407789,2021-04-13,17:55,Grant Highway & University Avenue,Bronx,Bronx County,10452,40.844105,-73.923065,1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4408129,2021-04-16,21:00,4905      Church Avenue,Brooklyn,Kings County,11203,40.651707,-73.93121,0,0,0,0,0,0,0,0,Backing Unsafely
+4407576,2021-04-15,10:30,111 Avenue & Lefferts Boulevard,Queens,Queens County,11420,40.680496,-73.821365,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408193,2021-04-15,23:36,Ogden Avenue & West 165 Street,Bronx,Bronx County,10452,40.834415,-73.92854,0,0,0,0,0,0,0,0,View Obstructed/Limited
+4407643,2021-04-15,0:00,51 Avenue & 61 Street,Queens,Queens County,11377,40.7357,-73.90377,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407906,2021-04-15,21:33,Whitestone Expressway,Queens,Queens County,11357,40.771038,-73.83413,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407414,2021-04-14,19:45,Flatbush Avenue Extension & Johnson Street,Brooklyn,Kings County,11201,40.69484,-73.98391,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4407623,2021-04-14,7:45,38        West 86 Street,Manhattan,New York County,10024,40.785774,-73.97052,2,0,0,0,0,0,2,0,Passing Or Lane Usage Improper
+4407436,2021-04-14,12:30,82-26     Ankener Avenue,Queens,Queens County,11373,40.733017,-73.8852,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407952,2021-04-16,8:30,201 Street,Queens,Queens County,11423,40.709023,-73.757835,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407761,2021-04-14,11:15,Atlantic Avenue,Queens,Queens County,11207,40.692886,-73.832184,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4408063,2021-04-15,15:18,4 Avenue & Forest Place,Brooklyn,Kings County,11209,40.620487,-74.029305,0,1,0,1,0,0,0,0,Driver Inattention/Distraction
+4407388,2021-04-14,17:50,16 Avenue & 71 Street,Brooklyn,Kings County,11204,40.618595,-73.99847,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407766,2021-04-14,10:29,246       West 116 Street,Manhattan,New York County,10026,40.803787,-73.953896,1,0,1,0,0,0,0,0,Unspecified
+4407901,2021-04-15,20:02,Aldus Street & Faile Street,Bronx,Bronx County,10459,40.82319,-73.889496,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408104,2021-04-14,19:20,Fulton Street,Brooklyn,New York County,10048,40.680088,-73.94398,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407486,2021-04-14,19:00,Tinton Avenue & Home Street,Bronx,Bronx County,10456,40.827927,-73.90094,0,0,0,0,0,0,0,0,Unspecified
+4456618,2021-07-08,19:55,Cozine Avenue,Brooklyn,Kings County,11239,40.65342,-73.88898,0,0,0,0,0,0,0,0,Other Vehicular
+4408264,2021-04-14,22:21,Eastern Parkway & Schenectady Avenue,Brooklyn,Kings County,11213,40.66895,-73.9339,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407678,2021-04-15,15:25,Perry Avenue,Bronx,Bronx County,11235,40.879055,-73.87439,0,0,0,0,0,0,0,0,Turning Improperly
+4407355,2021-04-14,11:30,Saint Johns Place,Brooklyn,Kings County,11233,40.67043,-73.928185,1,0,0,0,0,0,1,0,Unsafe Speed
+4408155,2021-04-16,23:14,Boston Road & Fish Avenue,Bronx,Bronx County,10469,40.875874,-73.84989,3,0,0,0,0,0,3,0,Unspecified
+4408271,2021-04-13,9:30,Bergen Street,Brooklyn,Kings County,11233,40.675037,-73.930534,0,0,0,0,0,0,0,0,Following Too Closely
+4408380,2021-04-16,13:59,41 Street,Queens,Kings County,11103,40.767582,-73.9109,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407598,2021-04-14,6:35,690       Washington Street,Manhattan,New York County,10014,40.734352,-74.00849,0,0,0,0,0,0,0,0,Backing Unsafely
+4407693,2021-04-15,22:36,Trans- Manhattan Expressway & Amsterdam Avenue,Manhattan,New York County,10033,40.8458642,-73.9301831,4,1,0,0,0,0,4,1,Alcohol Involvement
+4407866,2021-04-16,14:50,East 80 Street & Paerdegat 7 Street,Brooklyn,Kings County,11236,40.63083,-73.90736,2,0,0,0,0,0,2,0,Driver Inexperience
+4407452,2021-04-14,18:35,1452      Flatbush Avenue,Brooklyn,Kings County,11210,40.63532,-73.95033,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407809,2021-04-13,10:30,533       Metropolitan Avenue,Brooklyn,Kings County,11211,40.714073,-73.95087,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407393,2021-04-14,6:55,923       Flushing Avenue,Brooklyn,Kings County,11206,40.702194,-73.93587,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407453,2021-04-14,16:58,2 Avenue & East 65 Street,Manhattan,New York County,10065,40.764362,-73.96162,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4408214,2021-04-12,18:30,Tompkins Avenue,Brooklyn,Kings County,10304,40.69496,-73.946236,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407824,2021-04-16,12:10,West End Avenue,Manhattan,New York County,10069,40.79656,-73.97226,0,0,0,0,0,0,0,0,Unspecified
+4407431,2021-04-14,9:00,Brook Avenue & East 134 Street,Bronx,Bronx County,10454,40.805016,-73.92109,0,0,0,0,0,0,0,0,Unspecified
+4407632,2021-04-14,17:00,241 Street & 141 Avenue,Queens,Queens County,11422,40.66406,-73.73846,2,0,0,0,0,0,2,0,Unspecified
+4407841,2021-04-13,13:14,East 115 Street & 2 Avenue,Manhattan,New York County,10029,40.7963,-73.93829,0,0,0,0,0,0,0,0,Turning Improperly
+4407096,2021-04-14,2:25,Brookville Boulevard & Sunrise Highway,Queens,Queens County,11422,40.66563,-73.73921,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4407658,2021-04-15,16:00,Sutphin Boulevard & Foch Boulevard,Queens,Queens County,11436,40.680477,-73.7921,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407933,2021-04-16,11:35,Vandam Street & Borden Avenue,Queens,Queens County,11101,40.737785,-73.93496,1,0,0,0,0,0,1,0,Following Too Closely
+4407976,2021-04-16,12:26,Amsterdam Avenue & West 72 Street,Manhattan,New York County,10023,40.778606,-73.98163,1,0,0,0,0,0,1,0,Backing Unsafely
+4407714,2021-04-16,0:30,93 Street & 32 Avenue,Queens,Queens County,11369,40.75868,-73.87552,1,0,0,0,1,0,0,0,Unsafe Speed
+4407373,2021-04-14,17:55,Grand Concourse,Bronx,Bronx County,10467,40.856045,-73.90079,0,0,0,0,0,0,0,0,Following Too Closely
+4407568,2021-04-14,23:36,1309      East 223 Street,Bronx,Bronx County,10466,40.880257,-73.843864,0,0,0,0,0,0,0,0,Passing Too Closely
+4407707,2021-04-15,20:00,13-32     Eggert Place,Queens,Queens County,11691,40.60677,-73.759575,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407692,2021-04-16,6:00,218 Street,Queens,Queens County,11411,40.695683,-73.741875,0,0,0,0,0,0,0,0,Unspecified
+4407615,2021-04-15,15:10,Review Avenue & Railroad Avenue,Queens,Queens County,11101,40.7351696,-73.9375043,1,0,0,0,1,0,0,0,Passing Or Lane Usage Improper
+4407865,2021-04-16,20:00,Belt Parkway,Queens,Queens County,11229,40.667236,-73.770004,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407154,2021-04-14,6:13,1725      West Farms Road,Bronx,Bronx County,10460,40.8351,-73.8825,0,0,0,0,0,0,0,0,Unspecified
+4407637,2021-04-15,14:41,Avenue M & Remsen Avenue,Brooklyn,Kings County,11236,40.633682,-73.89868,1,0,1,0,0,0,0,0,Unspecified
+4407354,2021-04-14,11:54,21        Flushing Avenue,Brooklyn,Kings County,11201,40.698116,-73.977325,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407793,2021-04-16,11:50,Hughes Avenue,Bronx,Bronx County,10458,40.84747,-73.89134,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4407432,2021-04-14,14:00,Bruckner Boulevard & East 138 Street,Bronx,Bronx County,10454,40.8047,-73.91243,0,0,0,0,0,0,0,0,Unspecified
+4407946,2021-04-16,23:55,Fdr Drive,Manhattan,New York County,10128,40.762676,-73.954346,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407852,2021-04-16,14:30,Union Turnpike & 134 Street,Queens,Queens County,11367,40.7158,-73.824486,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408249,2021-04-15,23:00,339       West 39 Street,Manhattan,New York County,10018,40.75584,-73.99238,0,0,0,0,0,0,0,0,Unspecified
+4456019,2021-09-11,11:30,120       Donizetti Place,Bronx,Bronx County,10475,40.875942,-73.83304,0,0,0,0,0,0,0,0,Unspecified
+4407987,2021-04-15,18:00,Cross Island Parkway,Queens,Queens County,11439,40.772102,-73.763954,0,0,0,0,0,0,0,0,Following Too Closely
+4408215,2021-04-14,20:19,557       Classon Avenue,Brooklyn,Kings County,11238,40.681602,-73.95855,0,0,0,0,0,0,0,0,Driver Inexperience
+4408027,2021-04-15,14:36,Avenue J & Nostrand Avenue,Brooklyn,Kings County,11210,40.62677,-73.946884,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407389,2021-04-14,11:16,Montrose Avenue,Brooklyn,Kings County,11206,40.707493,-73.94153,1,0,0,0,0,0,1,0,Other Vehicular
+4407562,2021-04-15,10:00,Bruckner Boulevard & Rosedale Avenue,Bronx,Bronx County,10460,40.8252,-73.867714,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407794,2021-04-12,21:30,East 183 Street & 3 Avenue,Bronx,New York County,10457,40.854115,-73.89091,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407596,2021-04-15,14:06,Archer Avenue & Guy R Brewer Blvd,Queens,Queens County,11433,40.703378,-73.79533,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4407779,2021-04-16,7:00,Fdr Drive,Manhattan,New York County,10128,40.768875,-73.94898,1,0,0,0,0,0,1,0,Following Too Closely
+4407997,2021-04-16,15:21,East 80 Street & Paerdegat 10 Street,Brooklyn,Kings County,11236,40.629707,-73.90486,0,0,0,0,0,0,0,0,Unspecified
+4407408,2021-04-15,0:40,Jamaica Avenue & 249 Street,Queens,Queens County,11426,40.72654,-73.71589,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4408313,2021-04-15,18:00,323       Victory Boulevard,Staten Island,Richmond County,10301,40.634415,-74.08535,0,0,0,0,0,0,0,0,Unspecified
+4456486,2021-09-11,16:30,East 233 Street & Pratt Avenue,Bronx,Bronx County,10466,40.889362,-73.83446,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407747,2021-04-15,8:40,Sutter Avenue,Brooklyn,Kings County,11208,40.66937,-73.89523,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408402,2021-04-16,17:25,East 233 Street & Bronx Boulevard,Bronx,Bronx County,10466,40.89466,-73.86137,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407702,2021-04-16,6:40,341       10 Street,Brooklyn,Kings County,11215,40.669067,-73.9878,0,0,0,0,0,0,0,0,Unspecified
+4407652,2021-04-15,14:00,Williamsburg Bridge Outer Roadwa,Brooklyn,Kings County,11211,40.710185,-73.958669,1,0,0,0,0,0,1,0,Following Too Closely
+4407762,2021-04-15,11:00,102 Road & 89 Street,Queens,Queens County,11416,40.681484,-73.85049,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4407297,2021-04-14,9:31,Bruckner Boulevard & Stratford Avenue,Bronx,Bronx County,10473,40.82433,-73.874374,0,0,0,0,0,0,0,0,Passing Too Closely
+4407321,2021-04-14,12:40,Wadsworth Avenue,Manhattan,New York County,10040,40.856606,-73.92841,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408100,2021-04-08,21:52,Rockaway Parkway & Willmohr Street,Brooklyn,Kings County,11212,40.65785,-73.91648,0,0,0,0,0,0,0,0,Unspecified
+4407505,2021-04-14,8:58,Belt Parkway,Brooklyn,Kings County,11229,40.62764,-73.89022,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408047,2021-04-09,1:15,Belt Parkway,Brooklyn,Kings County,11229,40.58401,-73.98587,0,0,0,0,0,0,0,0,Following Too Closely
+4407805,2021-04-14,17:30,Roebling Street & North 10 Street,Brooklyn,Kings County,11211,40.71791,-73.95341,1,0,1,0,0,0,0,0,Turning Improperly
+4407697,2021-04-15,0:00,East 90 Street,Manhattan,New York County,10009,40.780437,-73.94989,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407367,2021-04-14,8:30,263 Street & 83 Avenue,Queens,Queens County,11004,40.73973,-73.70625,0,0,0,0,0,0,0,0,Unspecified
+4407837,2021-04-05,16:21,1505      Park Avenue,Manhattan,New York County,10029,40.7952,-73.94623,3,0,0,0,0,0,3,0,Passing Too Closely
+4407548,2021-04-14,10:40,Prince Street & Johnson Street,Brooklyn,New York County,11201,40.694794,-73.98246,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4407820,2021-04-16,8:30,86 Street & 13 Avenue,Brooklyn,Kings County,11228,40.614063,-74.01393,0,0,0,0,0,0,0,0,Unspecified
+4456635,2021-07-08,16:45,Roebling Street & North 6 Street,Brooklyn,Kings County,11211,40.715702,-73.95579,1,0,0,0,1,0,0,0,View Obstructed/Limited
+4408150,2021-04-16,18:50,Avenue F & Mc Donald Avenue,Brooklyn,Kings County,11218,40.633152,-73.97762,0,0,0,0,0,0,0,0,Unspecified
+4407842,2021-04-16,15:23,14 Avenue & 86 Street,Brooklyn,Kings County,11228,40.612736,-74.01172,1,0,0,0,0,0,1,0,Following Too Closely
+4407673,2021-04-15,17:55,Williamsburg Street West & Wythe Avenue,Brooklyn,Kings County,11249,40.70166,-73.961464,2,0,0,0,0,0,2,0,Pavement Slippery
+4407278,2021-04-14,0:42,East 125 Street & 5 Avenue,Manhattan,New York County,10035,40.80641,-73.94227,0,0,0,0,0,0,0,0,Unspecified
+4407459,2021-04-14,12:30,West 48 Street & 9 Avenue,Manhattan,New York County,10019,40.762234,-73.98987,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407514,2021-04-15,8:30,East 193 Street & Marion Avenue,Bronx,Kings County,10458,40.863647,-73.8918,0,0,0,0,0,0,0,0,Unspecified
+4408367,2021-04-15,18:36,Mermaid Avenue & West 17 Street,Brooklyn,Kings County,11224,40.576626,-73.98478,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4407313,2021-04-14,13:45,85 Street & 23 Avenue,Brooklyn,Kings County,11214,40.60118,-73.99098,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407396,2021-04-14,19:46,51 Street & 3 Avenue,Brooklyn,Kings County,11220,40.64721,-74.01531,0,0,0,0,0,0,0,0,Unspecified
+4407883,2021-04-13,17:11,Verrazano Bridge Upper,Queens,Queens County,11101,40.753702,-73.94712,0,0,0,0,0,0,0,0,Following Too Closely
+4407611,2021-04-15,16:18,Sutphin Boulevard,Queens,Queens County,11434,40.681145,-73.7923,0,0,0,0,0,0,0,0,Unsafe Speed
+4408053,2021-04-15,12:40,Surf Avenue & West 8 Street,Brooklyn,Kings County,11224,40.57529,-73.97655,0,0,0,0,0,0,0,0,Backing Unsafely
+4407905,2021-04-16,17:45,14 Avenue & College Point Boulevard,Queens,Queens County,11356,40.786,-73.84574,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407642,2021-04-15,20:00,Benson Avenue & Bay 28 Street,Brooklyn,Kings County,11214,40.601128,-73.997086,1,0,1,0,0,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4407556,2021-04-15,11:45,Harlem River Drive,Manhattan,New York County,10035,40.827923,-73.93483,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407774,2021-04-05,16:27,301       West 118 Street,Manhattan,New York County,10026,40.805824,-73.954636,0,0,0,0,0,0,0,0,Unspecified
+4407360,2021-04-14,13:30,3 Avenue,Brooklyn,Kings County,11251,40.642776,-74.02003,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408139,2021-04-14,18:56,Payson Avenue,Manhattan,New York County,10034,40.86674,-73.92873,1,0,0,0,0,0,1,0,Pavement Defective
+4407848,2021-04-16,9:10,Hylan Boulevard & Steuben Street,Brooklyn,New York County,10007,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Unspecified
+4407401,2021-04-15,1:30,Queensboro Bridge Upper,Queens,Queens County,11101,40.746402,-73.940191,0,0,0,0,0,0,0,0,Unspecified
+4485464,2021-12-10,12:15,New Dorp Lane & Clawson Street,Staten Island,Richmond County,10306,40.571625,-74.11192,0,0,0,0,0,0,0,0,Backing Unsafely
+4408223,2021-04-12,6:00,Suydam Place,Brooklyn,Kings County,11233,40.678375,-73.9265,0,0,0,0,0,0,0,0,Other Lighting Defects
+4408075,2021-04-14,19:50,East 26 Street,Manhattan,New York County,10003,40.74209,-73.984985,1,0,0,0,0,0,1,0,Unspecified
+4407967,2021-04-16,11:30,508       Jackson Avenue,Bronx,Bronx County,10455,40.81228,-73.90941,0,0,0,0,0,0,0,0,Unspecified
+4407875,2021-04-16,23:45,Mc Donald Avenue,Brooklyn,Kings County,11223,40.604195,-73.97218,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4407915,2021-04-11,18:45,1988      Marmion Avenue,Bronx,Bronx County,10460,40.84383,-73.886375,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408258,2021-04-16,8:30,8 Avenue,Manhattan,Kings County,11205,40.759163,-73.988396,1,0,0,0,1,0,0,0,Failure To Yield Right-Of-Way
+4408033,2021-04-15,19:39,Flatbush Avenue & Caton Avenue,Brooklyn,Kings County,11226,40.652927,-73.959335,1,0,1,0,0,0,0,0,Unspecified
+4408308,2021-04-14,21:00,Marcy Avenue & Kosciuszko Street,Brooklyn,Kings County,11216,40.69097,-73.94833,2,0,0,0,0,0,2,0,Following Too Closely
+4407869,2021-04-16,19:00,Fdr Drive,Manhattan,New York County,10128,40.718864,-73.97483,0,0,0,0,0,0,0,0,Unspecified
+4407732,2021-04-15,23:30,3289      Fulton Street,Brooklyn,Kings County,11208,40.683174,-73.87389,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407684,2021-04-15,17:11,Bruckner Boulevard & East 135 Street,Brooklyn,New York County,10007,40.7127281,-74.0060152,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407602,2021-04-15,2:00,37 Avenue & 82 Street,Queens,Queens County,11372,40.749744,-73.884315,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407959,2021-04-16,19:54,East 20 Street & Park Avenue South,Manhattan,New York County,10010,40.738316,-73.98773,0,0,0,0,0,0,0,0,Unspecified
+4408397,2021-04-08,9:21,2507      Tratman Avenue,Bronx,Bronx County,10461,40.839382,-73.84531,0,0,0,0,0,0,0,0,Unspecified
+4408067,2021-04-16,9:50,414       Sutter Avenue,Brooklyn,Kings County,11212,40.66806,-73.90394,0,0,0,0,0,0,0,0,Unspecified
+4408279,2021-04-16,12:10,West 32 Street,Manhattan,New York County,10025,40.74715,-73.985504,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407723,2021-04-14,8:40,Riverdale Avenue,Brooklyn,Kings County,10471,40.663776,-73.889915,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408198,2021-04-16,23:25,Major Deegan Expressway,Bronx,Bronx County,10453,40.843903,-73.927284,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407501,2021-04-14,20:25,Cross Bronx Expy,Bronx,New York County,10040,40.836296,-73.87369,2,0,0,0,0,0,2,0,Unspecified
+4408119,2021-04-15,21:04,743       Troy Avenue,Brooklyn,Kings County,11203,40.655285,-73.93658,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4408359,2021-04-09,12:00,Williamsburg Street West & Wythe Avenue,Brooklyn,Kings County,11249,40.70166,-73.961464,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407816,2021-04-16,10:05,3 Avenue & 53 Street,Brooklyn,Kings County,11220,40.64606,-74.01648,1,0,0,0,0,0,1,0,Brakes Defective
+4407168,2021-04-14,7:00,G.C.P. / Jewel (Cdr),Brooklyn,New York County,10007,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Fell Asleep
+4407543,2021-04-15,8:23,Foothill Avenue & 204 Street,Queens,Queens County,11423,40.72119,-73.761185,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407801,2021-04-15,12:00,79-40     Cooper Avenue,Queens,Queens County,11385,40.708363,-73.87203,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407346,2021-04-14,14:10,120 Street,Queens,Queens County,11420,40.674004,-73.81881,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407769,2021-04-14,23:10,Long Island Expressway,Queens,Queens County,11379,40.729176,-73.87898,2,0,0,0,0,0,2,0,Unspecified
+4455856,2021-09-11,10:59,45 Avenue & National Street,Queens,Queens County,11368,40.745766,-73.86421,0,0,0,0,0,0,0,0,Obstruction/Debris
+4408093,2021-04-15,12:30,Bartow Avenue & Edson Avenue,Bronx,Bronx County,10475,40.86832,-73.83317,0,0,0,0,0,0,0,0,Oversized Vehicle
+4407475,2021-04-14,18:45,32-11     Beach Channel Drive,Queens,Queens County,11691,40.598515,-73.766464,0,0,0,0,0,0,0,0,Animals Action
+4408113,2021-03-20,15:58,Nostrand Avenue & Myrtle Avenue,Brooklyn,Kings County,11205,40.695004,-73.9525,0,0,0,0,0,0,0,0,Passing Too Closely
+4407833,2021-04-14,11:50,Maurice Avenue & Borden Avenue,Queens,Queens County,11101,40.72773,-73.90674,0,0,0,0,0,0,0,0,Unspecified
+4407923,2021-04-16,8:41,Menahan Street & Seneca Avenue,Queens,Queens County,11385,40.704563,-73.91066,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407424,2021-04-14,13:30,131 Street,Queens,Queens County,11420,40.66807,-73.80789,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407741,2021-04-14,0:00,Blake Avenue & Ashford Street,Brooklyn,Kings County,11207,40.66944,-73.883995,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4407891,2021-04-09,10:15,Chauncey Street,Brooklyn,Kings County,11207,40.684082,-73.90864,0,0,0,0,0,0,0,0,Passing Too Closely
+4407647,2021-04-14,15:05,Myrtle Avenue & Ashland Place,Brooklyn,Kings County,11201,40.69349,-73.97917,1,0,0,0,1,0,0,0,Unspecified
+4407909,2021-04-16,0:00,Northern Boulevard & 150 Street,Queens,Queens County,11354,40.765266,-73.81517,0,0,0,0,0,0,0,0,Passing Too Closely
+4407439,2021-04-14,18:00,Van Wyck Expwy,Queens,Queens County,11367,40.74613,-73.83605,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407604,2021-04-15,12:17,Park Avenue & East 34 Street,Manhattan,New York County,10016,40.74708,-73.98135,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407752,2021-04-15,10:37,East 206 Street & Perry Avenue,Bronx,Bronx County,10467,40.87482,-73.877,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407380,2021-04-14,19:15,Woodhaven Boulevard & 82 Avenue,Queens,Queens County,11385,40.70399,-73.85589,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408037,2021-04-16,21:30,Church Avenue & Saint Pauls Place,Brooklyn,Kings County,11226,40.649788,-73.9622,0,0,0,0,0,0,0,0,Unspecified
+4408416,2021-04-11,11:50,106-44    150 Street,Queens,Queens County,11435,40.69507,-73.80114,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407549,2021-04-15,9:57,109       West 89 Street,Manhattan,New York County,10024,40.788673,-73.97136,0,0,0,0,0,0,0,0,Passing Too Closely
+4408002,2021-04-15,13:07,Major Deegan Expressway,Bronx,Bronx County,10453,40.847897,-73.92499,0,0,0,0,0,0,0,0,Unspecified
+4408227,2021-04-14,11:30,Stuyvesant Avenue & Quincy Street,Brooklyn,Kings County,11221,40.68896,-73.93326,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4408262,2021-04-13,7:25,Myrtle Avenue,Brooklyn,Kings County,11237,40.695377,-73.94921,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407897,2021-04-16,18:03,East Gun Hill Road & Wayne Avenue,Bronx,Bronx County,10467,40.880657,-73.877625,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408187,2021-04-16,21:00,Major Deegan Expressway,Bronx,Bronx County,10453,40.828114,-73.93107,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407975,2021-04-16,10:40,Columbus Avenue,Manhattan,New York County,10025,40.781265,-73.97599,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4408164,2021-04-16,20:07,West 181 Street & Audubon Avenue,Manhattan,New York County,10033,40.848736,-73.93234,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407910,2021-04-16,12:42,Bronx Whitestone Bridge,Queens,Queens County,11357,40.8004345,-73.8287761,2,0,0,0,0,0,2,0,Following Too Closely
+4408085,2021-04-15,22:22,Newport Street & Watkins Street,Brooklyn,Queens County,11212,40.65989,-73.90536,0,0,0,0,0,0,0,0,Unspecified
+4408250,2021-04-16,18:40,5 Avenue,Manhattan,Kings County,11238,40.748436,-73.984566,1,0,0,0,1,0,0,0,Unsafe Lane Changing
+4408028,2021-04-15,12:38,1411      Avenue P,Brooklyn,Kings County,11229,40.61033,-73.95932,1,0,0,0,0,0,1,0,Unsafe Lane Changing
+4407580,2021-04-14,12:20,38 Avenue & 34 Street,Queens,Queens County,11101,40.752556,-73.92972,0,0,0,0,0,0,0,0,Unspecified
+4408302,2021-04-14,20:50,Teller Avenue,Bronx,Bronx County,10456,40.829697,-73.91313,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407400,2021-04-14,2:30,Attorney Street & Rivington Street,Manhattan,New York County,10002,40.718826,-73.98424,0,0,0,0,0,0,0,0,Turning Improperly
+4408128,2021-04-16,12:38,5403      Church Avenue,Brooklyn,Kings County,11203,40.65241,-73.9264,0,0,0,0,0,0,0,0,Unspecified
+4407806,2021-04-15,13:31,Beadle Street & Vandervoort Avenue,Brooklyn,New York County,10007,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408194,2021-04-15,15:20,Undercliff Avenue & Sedgwick Avenue,Bronx,Bronx County,10468,40.852673,-73.919106,1,0,0,0,0,0,1,0,Following Too Closely
+4408289,2021-04-16,15:00,Cross Bronx Expy,Bronx,New York County,10040,40.851555,-73.952446,0,0,0,0,0,0,0,0,Passing Too Closely
+4407953,2021-04-16,12:50,Jamaica Avenue,Queens,Queens County,11001,40.707928,-73.784294,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4408391,2021-04-06,8:50,4110      Carpenter Avenue,Bronx,Bronx County,10466,40.891876,-73.8616,0,0,0,0,0,0,0,0,Outside Car Distraction
+4408204,2021-04-15,0:00,207       Beach 73 Street,Queens,Queens County,11692,40.58947,-73.80105,0,0,0,0,0,0,0,0,Unspecified
+4407870,2021-04-01,4:46,2 Avenue & East 37 Street,Manhattan,New York County,10016,40.74668,-73.9745,0,0,0,0,0,0,0,0,Turning Improperly
+4407524,2021-04-14,22:17,East 184 Street & Marion Avenue,Bronx,Bronx County,10458,40.85814,-73.895744,0,0,0,0,0,0,0,0,Unspecified
+4408353,2021-04-16,14:35,Manhattan Avenue & Scholes Street,Brooklyn,Kings County,11206,40.708626,-73.94513,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407243,2021-04-14,2:09,East 128 Street & 3 Avenue Bridge,Brooklyn,New York County,10007,40.7127281,-74.0060152,1,0,0,0,0,0,1,0,Alcohol Involvement
+4407445,2021-04-14,15:25,89-21     Queens Boulevard,Queens,Queens County,11373,40.73464,-73.87421,1,0,0,0,0,0,1,0,Reaction To Uninvolved Vehicle
+4408056,2021-04-16,10:00,2408      Avenue I,Brooklyn,Kings County,11210,40.62855,-73.952835,0,0,0,0,0,0,0,0,Unspecified
+4407327,2021-04-14,13:40,Lenox Road & East 55 Street,Brooklyn,Kings County,11203,40.65563,-73.92596,2,0,0,0,0,0,2,0,Unspecified
+4407784,2021-04-16,10:10,155 Street & Linden Boulevard,Queens,Queens County,11434,40.687046,-73.792114,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407928,2021-04-14,11:46,Myrtle Avenue & 84 Street,Queens,Queens County,11385,40.70326,-73.86474,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4408107,2021-04-06,16:00,Bedford Avenue,Brooklyn,Kings County,11226,40.6537842,-73.9561746,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4456830,2021-09-10,0:00,Francis Lewis Boulevard & Underhill Avenue,Brooklyn,New York County,10007,40.7127281,-74.0060152,1,0,0,0,0,0,1,0,Unspecified
+4407454,2021-04-14,13:00,120       Kenilworth Place,Brooklyn,Kings County,11210,40.633114,-73.94928,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407372,2021-04-14,13:30,135       Vanderbilt Avenue,Staten Island,Richmond County,10304,40.62046,-74.07641,0,0,0,0,0,0,0,0,Unspecified
+4407444,2021-04-14,21:24,Fdr Drive & East 61 Street,Manhattan,New York County,10065,40.75964,-73.95817,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4407756,2021-04-13,20:15,Belt Parkway,Brooklyn,Kings County,11229,40.64254,-73.87652,2,0,0,0,0,0,2,0,Following Too Closely
+4407620,2021-04-15,10:30,West 79 Street,Manhattan,New York County,10024,40.783146,-73.97833,1,0,1,0,0,0,0,0,Passing Too Closely
+4407412,2021-04-14,23:30,Liberty Avenue & 178 Street,Queens,Queens County,11433,40.705452,-73.78149,6,0,0,0,0,0,6,0,Reaction To Uninvolved Vehicle
+4407633,2021-04-15,19:00,Cross Island Parkway & Grand Central Parkway,Queens,Kings County,11362,40.74425,-73.7334,0,0,0,0,0,0,0,0,Unspecified
+4407119,2021-04-14,4:35,West 42 Street & 5 Avenue,Manhattan,New York County,10017,40.75348,-73.980896,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407660,2021-04-14,23:46,Silver Street & East Tremont Avenue,Bronx,Bronx County,10461,40.84307,-73.848076,2,0,0,0,0,0,2,0,Unspecified
+4408154,2021-04-15,12:30,Mc Donald Avenue & Bay Parkway,Brooklyn,Kings County,11204,40.620914,-73.9753,1,0,0,0,0,0,1,0,Illnes
+4407773,2021-04-04,21:43,71        Morningside Avenue,Manhattan,New York County,10027,40.80889,-73.95581,0,0,0,0,0,0,0,0,Unsafe Speed
+4407567,2021-04-15,13:18,51        West 90 Street,Manhattan,New York County,10024,40.78847,-73.968895,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407938,2021-04-14,13:36,62-41     Forest Avenue,Queens,Queens County,11385,40.712776,-73.90601,1,0,0,0,0,0,1,0,Following Too Closely
+4407713,2021-04-16,0:30,93 Street & 32 Avenue,Queens,Queens County,11369,40.75868,-73.87552,0,0,0,0,0,0,0,0,Unsafe Speed
+4408017,2021-04-11,13:40,Grand Central Parkway & Parsons Boulevard,Queens,Queens County,11432,40.7156103,-73.8076418,0,0,0,0,0,0,0,0,Unspecified
+4408208,2021-04-16,17:50,99-05     43 Avenue,Queens,Queens County,11368,40.74661,-73.86473,0,0,0,0,0,0,0,0,Alcohol Involvement
+4408043,2021-04-16,16:01,Southern Boulevard & East 173 Street,Bronx,Bronx County,10460,40.835705,-73.88875,0,0,0,0,0,0,0,0,Unsafe Speed
+4408233,2021-03-28,18:30,562       Quincy Street,Brooklyn,Kings County,11221,40.688404,-73.93803,1,0,1,0,0,0,0,0,Unspecified
+4407990,2021-04-12,20:00,144 Street & 20 Avenue,Queens,Queens County,11357,40.781715,-73.823845,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408079,2021-04-02,21:15,Fdr Drive,Manhattan,New York County,10128,40.730644,-73.97329,0,0,0,0,0,0,0,0,Unsafe Speed
+4408217,2021-04-16,15:05,Grand Central Pkwy,Queens,Queens County,11102,40.75218,-73.85201,0,0,0,0,0,0,0,0,Following Too Closely
+4408331,2021-04-16,15:45,Greenpoint Avenue & Humboldt Street,Brooklyn,Kings County,11222,40.731422,-73.94641,1,0,0,0,1,0,0,0,Failure To Yield Right-Of-Way
+4407698,2021-04-15,8:20,2 Avenue & East 60 Street,Manhattan,New York County,10022,40.761234,-73.96389,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407825,2021-04-10,19:09,Stone Avenue & Belmont Avenue,Brooklyn,Bronx County,11212,40.668976,-73.90668,0,0,0,0,0,0,0,0,Unspecified
+4408411,2021-04-12,6:55,Throgs Neck Bridge,Bronx,Bronx County,10465,40.8164164,-73.7986156,1,0,0,0,0,0,1,0,Following Too Closely
+4408122,2021-04-15,18:20,Schenectady Avenue & Farragut Road,Brooklyn,Kings County,11203,40.637276,-73.93177,0,0,0,0,0,0,0,0,Unspecified
+4407838,2021-04-11,1:36,2 Avenue,Manhattan,Kings County,11201,40.788685,-73.94386,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4456364,2021-09-11,4:27,Shore Parkway,Brooklyn,Kings County,11235,40.5845577,-73.9670076,0,0,0,0,0,0,0,0,Passing Too Closely
+4407948,2021-04-16,22:42,Hutchinson River Parkway,Bronx,Bronx County,10461,40.87356,-73.81853,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407843,2021-04-14,23:32,1618      Madison Avenue,Manhattan,New York County,10029,40.795006,-73.9485,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407515,2021-04-15,8:30,West 135 Street,Manhattan,New York County,10023,40.820095,-73.955086,1,0,0,0,0,0,1,0,Unspecified
+4407312,2021-04-14,11:26,Bath Avenue,Brooklyn,Kings County,11214,40.594334,-73.990944,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407314,2021-04-14,11:00,Belt Parkway,Queens,Queens County,11229,40.666306,-73.79171,0,0,0,0,0,0,0,0,Unsafe Speed
+4407489,2021-04-14,12:37,162       Garfield Place,Brooklyn,Kings County,11215,40.673008,-73.97851,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407656,2021-04-14,0:25,Belt Parkway,Brooklyn,Kings County,11229,40.583626,-73.98407,0,0,0,0,0,0,0,0,Unsafe Speed
+4407332,2021-04-14,12:45,Webb Avenue & Reservoir Avenue,Bronx,Bronx County,10468,40.874474,-73.90031,0,0,0,0,0,0,0,0,Unspecified
+4407506,2021-04-14,14:25,1616      43 Street,Brooklyn,Kings County,11204,40.633995,-73.98138,1,0,0,0,0,0,1,0,Unspecified
+4408401,2021-04-14,23:20,Fdr Drive,Manhattan,New York County,10128,40.772327,-73.94531,1,0,0,0,0,0,1,0,Unspecified
+4407677,2021-04-15,18:45,545       Broadway,Brooklyn,Kings County,11206,40.704937,-73.94932,0,0,0,0,0,0,0,0,Other Vehicular
+4407359,2021-04-14,15:34,39 Street & 3 Avenue,Brooklyn,Kings County,11232,40.653873,-74.008156,1,0,1,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4408060,2021-04-16,23:30,Shore Parkway,Brooklyn,Kings County,11235,40.5845577,-73.9670076,0,0,0,0,0,0,0,0,Unspecified
+4407533,2021-04-15,3:46,Fdr Drive & East 117 Street,Manhattan,New York County,10035,40.7875347,-73.9382797,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408266,2021-04-08,0:00,Atlantic Avenue,Brooklyn,Kings County,11207,40.677917,-73.93861,1,0,0,0,0,0,1,0,Following Too Closely
+4407696,2021-04-14,13:20,2115      East 3 Street,Brooklyn,Kings County,11223,40.59857,-73.9689,0,0,0,0,0,0,0,0,Unspecified
+4407261,2021-04-14,6:15,East 135 Street & 3 Avenue,Bronx,Bronx County,10454,40.809563,-73.92923,0,0,0,0,0,0,0,0,Unspecified
+4407857,2021-04-16,15:12,284       Lafayette Avenue,Brooklyn,Kings County,11238,40.68836,-73.96444,1,0,0,0,1,0,0,0,Unspecified
+4407490,2021-04-14,19:30,Junius Street & Blake Avenue,Brooklyn,Kings County,11212,40.666737,-73.90224,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407788,2021-04-14,10:30,Fresh Pond Road & 62 Road,Queens,Queens County,11379,40.713173,-73.90076,1,0,0,0,0,0,1,0,Unspecified
+4408379,2021-04-15,6:00,87-33     Little Neck Parkway,Queens,Queens County,11001,40.73006,-73.710754,0,0,0,0,0,0,0,0,Unspecified
+4408103,2021-04-13,16:20,East 53 Street & Church Avenue,Brooklyn,Kings County,11203,40.652317,-73.92752,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408076,2021-04-15,1:20,Crescent Street,Queens,Queens County,11101,40.76122,-73.93056,1,0,0,0,1,0,0,0,Unspecified
+4408049,2021-04-12,18:00,Coney Island Avenue,Brooklyn,Kings County,11235,40.588722,-73.960464,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407527,2021-04-14,17:25,Beverley Road,Brooklyn,Kings County,11218,40.643456,-73.972725,0,0,0,0,0,0,0,0,Unspecified
+4407836,2021-04-12,19:45,Allerton Avenue & Boston Road,Bronx,Bronx County,10467,40.865532,-73.86238,0,0,0,0,0,0,0,0,Other Vehicular
+4408274,2021-04-16,16:46,Troy Avenue,Brooklyn,Kings County,11203,40.67612,-73.936005,1,0,1,0,0,0,0,0,Unspecified
+4407547,2021-04-15,9:20,Richmond Avenue & Anita Street,Staten Island,Richmond County,10314,40.620663,-74.1524,1,0,0,0,0,0,1,0,Unsafe Lane Changing
+4407815,2021-04-15,13:30,60-74     70 Street,Queens,Queens County,11378,40.72166,-73.888664,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408375,2021-04-14,17:45,241-15    Hillside Avenue,Queens,Queens County,11426,40.733723,-73.72516,0,0,0,0,0,0,0,0,Unspecified
+4407279,2021-04-14,9:30,East 37 Street & Queens Midtown Tunnel Exit,Manhattan,Kings County,10016,40.745686,-73.97213,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407331,2021-04-14,0:00,5240      Broadway,Bronx,New York County,10463,40.875294,-73.9088,0,0,0,0,0,0,0,0,Unspecified
+4407686,2021-04-15,16:54,Willow Avenue & East 137 Street,Bronx,Bronx County,10454,40.803555,-73.91184,1,0,0,0,0,0,1,0,Unspecified
+4408398,2021-04-15,19:20,Fdr Drive,Manhattan,New York County,10128,40.7605,-73.95699,0,0,0,0,0,0,0,0,Pavement Slippery
+4408066,2021-04-16,0:17,East 98 Street & Tapscott Street,Brooklyn,Kings County,11212,40.661995,-73.91959,0,0,0,0,0,0,0,0,Unspecified
+4408309,2021-04-16,13:02,De Kalb Avenue & Taaffe Place,Brooklyn,Kings County,11205,40.69045,-73.959435,0,0,0,0,0,0,0,0,Passing Too Closely
+4408068,2021-04-16,11:38,New Lots Avenue & Junius Street,Brooklyn,Kings County,11212,40.658672,-73.90019,1,0,1,0,0,0,0,0,Unspecified
+4407691,2021-04-15,22:50,Cross Island Parkway & Hempstead Avenue,Queens,Queens County,11429,40.711227,-73.72826,0,0,0,0,0,0,0,0,Unspecified
+4407353,2021-04-14,13:07,Bushwick Avenue & Garden Street,Brooklyn,Kings County,11206,40.700485,-73.93637,1,0,0,0,1,0,0,0,Following Too Closely
+4407433,2021-04-14,18:49,560       Melrose Avenue,Bronx,Bronx County,10455,40.816555,-73.91755,0,0,0,0,0,0,0,0,Turning Improperly
+4407679,2021-04-15,22:35,West Fordham Road,Bronx,Bronx County,10468,40.861862,-73.91282,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407566,2021-04-14,22:20,3574      Laconia Avenue,Bronx,Bronx County,10469,40.875793,-73.85465,0,0,0,0,0,0,0,0,Other Vehicular
+4408026,2021-04-16,6:30,171 Street & Foch Boulevard,Queens,Queens County,11434,40.68657,-73.776146,0,0,0,0,0,0,0,0,Unspecified
+4407651,2021-04-14,17:30,976       3 Avenue,Brooklyn,Kings County,11232,40.654705,-74.00731,0,0,0,0,0,0,0,0,Unspecified
+4407296,2021-04-14,9:50,43 Street & 14 Avenue,Brooklyn,Kings County,11219,40.637054,-73.98643,1,0,1,0,0,0,0,0,Unspecified
+4407826,2021-04-16,12:00,Arlene Court & Jules Drive,Staten Island,Kings County,10314,40.6191,-74.159615,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408186,2021-04-16,11:30,Brooklyn Battery Tunnel,Brooklyn,New York County,10275,40.6926159,-74.0123455,0,0,0,0,0,0,0,0,Following Too Closely
+4407368,2021-04-14,8:00,Cross Island Parkway,Queens,Queens County,11439,40.734566,-73.72269,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407804,2021-04-13,9:35,Leonard Street & Conselyea Street,Brooklyn,Kings County,11211,40.714912,-73.94784,1,0,0,0,0,0,1,0,Following Too Closely
+4407242,2021-04-14,6:10,Roosevelt Avenue & 79 Street,Queens,Queens County,11372,40.74734,-73.88673,0,0,0,0,0,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4407858,2021-04-16,18:18,Park Avenue & North Oxford Street,Brooklyn,Kings County,11205,40.6963,-73.97545,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407795,2021-04-16,9:40,756       East 79 Street,Brooklyn,Kings County,11236,40.63598,-73.915146,1,0,1,0,0,0,0,0,Unspecified
+4407347,2021-04-14,12:00,91 Avenue & 218 Street,Queens,Queens County,11428,40.724358,-73.742516,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4408059,2016-04-16,14:20,West 17 Street & Bay 50 Street,Brooklyn,Kings County,11214,40.586277,-73.9862,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407715,2021-04-16,1:30,North Conduit Avenue,Queens,Queens County,11417,40.671932,-73.85165,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4408114,2021-04-10,23:05,Ralph Avenue & Snyder Avenue,Brooklyn,Kings County,11236,40.650703,-73.920586,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407480,2021-04-14,5:32,Bronx Whitestone Bridge,Queens,Queens County,11357,40.8004345,-73.8287761,0,0,0,0,0,0,0,0,Following Too Closely
+4408312,2021-04-16,6:49,490       Tompkins Avenue,Staten Island,Richmond County,10305,40.61378,-74.07225,0,0,0,0,0,0,0,0,Passing Too Closely
+4407922,2021-04-15,22:15,54 Avenue & 63 Street,Queens,Queens County,11378,40.727375,-73.90313,0,0,0,0,0,0,0,0,Unsafe Speed
+4407342,2021-04-14,15:10,Lincoln Avenue & Kiswick Street,Staten Island,Bronx County,10306,40.573204,-74.09711,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407882,2021-04-16,17:04,Verrazano Bridge Upper,Queens,Queens County,11101,40.753702,-73.94712,0,0,0,0,0,0,0,0,Following Too Closely
+4407748,2021-04-15,13:30,Blake Avenue,Brooklyn,Kings County,11208,40.671604,-73.86907,0,0,0,0,0,0,0,0,Unspecified
+4407619,2021-04-15,16:50,38 Street & 48 Avenue,Queens,Queens County,11101,40.740276,-73.92782,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407534,2021-04-14,16:02,Triborough Bridge,Queens,Queens County,11102,40.772992849999994,-73.92085900655331,0,0,0,0,0,0,0,0,Following Too Closely
+4408297,2021-04-06,15:02,Putnam Avenue & Nostrand Avenue,Brooklyn,Kings County,11216,40.684,-73.95031,0,0,0,0,0,0,0,0,Passing Too Closely
+4407763,2021-04-15,15:00,Van Wyck Expwy,Queens,Queens County,11367,40.704494,-73.81743,1,0,0,0,0,0,1,0,Following Too Closely
+4408005,2021-04-16,6:50,Webster Avenue,Bronx,Bronx County,10470,40.845642,-73.90211,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407390,2021-04-14,10:16,Leonard Street & Wallabout Street,Brooklyn,New York County,10007,40.7127281,-74.0060152,1,0,0,0,1,0,0,0,Driver Inattention/Distraction
+4407504,2021-04-15,5:36,Bruckner Expressway,Bronx,Bronx County,10474,40.82681,-73.85361,0,0,0,0,0,0,0,0,Following Too Closely
+4408231,2021-04-06,21:30,203       Bainbridge Street,Brooklyn,Kings County,11233,40.681168,-73.92941,0,0,0,0,0,0,0,0,Passing Too Closely
+4408106,2021-04-09,20:00,348       East 57 Street,Brooklyn,New York County,11203,40.64739,-73.92314,0,0,0,0,0,0,0,0,Unspecified
+4407542,2021-04-15,8:30,122 Avenue & 197 Street,Queens,Queens County,11413,40.687138,-73.75136,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407819,2021-03-25,9:52,73 Place & Cooper Avenue,Queens,Queens County,11385,40.6982344,-73.8910136,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407523,2021-04-15,9:09,Bronx River Parkway,Bronx,Bronx County,10467,40.865143,-73.87204,0,0,0,0,0,0,0,0,Unspecified
+4407428,2021-04-14,22:50,Major Deegan Expressway,Bronx,Bronx County,10453,40.866673,-73.90896,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4408257,2021-04-10,18:50,60-15     Maspeth Avenue,Queens,Queens County,11378,40.72313,-73.90614,0,0,0,0,0,0,0,0,Unspecified
+4407595,2021-04-15,14:46,Van Wyck Expwy,Queens,Queens County,11367,40.674934,-73.80186,0,0,0,0,0,0,0,0,Unspecified
+4407672,2021-04-15,11:10,Ingraham Street & Gardner Avenue,Brooklyn,Kings County,11237,40.708363,-73.92401,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407832,2021-04-16,11:20,Greenpoint Avenue & 40 Street,Queens,Kings County,11104,40.739525,-73.92512,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407384,2021-04-14,18:04,65 Street & 4 Avenue,Brooklyn,Kings County,11220,40.637997,-74.02136,2,0,0,0,0,0,2,0,Unspecified
+4408387,2021-04-14,21:40,Queens Plaza North & Crescent Street,Queens,Queens County,11101,40.750965,-73.94027,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407790,2020-04-15,15:20,Gowanus Expy (Bqe),Brooklyn,Kings County,11231,40.671585,-73.99843,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407612,2021-04-15,16:10,118 Avenue & 203 Street,Queens,Queens County,11412,40.694294,-73.74868,3,0,0,0,0,0,3,0,Unspecified
+4407775,2021-04-08,17:25,West 125 Street,Manhattan,New York County,10011,40.810173,-73.95117,1,0,0,0,1,0,0,0,Pedestrian/Bicyclist/Other Pedestrian Error/Confusion
+4407864,2021-04-16,9:29,116-18    226 Street,Queens,Queens County,11411,40.694748,-73.73427,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407379,2021-04-14,19:30,Jackie Robinson Pkwy,Queens,Queens County,11415,40.687103,-73.89251,0,0,0,0,0,0,0,0,Driverless/Runaway Vehicle
+4408054,2021-04-14,15:00,Gerald Court & East 7 Street,Brooklyn,Kings County,11235,0.0,0.0,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407156,2021-04-14,3:04,West Fordham Road,Bronx,Bronx County,10468,40.861744,-73.911804,0,0,0,0,0,0,0,0,Unsafe Speed
+4407634,2021-04-15,19:45,Cross Island Parkway & Union Turnpike,Queens,Queens County,11426,40.741074,-73.7258,0,0,0,0,0,0,0,0,Unspecified
+4408389,2021-04-13,8:24,119 Avenue & 146 Street,Queens,Queens County,11436,40.67875,-73.794,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4407724,2021-04-14,13:16,775       Dumont Avenue,Brooklyn,Kings County,11207,40.666943,-73.890144,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407942,2021-04-16,8:30,451       Kingston Avenue,Brooklyn,Kings County,11225,40.6635,-73.94276,0,0,0,0,0,0,0,0,Unspecified
+4456714,2021-07-09,14:19,Williamsbridge Road & Morris Park Avenue,Bronx,Bronx County,10461,40.850304,-73.85137,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4408197,2021-04-16,20:17,Sherman Avenue & East 163 Street,Bronx,Bronx County,10451,40.827824,-73.91934,1,0,0,0,1,0,0,0,Failure To Yield Right-Of-Way
+4407847,2021-04-15,16:08,Richmond Road & Summit Avenue,Staten Island,Richmond County,10306,40.575832,-74.12409,1,0,0,0,0,0,1,0,Driver Inexperience
+4407403,2021-04-14,10:00,Long Island Expressway,Queens,Queens County,11378,40.730366,-73.91388,0,0,0,0,0,0,0,0,Unspecified
+4408120,2021-04-15,17:47,Avenue D & Nostrand Avenue,Brooklyn,Kings County,11226,40.640945,-73.94852,0,0,0,0,0,0,0,0,Unspecified
+4407703,2021-04-15,12:00,East 96 Street,Manhattan,New York County,11203,40.784237,-73.947075,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407668,2021-04-15,20:29,23 Avenue & 93 Street,Queens,Queens County,11369,40.76803,-73.87722,1,0,0,0,0,0,1,0,Failure To Yield Right-Of-Way
+4407570,2021-04-14,13:06,Pitkin Avenue & Thatford Avenue,Brooklyn,Kings County,11212,40.669823,-73.90981,0,0,0,0,0,0,0,0,Unspecified
+4408101,2021-04-10,16:28,Remsen Avenue,Brooklyn,Kings County,11236,40.659336,-73.92726,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407898,2021-04-16,10:15,Southern Boulevard,Bronx,Bronx County,10458,40.856883,-73.8807099,0,0,0,0,0,0,0,0,Passing Too Closely
+4407800,2021-04-16,4:00,323       Stewart Avenue,Staten Island,Richmond County,10314,40.616093,-74.14523,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407917,2021-04-16,20:59,87 Street & 25 Avenue,Queens,Queens County,11369,40.763546,-73.88209,0,0,0,0,0,0,0,0,Turning Improperly
+4408151,2021-04-15,22:27,465       Ocean Parkway,Brooklyn,Kings County,11218,40.637234,-73.97266,0,0,0,0,0,0,0,0,Unspecified
+4407758,2021-04-15,19:00,702       Port Richmond Avenue,Staten Island,Richmond County,10302,40.62614,-74.14276,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407780,2021-04-16,6:30,Fdr Drive,Manhattan,New York County,10128,40.7781781,-73.9430657,4,0,0,0,0,0,4,0,Pavement Slippery
+4408034,2021-04-16,7:30,2110      Newkirk Avenue,Brooklyn,Kings County,11226,40.638313,-73.95751,0,0,0,0,0,0,0,0,Unspecified
+4407998,2021-04-16,9:35,Glenwood Road & Williams Avenue,Brooklyn,Kings County,11207,40.651352,-73.89275,2,0,0,0,0,0,2,0,Unsafe Speed
+4407410,2021-04-15,0:08,Brewer Boulevard & 108 Avenue,Queens,Queens County,11433,40.696564,-73.79125,1,0,0,0,0,0,1,0,Aggressive Driving/Road Rage
+4408112,2021-04-15,17:30,604       East 11 Street,Manhattan,New York County,10009,40.72728,-73.97906,0,0,0,0,0,0,0,0,Unspecified
+4407731,2021-04-16,2:12,Pennsylvania Avenue & Jamaica Avenue,Brooklyn,Kings County,11207,40.67816,-73.897484,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408095,2021-04-13,16:49,East 241 Street & Bullard Avenue,Bronx,Bronx County,10470,40.905174,-73.85417,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4456465,2021-09-11,21:00,Saint Anns Avenue & Saint Marys Street,Bronx,Richmond County,10454,40.810387,-73.91521,1,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407470,2021-04-14,15:00,242       West 38 Street,Manhattan,New York County,10018,40.754044,-73.990074,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407582,2021-04-14,20:25,21 Street,Queens,Kings County,11101,40.755234,-73.941246,1,0,0,0,0,0,1,0,Passing Or Lane Usage Improper
+4408360,2021-04-10,13:45,Waterbury Street & Meserole Street,Brooklyn,Kings County,11206,40.708675,-73.93699,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408126,2021-04-16,18:45,902       Utica Avenue,Brooklyn,Kings County,11203,40.65103,-73.93032,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407395,2021-04-14,0:00,565       47 Street,Brooklyn,Kings County,11220,40.645985,-74.00723,0,0,0,0,0,0,0,0,Passing Too Closely
+4407904,2021-04-15,15:05,150 Street & 7 Avenue,Queens,Queens County,11357,40.794773,-73.816185,2,0,0,0,0,0,2,0,Failure To Yield Right-Of-Way
+4408288,2021-04-16,21:04,306       Fort Washington Avenue,Manhattan,New York County,10033,40.845467,-73.940475,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407961,2021-04-16,0:00,3 Avenue,Brooklyn,Kings County,11251,40.643875,-74.01887,0,0,0,0,0,0,0,0,Unspecified
+4407363,2021-04-14,8:20,144-26    Weller Lane,Queens,Queens County,11422,40.658947,-73.73472,0,0,0,0,0,0,0,0,Following Too Closely
+4407629,2021-04-15,15:45,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.69168,-73.999344,0,0,0,0,0,0,0,0,Following Too Closely
+4407641,2021-04-15,18:23,Bay Parkway & Cropsey Avenue,Brooklyn,Kings County,11214,40.59727,-73.99868,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408140,2021-04-14,21:20,Ely Avenue & Tillotson Avenue,Bronx,Bronx County,10469,40.878155,-73.84005,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4408226,2021-04-02,22:20,Myrtle Avenue & Broadway,Brooklyn,Kings County,11206,40.696983,-73.935234,1,0,0,0,1,0,0,0,Unspecified
+4407500,2021-04-14,16:00,1421      Story Avenue,Bronx,Bronx County,10473,40.821075,-73.882126,0,0,0,0,0,0,0,0,Unspecified
+4407558,2021-04-14,11:00,3865      Baychester Avenue,Bronx,Bronx County,10466,40.88765,-73.84167,0,0,0,0,0,0,0,0,Unspecified
+4407421,2021-04-14,8:45,124-09    Liberty Avenue,Queens,Queens County,11419,40.687843,-73.82005,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407743,2021-04-14,22:32,Belmont Avenue & Montauk Avenue,Brooklyn,Bronx County,11208,40.673252,-73.87773,2,0,0,0,0,0,2,0,Driver Inattention/Distraction
+4407876,2021-04-09,18:15,Hamilton Avenue & 3 Avenue,Manhattan,New York County,10003,40.733654,-73.9866361,0,0,0,0,0,0,0,0,Unspecified
+4408261,2021-04-14,11:00,527       Eastern Parkway,Brooklyn,Kings County,11216,40.6699,-73.95116,0,0,0,0,0,0,0,0,Unspecified
+4407965,2021-04-16,15:04,Gowanus Expy (Bqe),Brooklyn,Kings County,11232,40.667683,-73.99608,2,0,0,0,0,0,2,0,Following Too Closely
+4407450,2021-04-14,18:10,Farragut Road & Ocean Avenue,Brooklyn,Kings County,11230,40.63529,-73.958206,0,0,0,0,0,0,0,0,Unspecified
+4407812,2021-04-13,13:00,76        North 4 Street,Brooklyn,Kings County,11249,40.71772,-73.96202,0,0,0,0,0,0,0,0,Unspecified
+4408163,2021-04-16,15:20,Henry Hudson Parkway,Manhattan,New York County,10034,40.857605,-73.93778,4,0,0,0,0,0,4,0,Other Vehicular
+4408276,2021-04-16,18:25,West 35 Street,Manhattan,New York County,10011,40.7491,-73.984085,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407676,2021-04-15,17:03,Kingston Place & Home Lawn Street,Queens,Queens County,11432,40.71493,-73.79316,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407868,2021-04-16,8:40,Norfolk Street,Manhattan,New York County,10002,40.721985,-73.98552,0,0,0,0,0,0,0,0,Passing Too Closely
+4456784,2021-09-08,18:00,112       Richmond Hill Road,Staten Island,Richmond County,10314,40.5843,-74.16492,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408111,2021-04-16,15:00,Atlantic Avenue,Brooklyn,Kings County,11207,40.67983,-73.9583,0,0,0,0,0,0,0,0,Backing Unsafely
+4407807,2021-04-15,14:54,Greenpoint Avenue & Manhattan Avenue,Brooklyn,Kings County,11222,40.730198,-73.954254,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407706,2021-04-15,9:30,West 135 Street,Manhattan,New York County,10031,40.821117,-73.957466,0,0,0,0,0,0,0,0,Unspecified
+4407456,2021-04-14,23:26,Major Deegan Expressway,Bronx,Bronx County,10453,40.849167,-73.92393,0,0,0,0,0,0,0,0,Unsafe Speed
+4408050,2021-04-13,17:20,Neptune Avenue,Brooklyn,Kings County,11224,40.579826,-73.97622,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407699,2021-04-15,16:20,440       Bergen Street,Brooklyn,Kings County,11217,40.681335,-73.97667,1,0,0,0,0,0,1,0,Other Vehicular
+4407605,2021-04-15,7:34,Fdr Drive,Manhattan,New York County,10128,40.756725,-73.96,0,0,0,0,0,0,0,0,Reaction To Uninvolved Vehicle
+4407135,2021-04-14,2:10,92-15     Northern Boulevard,Queens,Queens County,11372,40.756557,-73.87594,0,0,0,0,0,0,0,0,Alcohol Involvement
+4407661,2021-04-15,15:30,Dewey Place & Herkimer Street,Brooklyn,Kings County,11233,40.67792,-73.9182,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407930,2021-04-14,7:44,Avenue U & Ryder Street,Brooklyn,Kings County,11234,40.607876,-73.92554,0,0,0,0,0,0,0,0,Turning Improperly
+4407851,2021-04-16,15:16,Belt Parkway,Brooklyn,Kings County,11229,40.607643,-74.03375,0,0,0,0,0,0,0,0,Following Too Closely
+4407844,2021-04-15,13:45,Osborne Avenue & Russell Street,Staten Island,Richmond County,10308,40.540188,-74.149,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407630,2021-04-15,0:00,305       96 Street,Brooklyn,Kings County,11209,40.616306,-74.03348,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407383,2021-04-14,19:40,Forest Park Drive & Myrtle Avenue,Queens,Queens County,11418,40.7030404,-73.8686786,0,0,0,0,0,0,0,0,Other Vehicular
+4408202,2021-04-13,14:44,Rockaway Beach Boulevard & Beach 102 Street,Queens,Queens County,11693,40.583874,-73.823044,1,0,0,0,0,0,1,0,Turning Improperly
+4407516,2021-04-14,9:30,Bainbridge Avenue & East 208 Street,Bronx,Bronx County,10467,40.877827,-73.879585,0,0,0,0,0,0,0,0,Unsafe Lane Changing
+4407317,2021-04-14,13:20,Queens Boulevard,Queens,Queens County,11373,40.714554,-73.83147,1,0,0,0,0,0,1,0,Following Too Closely
+4408210,2021-04-15,16:00,37 Avenue,Queens,Kings County,11205,40.763668,-73.82303,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407894,2021-04-16,20:24,Pelham Parkway,Bronx,Bronx County,10467,40.8572318,-73.86841,1,0,0,0,0,0,1,0,Unsafe Speed
+4408354,2021-04-16,16:25,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.705246,-73.95908,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407911,2021-04-15,15:45,Ulmer Street & 26 Avenue,Queens,Queens County,11354,40.77451,-73.838036,0,0,0,0,0,0,0,0,Following Too Closely
+4456516,2021-09-09,16:45,1400      York Avenue,Manhattan,New York County,10021,40.768482,-73.95255,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407839,2021-04-08,13:25,1844      Lexington Avenue,Manhattan,New York County,10029,40.797405,-73.942535,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408084,2021-04-01,15:10,484       2 Avenue,Manhattan,New York County,10016,40.74058,-73.978935,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407510,2021-04-14,12:12,823       East 169 Street,Bronx,Bronx County,10459,40.829723,-73.8981,1,0,0,0,0,0,1,0,Unspecified
+4407992,2021-04-05,9:15,Parsons Boulevard & 59 Avenue,Queens,Queens County,11365,40.7406,-73.81025,1,0,1,0,0,0,0,0,Backing Unsafely
+4408252,2021-04-16,16:20,49-29     Metropolitan Avenue,Queens,Queens County,11385,40.71363,-73.917885,0,0,0,0,0,0,0,0,Backing Unsafely
+4408221,2021-04-15,9:00,Caton Avenue & East 7 Street,Brooklyn,Kings County,11218,40.647594,-73.97351,1,0,0,0,0,0,1,0,Unspecified
+4456756,2021-08-28,18:00,8 Avenue,Manhattan,Kings County,11205,40.760403,-73.98748,0,0,0,0,0,0,0,0,Unspecified
+4408030,2021-04-10,11:15,Forsyth Street & Delancey Street,Manhattan,New York County,10002,40.71975,-73.992165,1,0,1,0,0,0,0,0,Driver Inattention/Distraction
+4407787,2021-04-13,13:40,University Avenue,Bronx,Bronx County,10453,40.834503,-73.93037,0,0,0,0,0,0,0,0,Unspecified
+4407646,2021-04-15,15:34,450       Bay Street,Staten Island,Richmond County,10304,40.63115,-74.076454,1,0,1,0,0,0,0,0,Failure To Yield Right-Of-Way
+4408195,2021-04-10,8:50,East 167 Street,Bronx,Bronx County,10452,40.835724,-73.92129,0,0,0,0,0,0,0,0,Following Too Closely
+4407571,2021-04-15,12:15,355       Bard Avenue,Staten Island,Richmond County,10310,40.6354,-74.106674,0,0,0,0,0,0,0,0,Unspecified
+4407908,2021-04-07,14:30,135-02    20 Avenue,Queens,Queens County,11356,40.781647,-73.833664,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407427,2021-04-14,5:39,9         Flatbush Avenue,Brooklyn,Kings County,11217,40.68837,-73.98056,3,0,0,0,0,0,3,0,Driver Inattention/Distraction
+4408409,2021-04-16,22:00,Madison Avenue & East 101 Street,Manhattan,New York County,10029,40.790417,-73.95184,0,0,0,0,0,0,0,0,Other Vehicular
+4408121,2021-04-15,20:00,Remsen Avenue & Ditmas Avenue,Brooklyn,Kings County,11236,40.6481,-73.91474,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407954,2021-04-16,14:00,91-48     193 Street,Queens,Queens County,11423,40.71275,-73.7673,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407755,2021-04-14,8:45,Belt Parkway,Brooklyn,Kings County,11229,40.60069,-74.010056,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407438,2021-04-14,17:00,98-32     57 Avenue,Queens,Queens County,11368,40.738068,-73.861046,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408419,2021-04-15,23:09,Lefferts Boulevard & 111 Avenue,Queens,Queens County,11420,40.680496,-73.821365,0,0,0,0,0,0,0,0,Passing Too Closely
+4408036,2021-04-16,15:32,1406      East 21 Street,Brooklyn,Kings County,11210,40.61924,-73.954124,0,0,0,0,0,0,0,0,Failure To Yield Right-Of-Way
+4407871,2021-04-16,22:45,80 Street & Colonial Road,Brooklyn,Kings County,11209,40.629105,-74.034645,0,0,0,0,0,0,0,0,Unspecified
+4407551,2021-04-14,11:40,Knickerbocker Avenue & Himrod Street,Brooklyn,Kings County,11237,40.699818,-73.920135,0,0,0,0,0,0,0,0,Passing Too Closely
+4407481,2021-04-14,14:15,Clearview Expressway & 26 Avenue,Brooklyn,New York County,10007,40.7127281,-74.0060152,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407341,2021-04-14,10:10,Murdock Avenue & Farmers Boulevard,Queens,Queens County,11412,40.69802,-73.7623,1,0,0,0,0,0,1,0,Driver Inattention/Distraction
+4407974,2021-04-10,0:00,West 64 Street,Manhattan,New York County,10011,40.73547,-73.99687389240245,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4408310,2021-04-15,20:00,Greenfield Avenue & Osgood Avenue,Staten Island,New York County,10304,40.7127281,-74.0060152,0,0,0,0,0,0,0,0,Unspecified
+4408040,2021-04-16,12:30,Ocean Parkway & Avenue H,Brooklyn,Kings County,11230,40.62893,-73.971375,0,0,0,0,0,0,0,0,Unspecified
+4408069,2021-04-16,16:15,460       West 155 Street,Manhattan,New York County,10032,40.831177,-73.942085,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4408267,2021-04-02,18:00,Bergen Street & Utica Avenue,Brooklyn,Kings County,11213,40.675037,-73.930534,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407358,2021-04-14,19:01,2820      Snyder Avenue,Brooklyn,Kings County,11226,40.64884,-73.95102,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4455876,2021-09-11,13:30,Northern Boulevard & 204 Street,Queens,Queens County,11361,40.757725,-73.779274,0,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407695,2021-04-15,10:13,525       East 72 Street,Manhattan,New York County,10021,40.766586,-73.9531,0,0,0,0,0,0,0,0,Passing Too Closely
+4407265,2021-04-14,9:40,Bruckner Expressway & East Tremont Avenue,Bronx,Bronx County,10465,40.833126,-73.828285,0,0,0,0,0,0,0,0,Unspecified
+4408300,2021-04-10,22:06,1055      University Avenue,Bronx,Bronx County,10452,40.834675,-73.930275,4,0,0,0,0,0,4,0,Following Too Closely
+4407768,2021-04-13,8:04,East 13 Street & Avenue T,Brooklyn,Kings County,11229,40.600883,-73.958694,1,0,0,0,0,0,0,0,Driver Inattention/Distraction
+4407680,2021-04-15,23:06,Marion Avenue & East 193 Street,Bronx,Kings County,10458,40.863647,-73.8918,1,0,0,0,0,0,1,0,Traffic Control Disregarded
+4407494,2021-04-14,12:00,33        Ferndale Avenue,Staten Island,Richmond County,10314,40.593002,-74.159,0,0,0,0,0,0,0,0,Passing Too Closely
+4408304,2021-04-10,4:45,Throop Avenue & Greene Avenue,Brooklyn,Kings County,11221,40.689426,-73.94223,0,0,0,0,0,0,0,0,Traffic Control Disregarded
+4407827,2021-04-14,17:30,West 34 Street,Manhattan,New York County,10011,40.75458,-73.99915,0,0,0,0,0,0,0,0,Passing Or Lane Usage Improper
+4407399,2021-04-14,22:40,Long Island Expressway,Queens,Queens County,11367,40.741394,-73.82303,2,0,0,0,0,0,2,0,Unspecified
+4407740,2021-04-14,12:47,Hendrix Street & Atlantic Avenue,Brooklyn,Kings County,11207,40.676594,-73.89038,2,0,0,0,0,0,2,0,Turning Improperly
+4408392,2021-04-16,14:30,East 64 Street,Manhattan,New York County,10065,40.76468,-73.9643,0,0,0,0,0,0,0,0,Backing Unsafely
+4407822,2021-04-15,0:00,West 155 Street & Broadway,Manhattan,Kings County,10032,40.832764,-73.94583,3,0,0,0,0,0,3,0,Driver Inattention/Distraction
+4407655,2021-04-14,6:55,Brooklyn Queens Expressway,Brooklyn,Kings County,11104,40.698544,-73.96236,0,0,0,0,0,0,0,0,Following Too Closely
+4407712,2021-04-14,19:00,72-24     Broadway,Queens,Queens County,11372,40.747536,-73.89344,0,0,0,0,0,0,0,0,Unspecified
