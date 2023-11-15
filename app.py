@@ -6,6 +6,7 @@ import numpy as np
 from flask import Flask,jsonify
 from datetime import datetime
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
+from flask import render_template
 
 #################################################
 # Database Setup
@@ -38,7 +39,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello World!"
+    return render_template('index.html')
 
 @app.route("/api/v1.0/collision")
 def read_all():
@@ -48,12 +49,6 @@ def read_all():
     # Serialize the query results to JSON using the schema
     result = motor_collision_schema.dump(all_collisions, many=True)
     return jsonify(result)
-
-@app.route("/collisions")
-def get_collision():
-    results = session.query(MotorCollision.latitude).all()
-
-    return jsonify(list(np.ravel(results)))
 
 if __name__ == "__main__":
     app.run(debug=True)
