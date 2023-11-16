@@ -1,0 +1,67 @@
+/* General styles for the body and html to set background and text color */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #000000;
+    /* Deep black background */
+    color: #fff;
+    /* High contrast text */
+}
+
+/* Styles for the custom navbar */
+.navbar-custom {
+    background-color: #000000;
+    /* Deep black navbar */
+}
+
+/* Styles for navbar brand and links */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    /* High contrast text for navbar */
+}
+
+/* Hover effect for navbar brand and subtitle */
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:hover .subtitle {
+    color: rgb(184, 110, 110);
+    /* Color change on hover */
+    text-decoration: none;
+    /* No underline on hover */
+}
+
+/* Hover effect for navbar links */
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: rgb(184, 110, 110);
+    /* Color change on hover */
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* Styles for navbar brand */
+.navbar-brand {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5em;
+}
+
+/* Styles for subtitle within the navbar brand */
+.navbar-brand .subtitle {
+    font-size: 0.75em;
+}
+
+/* Styles for the vertical line separator */
+.vertical-line {
+    border-left: 2px solid white;
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Styles for the secondary brand in the navbar */
+.brand-secondary {
+    font-family: sans-serif;
+    font-size: 1em;
+    vertical-align: super;
+}
