@@ -2,3 +2,6 @@
 /Resources/collision_geo_data_clean.csv filter=lfs diff=lfs merge=lfs -text
 /data_cleaning_process/collision_geo_data_cleaning.ipynb filter=lfs diff=lfs merge=lfs -text
 /Resources/collision_db.sqlite filter=lfs diff=lfs merge=lfs -text
+/Resources/nyc_geojson_by_zip.json filter=lfs diff=lfs merge=lfs -text
+/Resources/past_weather_ny.csv filter=lfs diff=lfs merge=lfs -text
+/Resources/NewYork_DemographicsByZipCode.xlsx filter=lfs diff=lfs merge=lfs -text
