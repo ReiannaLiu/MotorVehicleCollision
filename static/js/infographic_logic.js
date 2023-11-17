@@ -195,6 +195,105 @@ d3.json(infoData).then(function (data) {
             }
         }
     });
-
-
 });
+
+// Create the line chart
+var hour_data = "http://127.0.0.1:5000/api/v1.0/motor_collision/" + zipcode + "/by_hour";
+var hour_json;
+
+d3.json(hour_data).then(function (data) {
+    hour_json = data;
+    console.log(hour_json);
+    if (Object.keys(hour_json).length == 0) {
+        // no charts available
+        d3.select('#lineChart').innerHTML = "No data available for this zipcode";
+    }
+    else {
+        init(hour_json, 'hour');
+    }
+});
+
+var wekday_data = "http://127.0.0.1:5000/api/v1.0/motor_collision/" + zipcode + "/by_weekday";
+var wekday_json;
+
+d3.json(wekday_data).then(function (data) {
+    wekday_json = data;
+    if (Object.keys(wekday_json).length === 0) {
+        d3.select('#lineChart').innerHTML = "No data available for this zipcode";
+    }
+});
+
+var month_data = "http://127.0.0.1:5000/api/v1.0/motor_collision/" + zipcode + "/by_month";
+var month_json;
+
+d3.json(month_data).then(function (data) {
+    month_json = data;
+    if (Object.keys(month_json).length === 0) {
+        d3.select('#lineChart').innerHTML = "No data available for this zipcode";
+    }
+});
+
+function init(jsonData, timeFrame) {
+    let data = [{
+        x: Object.keys(hour_json),
+        y: Object.values(hour_json),
+        type: "line"
+    }];
+
+    let layout = {
+        autosize: true,
+        margin: { t: 0 },
+        paper_bgcolor: 'black',
+        plot_bgcolor: 'black',
+        font: {
+            color: '#ffffff'
+        },
+        xaxis: {
+            gridcolor: '#444',
+            tickcolor: '#fff'
+        },
+        yaxis: {
+            gridcolor: '#444',
+            tickcolor: '#fff'
+        }
+    };
+
+    Plotly.newPlot("lineChart", data, layout);
+}
+
+// On change to the DOM, call getData()
+d3.selectAll('input[name="aggregateTime"]').on("change", function () {
+    let aggregateTime = d3.select('input[name="aggregateTime"]:checked').property("value");
+    let data = [];
+
+    if (aggregateTime == 'hour') {
+        data = [{
+            x: Object.keys(hour_json),
+            y: Object.values(hour_json),
+            type: "line"
+        }];
+    }
+    else if (aggregateTime == 'weekday') {
+        data = [{
+            x: Object.keys(wekday_json),
+            y: Object.values(wekday_json),
+            type: "line"
+        }];
+    }
+    else if (aggregateTime == 'month') {
+        data = [{
+            x: Object.keys(month_json),
+            y: Object.values(month_json),
+            type: "line"
+        }];
+    }
+
+    if (data) {
+        updatePlotly(data);
+    }
+});
+
+function updatePlotly(newData) {
+    Plotly.restyle("lineChart", "x", [newData[0].x]);
+    Plotly.restyle("lineChart", "y", [newData[0].y]);
+}

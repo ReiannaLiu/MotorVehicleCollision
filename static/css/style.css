@@ -139,3 +139,15 @@ html {
     height: 125px;
     margin: 0 5px;
 }
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    accent-color: #007bff;
+}
+
+.form-check-label {
+    margin-left: 0.3em;
+}
