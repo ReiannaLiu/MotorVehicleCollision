@@ -22,6 +22,10 @@
 
     <!-- Chart library-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
 </head>
 
 
@@ -91,6 +95,36 @@
             <div class="col-md-4" style="padding-left: 0px; text-align: center; margin-left: 0px;">
                 <h5>Weather Conditions</h5>
                 <div id="boxplot" style="width: 100%; height: 300px;"></div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-1" style="padding-left: 40px;">
+                <form style="text-align: left;">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aggregateTime" id="Hour" value="hour"
+                            checked>
+                        <label class="form-check-label" for="Hour">
+                            Hour
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aggregateTime" id="Weekday" value="weekday">
+                        <label class="form-check-label" for="Weekday">
+                            Weekday
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aggregateTime" id="Month" value="month">
+                        <label class="form-check-label" for="Month">
+                            Month
+                        </label>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-11">
+                <h5 style="text-align: center;">Distribution of Traffic Accidents</h5>
+                <div id="lineChart" style="width: 100%; height: 300px;"></div>
             </div>
         </div>
     </div>
