@@ -1,93 +1,366 @@
 datetime,tempmax,tempmin,temp,humidity,precip,preciptype,snow,windspeed,visibility,severerisk,sunrise,sunset,icon,temperature_category,precip_category,humid_category,wind_level
-2016-04-16,65.4,44.3,53.3,40.6,0.0,0,0,12.1,9.9,0.0,06:14,19:37,clear-day,Moderate,Dry,Low,Flags wave
-2019-05-21,23.7,14.3,19.0,43.6,1.159,1,0,26.1,16.0,0.0,05:34,20:11,rain,Freezing Cold,Heavy,Low,Umbrellas not working
-2020-01-21,3.1,-4.5,-1.6,54.3,0.0,0,0,16.2,16.0,0.0,07:15,16:59,clear-day,Freezing Cold,Dry,High,Leaves scatter
-2020-04-15,12.7,6.1,9.5,41.9,0.0,0,0,18.3,16.0,0.0,06:16,19:36,cloudy,Freezing Cold,Dry,Low,Small trees sway
-2021-02-26,45.0,35.0,40.1,46.4,0.0,0,0,9.1,9.9,0.0,06:34,17:44,clear-day,Moderate,Dry,Low,Flags wave
-2021-03-09,64.9,39.2,50.5,36.9,0.0,0,0,10.1,9.9,0.0,06:16,17:56,cloudy,Moderate,Dry,Low,Flags wave
-2021-03-20,58.9,35.0,44.9,38.2,0.0,0,0,7.8,9.9,0.0,06:58,19:08,clear-day,Moderate,Dry,Low,Flags wave
-2021-03-25,64.3,48.8,54.4,90.0,0.01,1,0,12.2,5.3,0.0,06:50,19:13,rain,Moderate,Light,Very High,Leaves scatter
-2021-03-28,60.9,50.0,54.5,83.7,0.295,1,0,12.7,8.5,0.0,06:45,19:16,rain,Moderate,Moderate,Very High,Leaves scatter
-2021-03-31,63.1,50.0,55.9,81.4,0.222,1,0,9.3,9.7,0.0,06:40,19:20,rain,Moderate,Moderate,Very High,Flags wave
-2021-04-01,56.8,41.0,47.4,65.6,0.059,1,0,7.3,9.1,0.0,06:39,19:21,rain,Moderate,Light,High,Flags wave
-2021-04-02,40.8,30.7,36.8,43.5,0.0,0,0,12.5,9.9,0.0,06:37,19:22,cloudy,Cold,Dry,Low,Leaves scatter
-2021-04-04,61.2,45.0,52.1,41.7,0.0,0,0,6.7,9.9,0.0,06:34,19:24,cloudy,Moderate,Dry,Low,Flags ripple
-2021-04-05,69.1,47.9,58.0,31.1,0.0,0,0,8.1,9.9,0.0,06:32,19:25,clear-day,Moderate,Dry,Low,Flags wave
-2021-04-06,70.9,47.1,58.5,26.3,0.0,0,0,10.3,9.9,0.0,06:30,19:26,clear-day,Moderate,Dry,Low,Flags wave
-2021-04-07,69.3,52.1,58.1,43.0,0.0,0,0,7.8,9.9,0.0,06:29,19:27,clear-day,Moderate,Dry,Low,Flags wave
-2021-04-08,67.0,48.9,57.0,57.2,0.0,0,0,9.2,9.9,0.0,06:27,19:28,clear-day,Moderate,Dry,High,Flags wave
-2021-04-09,55.1,48.8,50.9,79.1,0.001,1,0,10.1,9.9,0.0,06:26,19:29,rain,Moderate,Light,High,Flags wave
-2021-04-10,63.2,49.0,55.0,82.3,0.0,0,0,7.1,9.6,0.0,06:24,19:30,cloudy,Moderate,Dry,Very High,Flags ripple
-2021-04-11,56.8,48.8,53.7,94.3,0.117,1,0,22.5,5.5,0.0,06:23,19:31,rain,Moderate,Moderate,Very High,Small trees sway
-2021-04-12,50.1,46.1,47.5,84.1,0.212,1,0,20.3,7.5,0.0,06:21,19:32,rain,Moderate,Moderate,Very High,Small trees sway
-2021-04-13,65.8,46.0,54.0,65.1,0.091,1,0,10.2,9.8,0.0,06:19,19:33,rain,Moderate,Light,High,Flags wave
-2021-04-14,69.3,47.2,56.7,67.8,0.0,0,0,10.1,9.9,0.0,06:18,19:34,cloudy,Moderate,Dry,High,Flags wave
-2021-04-15,57.1,47.0,52.7,86.7,0.309,1,0,8.1,9.1,0.0,06:16,19:35,rain,Moderate,Heavy,Very High,Flags wave
-2021-04-16,52.0,43.0,47.7,69.5,0.021,1,0,11.2,9.7,0.0,06:15,19:36,rain,Moderate,Light,High,Flags wave
-2021-06-25,79.1,65.0,70.6,68.4,0.028,1,0,11.0,9.9,0.0,05:26,20:31,rain,Warm,Light,High,Flags wave
-2021-06-26,82.1,69.2,75.2,80.7,0.039,1,0,12.8,9.7,0.0,05:26,20:31,rain,Warm,Light,Very High,Leaves scatter
-2021-06-29,93.1,78.3,85.4,63.2,0.0,0,0,13.2,9.9,0.0,05:27,20:31,clear-day,Hot,Dry,High,Leaves scatter
-2021-06-30,95.0,74.1,86.3,61.5,0.224,1,0,14.7,9.5,0.0,05:28,20:31,rain,Hot,Moderate,High,Leaves scatter
-2021-07-01,83.9,71.2,76.2,82.8,0.141,1,0,5.7,9.5,0.0,05:28,20:31,rain,Warm,Moderate,Very High,Flags ripple
-2021-07-02,78.9,65.0,72.8,83.5,0.199,1,0,22.5,9.6,0.0,05:29,20:30,rain,Warm,Moderate,Very High,Small trees sway
-2021-07-03,66.8,62.1,64.5,84.8,0.047,1,0,19.3,9.3,0.0,05:29,20:30,rain,Warm,Light,Very High,Small trees sway
-2021-07-04,81.9,62.9,70.8,71.3,0.009,1,0,7.9,9.8,0.0,05:30,20:30,rain,Warm,Light,High,Flags wave
-2021-07-05,85.7,69.0,76.3,72.2,0.0,0,0,9.3,8.6,0.0,05:31,20:30,clear-day,Warm,Dry,High,Flags wave
-2021-07-06,92.8,72.0,80.2,68.2,0.259,1,0,15.9,9.7,0.0,05:31,20:29,rain,Hot,Moderate,High,Leaves scatter
-2021-07-07,92.8,71.1,82.0,71.4,0.009,1,0,8.9,9.8,0.0,05:32,20:29,rain,Hot,Light,High,Flags wave
-2021-07-08,84.7,74.0,78.4,77.5,0.229,1,0,12.5,9.4,0.0,05:32,20:29,rain,Warm,Moderate,High,Leaves scatter
-2021-07-09,87.9,71.1,77.3,80.2,0.117,1,0,14.6,8.7,0.0,05:33,20:28,rain,Warm,Moderate,Very High,Leaves scatter
-2021-08-05,82.7,69.2,74.2,70.7,0.0,0,0,13.4,9.9,0.0,05:56,20:06,cloudy,Warm,Dry,High,Leaves scatter
-2021-08-11,93.4,74.0,80.8,77.2,0.238,1,0,9.0,9.7,0.0,06:02,19:59,rain,Hot,Moderate,High,Flags wave
-2021-08-23,86.9,72.0,77.4,82.2,0.062,1,0,14.6,8.8,0.0,06:14,19:42,rain,Warm,Light,Very High,Leaves scatter
-2021-08-28,80.9,69.3,74.7,74.8,0.046,1,0,20.5,9.7,0.0,06:19,19:34,rain,Warm,Light,High,Small trees sway
-2021-08-29,76.9,69.0,72.4,78.8,0.0,0,0,14.3,9.7,0.0,06:20,19:32,cloudy,Warm,Dry,High,Leaves scatter
-2021-09-01,77.1,66.7,73.0,82.1,2.821,1,0,25.0,8.2,0.0,06:23,19:27,rain,Warm,Heavy,Very High,Umbrellas not working
-2021-09-02,80.6,62.9,70.7,62.8,0.075,1,0,14.1,9.4,0.0,06:24,19:26,rain,Warm,Light,High,Leaves scatter
-2021-09-03,78.7,61.9,69.8,58.6,0.009,1,0,9.0,9.9,0.0,06:25,19:24,rain,Warm,Light,High,Flags wave
-2021-09-05,74.9,68.0,72.0,76.5,0.002,1,0,13.5,9.8,0.0,06:27,19:21,rain,Warm,Light,High,Leaves scatter
-2021-09-06,84.6,71.0,76.7,64.6,0.028,1,0,14.7,9.9,0.0,06:28,19:19,rain,Warm,Light,High,Leaves scatter
-2021-09-07,83.7,67.9,75.1,57.6,0.0,0,0,8.8,9.9,0.0,06:29,19:18,clear-day,Warm,Dry,High,Flags wave
-2021-09-08,83.7,71.1,76.6,72.9,0.0,0,0,16.9,9.9,0.0,06:30,19:16,cloudy,Warm,Dry,High,Leaves scatter
-2021-09-09,75.8,70.0,71.7,84.7,0.163,1,0,9.2,9.7,0.0,06:31,19:14,rain,Warm,Moderate,Very High,Flags wave
-2021-09-10,78.7,65.0,71.7,57.1,0.009,1,0,6.1,9.9,0.0,06:32,19:13,rain,Warm,Light,High,Flags ripple
-2021-09-11,79.8,64.0,71.6,56.0,0.009,1,0,12.8,9.9,0.0,06:32,19:11,rain,Warm,Light,High,Leaves scatter
-2021-11-24,44.6,30.8,38.2,46.2,0.0,0,0,10.5,9.9,0.0,06:53,16:31,clear-day,Cold,Dry,Low,Flags wave
-2021-11-27,38.8,34.6,36.9,48.8,0.0,0,0,14.8,9.9,0.0,06:56,16:30,cloudy,Cold,Dry,Low,Leaves scatter
-2021-12-01,48.8,40.7,44.9,47.4,0.0,0,0,16.1,9.9,0.0,07:01,16:29,cloudy,Moderate,Dry,Low,Leaves scatter
-2021-12-03,48.5,38.5,44.1,43.3,0.0,0,0,15.8,9.9,0.0,07:03,16:28,clear-day,Moderate,Dry,Low,Leaves scatter
-2021-12-04,48.2,37.6,42.6,50.9,0.0,0,0,11.8,9.9,0.0,07:04,16:28,cloudy,Moderate,Dry,High,Flags wave
-2021-12-05,47.5,40.5,44.3,42.1,0.0,0,0,10.3,9.9,0.0,07:05,16:28,cloudy,Moderate,Dry,Low,Flags wave
-2021-12-06,60.2,46.4,52.8,80.5,0.428,1,0,21.4,6.7,0.0,07:05,16:28,rain,Moderate,Heavy,Very High,Small trees sway
-2021-12-07,44.9,37.6,39.7,43.7,0.0,0,0,19.0,9.9,0.0,07:06,16:28,cloudy,Cold,Dry,Low,Small trees sway
-2021-12-08,41.3,34.6,38.6,64.9,0.042,1,0,10.0,9.4,0.0,07:07,16:28,rain,Cold,Light,High,Flags wave
-2021-12-09,38.9,32.5,35.9,51.3,0.0,0,0,18.3,9.9,0.0,07:08,16:28,cloudy,Cold,Dry,High,Small trees sway
-2021-12-10,49.5,38.5,44.8,54.1,0.0,0,0,9.2,9.9,0.0,07:09,16:28,cloudy,Moderate,Dry,High,Flags wave
-2021-12-11,65.7,45.3,55.7,81.7,0.134,1,0,15.0,6.9,0.0,07:10,16:28,rain,Moderate,Moderate,Very High,Leaves scatter
-2021-12-12,57.5,42.7,46.4,35.9,0.0,0,0,21.2,9.9,0.0,07:11,16:28,cloudy,Moderate,Dry,Low,Small trees sway
-2021-12-13,52.6,40.5,46.4,32.3,0.0,0,0,13.2,9.9,0.0,07:11,16:28,clear-day,Moderate,Dry,Low,Leaves scatter
-2021-12-14,53.1,44.7,48.2,32.7,0.0,0,0,8.8,9.9,0.0,07:12,16:29,clear-day,Moderate,Dry,Low,Flags wave
-2021-12-16,62.1,54.3,58.0,59.8,0.0,0,0,13.0,9.9,0.0,07:13,16:29,cloudy,Moderate,Dry,High,Leaves scatter
-2022-02-25,43.0,28.9,35.0,76.4,0.432,1,1,16.9,7.9,10.0,06:35,17:42,snow,Cold,Heavy,High,Leaves scatter
-2022-03-05,46.0,33.2,39.3,51.7,0.0,0,0,10.2,9.9,10.0,06:23,17:51,clear-day,Cold,Dry,High,Flags wave
-2022-03-08,52.9,40.9,45.1,39.9,0.009,1,0,10.1,9.9,10.0,06:18,17:55,rain,Moderate,Light,Low,Flags wave
-2022-03-09,42.1,35.8,38.3,78.6,0.242,1,1,13.7,7.9,10.0,06:17,17:56,snow,Cold,Moderate,High,Leaves scatter
-2022-03-10,48.8,34.9,41.1,71.8,0.0,0,0,8.9,8.9,10.0,06:15,17:57,clear-day,Moderate,Dry,High,Flags wave
-2022-03-14,56.0,32.0,44.4,49.8,0.0,0,0,11.4,9.9,10.0,07:09,19:01,cloudy,Moderate,Dry,Low,Flags wave
-2022-03-16,65.0,48.3,55.4,55.5,0.0,0,0,13.5,9.9,10.0,07:05,19:03,clear-day,Moderate,Dry,High,Leaves scatter
-2022-03-17,53.0,44.9,49.2,90.0,0.018,1,0,16.5,5.9,10.0,07:04,19:05,rain,Moderate,Light,Very High,Leaves scatter
-2022-03-20,57.1,47.0,54.1,61.9,0.01,1,0,14.6,9.9,10.0,06:59,19:08,rain,Moderate,Light,High,Leaves scatter
-2022-03-21,64.8,45.0,53.3,39.3,0.036,1,0,11.6,9.9,10.0,06:57,19:09,rain,Moderate,Light,Low,Flags wave
-2022-03-22,60.0,46.0,52.7,27.1,0.0,0,0,11.6,9.9,10.0,06:55,19:10,cloudy,Moderate,Dry,Low,Flags wave
-2022-03-23,48.0,40.9,44.2,46.7,0.001,1,0,17.7,9.9,10.0,06:54,19:11,rain,Moderate,Light,Low,Leaves scatter
-2022-03-24,47.0,40.8,43.6,90.7,0.24,1,0,21.8,6.1,10.0,06:52,19:12,rain,Moderate,Moderate,Very High,Small trees sway
-2022-03-25,57.1,44.9,50.3,69.9,0.026,1,0,17.8,9.4,10.0,06:51,19:13,rain,Moderate,Light,High,Leaves scatter
-2022-03-26,52.9,45.0,49.3,53.5,0.002,1,0,14.2,9.9,10.0,06:49,19:14,rain,Moderate,Light,High,Leaves scatter
-2022-04-07,52.2,46.1,48.9,88.4,0.29,1,0,20.9,7.5,10.0,06:29,19:27,rain,Moderate,Moderate,Very High,Small trees sway
-2022-04-12,72.9,48.1,57.8,58.9,0.049,1,0,7.8,9.9,10.0,06:21,19:32,rain,Moderate,Light,High,Flags wave
-2022-04-15,69.1,52.1,59.7,35.6,0.009,1,0,13.9,9.9,10.0,06:17,19:35,rain,Moderate,Light,Low,Leaves scatter
-2022-04-20,61.9,43.0,50.8,44.9,0.0,0,0,16.9,9.9,10.0,06:09,19:40,clear-day,Moderate,Dry,Low,Leaves scatter
-2022-04-22,70.9,52.2,60.6,43.5,0.0,0,0,11.4,9.7,10.0,06:06,19:42,clear-day,Warm,Dry,Low,Flags wave
-2022-04-24,61.9,48.8,55.0,53.2,0.0,0,0,13.6,9.9,10.0,06:04,19:45,cloudy,Moderate,Dry,High,Leaves scatter
-2022-06-29,83.1,65.9,74.7,57.2,0.027,1,0,14.6,9.8,30.0,05:27,20:31,rain,Warm,Light,High,Leaves scatter
-2022-07-12,89.0,70.1,78.8,66.8,0.0,0,0,14.5,9.9,60.0,05:35,20:27,cloudy,Warm,Dry,High,Leaves scatter
+2022-01-01,13.5,10.0,11.6,91.6,18.463,1,0,13.1,8.7,0.0,07:20,16:39,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-01-02,14.7,3.6,10.2,83.8,2.318,1,0,22.9,11.8,0.0,07:20,16:40,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-01-03,3.3,-4.7,-1.0,49.9,0.0,0,0,26.1,16.0,0.0,07:20,16:41,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-01-04,1.3,-6.9,-2.6,49.1,0.0,0,0,19.9,16.0,0.0,07:20,16:42,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-01-05,8.1,-0.5,4.2,77.0,5.745,1,0,20.5,13.5,0.0,07:20,16:42,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-01-06,5.2,1.8,3.2,50.2,0.0,0,1,21.3,16.0,0.0,07:20,16:43,snow,Freezing Cold,Dry,High,Small trees sway
+2022-01-07,1.4,-3.0,-0.9,65.9,9.314,1,1,24.0,10.1,0.0,07:20,16:44,snow,Freezing Cold,Heavy,High,Small trees sway
+2022-01-08,-1.2,-6.2,-3.3,44.1,0.0,0,0,24.0,16.0,0.0,07:20,16:45,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-01-09,4.3,-1.5,2.2,66.8,2.765,1,0,22.3,14.8,0.0,07:19,16:46,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-01-10,4.7,-3.6,-0.7,47.0,0.0,0,0,33.6,15.9,10.0,07:19,16:47,cloudy,Freezing Cold,Dry,Low,
+2022-01-11,-3.9,-8.9,-7.3,40.8,0.0,0,0,35.3,15.5,10.0,07:19,16:48,clear-day,Freezing Cold,Dry,Low,
+2022-01-12,4.3,-6.6,-0.2,46.2,0.0,0,0,22.3,16.0,10.0,07:19,16:50,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-01-13,8.4,1.8,4.4,59.3,0.0,0,0,11.6,15.7,10.0,07:18,16:51,cloudy,Freezing Cold,Dry,High,Flags wave
+2022-01-14,5.7,-4.2,3.1,66.2,0.0,0,0,29.6,15.9,10.0,07:18,16:52,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-01-15,-5.8,-11.4,-8.7,45.3,0.0,0,0,22.4,16.0,10.0,07:18,16:53,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-01-16,1.8,-12.0,-6.3,64.9,5.546,1,1,29.3,13.6,10.0,07:17,16:54,snow,Freezing Cold,Heavy,High,Umbrellas not working
+2022-01-17,6.8,1.4,3.6,75.8,26.429,1,0,34.9,12.4,10.0,07:17,16:55,rain,Freezing Cold,Heavy,High,
+2022-01-18,2.5,-1.0,0.6,46.6,0.0,0,0,28.8,16.0,10.0,07:16,16:56,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-01-19,9.5,-1.5,4.6,47.9,0.0,0,0,22.3,16.0,10.0,07:16,16:57,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-01-20,7.5,-4.2,2.1,61.3,6.116,1,1,22.3,12.6,10.0,07:15,16:59,snow,Freezing Cold,Heavy,High,Small trees sway
+2022-01-21,-5.0,-9.8,-7.5,42.7,0.0,0,0,21.9,16.0,10.0,07:14,17:00,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-01-22,-1.5,-10.0,-5.5,47.1,0.0,0,0,18.1,16.0,10.0,07:14,17:01,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-01-23,2.5,-4.1,-1.0,45.4,0.52,1,0,20.5,14.6,10.0,07:13,17:02,rain,Freezing Cold,Heavy,Low,Small trees sway
+2022-01-24,1.8,-2.6,-0.4,63.5,0.0,0,0,16.3,14.7,10.0,07:12,17:03,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-01-25,5.8,-0.8,2.9,56.2,0.0,0,0,19.8,14.7,10.0,07:12,17:05,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-01-26,-1.5,-6.0,-4.1,37.9,0.0,0,0,24.1,16.0,10.0,07:11,17:06,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-01-27,-0.5,-7.6,-3.6,44.2,0.0,0,0,15.7,15.8,10.0,07:10,17:07,cloudy,Freezing Cold,Dry,Low,Leaves scatter
+2022-01-28,0.2,-1.5,-0.5,67.2,1.702,0,1,21.0,8.1,10.0,07:09,17:08,snow,Freezing Cold,Heavy,High,Small trees sway
+2022-01-29,-1.5,-10.2,-7.0,69.2,15.831,0,1,29.7,6.0,10.0,07:08,17:10,snow,Freezing Cold,Heavy,High,Umbrellas not working
+2022-01-30,-3.3,-10.7,-7.2,45.5,0.0,0,1,29.7,16.0,10.0,07:07,17:11,snow,Freezing Cold,Dry,Low,Umbrellas not working
+2022-01-31,-0.9,-6.1,-3.5,44.6,0.0,0,0,12.1,16.0,10.0,07:06,17:12,cloudy,Freezing Cold,Dry,Low,Flags wave
+2022-02-01,4.2,-4.7,-0.4,57.3,0.0,0,0,18.1,16.0,10.0,07:06,17:13,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-02-02,8.3,1.1,4.1,81.9,0.0,0,0,14.4,14.0,10.0,07:05,17:15,cloudy,Freezing Cold,Dry,Very High,Leaves scatter
+2022-02-03,10.0,5.1,7.0,93.5,5.507,1,0,11.0,8.6,10.0,07:04,17:16,rain,Freezing Cold,Heavy,Very High,Flags wave
+2022-02-04,12.9,-1.2,5.1,89.9,11.903,1,1,19.9,12.7,10.0,07:02,17:17,snow,Freezing Cold,Heavy,Very High,Small trees sway
+2022-02-05,0.4,-5.2,-2.8,62.1,0.0,0,0,11.8,15.9,10.0,07:01,17:18,cloudy,Freezing Cold,Dry,High,Flags wave
+2022-02-06,1.5,-6.8,-2.8,60.1,0.0,0,0,16.3,16.0,10.0,07:00,17:19,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-02-07,3.8,0.5,2.3,86.6,0.384,1,1,16.6,11.1,10.0,06:59,17:21,snow,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-02-08,8.7,0.7,3.9,69.1,0.128,1,0,16.6,15.8,10.0,06:58,17:22,rain,Freezing Cold,Moderate,High,Leaves scatter
+2022-02-09,7.8,-1.1,3.1,59.8,0.0,0,0,14.6,16.0,10.0,06:57,17:23,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-02-10,12.0,3.8,7.4,55.9,0.0,0,0,35.1,16.0,10.0,06:56,17:24,cloudy,Freezing Cold,Dry,High,
+2022-02-11,13.4,2.9,8.7,45.0,0.0,0,0,20.5,15.9,10.0,06:54,17:26,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-02-12,13.9,6.7,11.1,41.7,0.0,0,0,29.6,16.0,10.0,06:53,17:27,clear-day,Freezing Cold,Dry,Low,Umbrellas not working
+2022-02-13,6.1,-1.8,1.3,75.4,1.173,1,1,16.4,9.8,10.0,06:52,17:28,snow,Freezing Cold,Heavy,High,Leaves scatter
+2022-02-14,-0.9,-6.8,-4.1,48.5,0.0,0,0,17.0,15.9,10.0,06:51,17:29,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-02-15,1.0,-7.2,-3.4,45.8,0.23,1,1,20.0,16.0,10.0,06:49,17:30,snow,Freezing Cold,Moderate,Low,Small trees sway
+2022-02-16,6.8,-1.6,3.1,65.0,0.0,0,0,20.1,16.0,10.0,06:48,17:32,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-02-17,17.8,8.9,13.1,66.4,3.33,1,0,24.0,16.0,10.0,06:47,17:33,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-02-18,15.7,-0.7,7.9,58.6,7.421,1,0,30.7,16.0,10.0,06:45,17:34,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-02-19,5.6,-2.9,0.3,49.8,0.0,0,0,25.9,15.8,10.0,06:44,17:35,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-02-20,3.7,-5.1,-1.1,47.3,0.0,0,0,22.1,16.0,10.0,06:43,17:36,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-02-21,12.8,0.7,5.4,56.2,0.0,0,0,16.5,16.0,10.0,06:41,17:38,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-02-22,13.9,3.8,8.7,86.1,1.563,1,0,25.1,12.9,10.0,06:40,17:39,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-02-23,19.4,3.8,13.8,66.5,0.0,0,0,22.6,16.0,10.0,06:38,17:40,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-02-24,2.8,-0.1,1.0,46.3,0.0,0,0,20.0,16.0,10.0,06:37,17:41,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-02-25,6.1,-1.7,1.7,76.4,10.969,1,1,27.1,12.8,10.0,06:35,17:42,snow,Freezing Cold,Heavy,High,Umbrellas not working
+2022-02-26,3.8,-3.4,-0.1,52.2,0.0,0,0,20.1,16.0,10.0,06:34,17:43,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-02-27,9.3,-1.4,3.4,47.3,0.699,1,0,34.6,16.0,10.0,06:32,17:45,rain,Freezing Cold,Heavy,Low,
+2022-02-28,4.2,-1.3,1.2,39.1,0.0,0,0,14.9,16.0,10.0,06:31,17:46,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-03-01,7.9,0.6,4.4,58.2,0.0,0,0,20.2,15.9,10.0,06:29,17:47,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-03-02,12.1,5.0,7.9,55.0,0.0,0,0,16.3,16.0,10.0,06:28,17:48,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-03-03,7.1,-3.2,4.6,46.5,0.501,1,0,22.5,16.0,10.0,06:26,17:49,rain,Freezing Cold,Heavy,Low,Small trees sway
+2022-03-04,4.2,-5.1,-0.4,42.2,0.0,0,0,16.5,15.9,10.0,06:25,17:50,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-03-05,7.8,0.7,4.1,51.7,0.0,0,0,16.4,16.0,10.0,06:23,17:51,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-03-06,19.2,6.1,12.5,76.8,0.763,1,0,28.7,15.8,10.0,06:22,17:53,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-03-07,20.8,14.1,17.9,64.1,0.527,1,0,35.9,16.0,10.0,06:20,17:54,rain,Freezing Cold,Heavy,High,
+2022-03-08,11.6,5.0,7.3,39.9,0.23,1,0,16.2,16.0,10.0,06:18,17:55,rain,Freezing Cold,Moderate,Low,Leaves scatter
+2022-03-09,5.6,2.1,3.5,78.6,6.178,1,1,22.0,12.7,10.0,06:17,17:56,snow,Freezing Cold,Heavy,High,Small trees sway
+2022-03-10,9.4,1.6,5.0,71.8,0.0,0,0,14.2,14.3,10.0,06:15,17:57,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-03-11,12.2,3.4,7.3,59.1,0.23,1,0,14.7,16.0,10.0,06:14,17:58,rain,Freezing Cold,Moderate,High,Leaves scatter
+2022-03-12,8.3,-3.4,2.9,78.6,3.243,1,1,33.7,12.4,10.0,06:12,17:59,snow,Freezing Cold,Heavy,High,
+2022-03-13,2.1,-4.4,-1.4,52.0,0.0,0,1,30.6,15.8,10.0,07:10,19:00,snow,Freezing Cold,Dry,High,Umbrellas not working
+2022-03-14,13.4,0.0,6.9,49.8,0.0,0,0,18.3,16.0,10.0,07:09,19:01,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-03-15,18.9,6.8,12.0,47.2,0.0,0,0,16.4,15.9,10.0,07:07,19:02,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-03-16,18.3,9.0,13.0,55.5,0.0,0,0,21.7,16.0,10.0,07:05,19:03,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-03-17,11.7,7.2,9.5,90.0,0.464,1,0,26.6,9.5,10.0,07:04,19:05,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-03-18,21.7,9.4,13.3,80.8,0.23,1,0,14.3,11.7,10.0,07:02,19:06,rain,Freezing Cold,Moderate,Very High,Leaves scatter
+2022-03-19,19.9,8.9,14.0,79.7,2.649,1,0,16.3,13.4,10.0,07:00,19:07,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-03-20,14.0,8.3,12.3,61.9,0.249,1,0,23.6,16.0,10.0,06:59,19:08,rain,Freezing Cold,Moderate,High,Small trees sway
+2022-03-21,18.2,7.2,11.8,39.3,0.929,1,0,18.6,16.0,10.0,06:57,19:09,rain,Freezing Cold,Heavy,Low,Small trees sway
+2022-03-22,15.5,7.8,11.5,27.1,0.0,0,0,18.7,16.0,10.0,06:55,19:10,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-03-23,8.9,5.0,6.8,46.7,0.019,1,0,28.5,15.9,10.0,06:54,19:11,rain,Freezing Cold,Light,Low,Umbrellas not working
+2022-03-24,8.3,4.9,6.4,90.7,6.051,1,0,35.1,9.8,10.0,06:52,19:12,rain,Freezing Cold,Heavy,Very High,
+2022-03-25,13.9,7.2,10.2,69.9,0.662,1,0,28.7,15.2,10.0,06:51,19:13,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-03-26,11.6,7.2,9.7,53.5,0.063,1,0,22.9,15.9,10.0,06:49,19:14,rain,Freezing Cold,Light,High,Small trees sway
+2022-03-27,8.3,1.1,5.1,54.7,0.0,0,0,29.3,16.0,10.0,06:47,19:15,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-03-28,1.5,-3.7,-1.1,42.4,1.168,1,0,24.5,16.0,10.0,06:46,19:16,rain,Freezing Cold,Heavy,Low,Umbrellas not working
+2022-03-29,3.7,-2.9,0.2,42.0,0.23,1,0,29.3,15.8,10.0,06:44,19:17,rain,Freezing Cold,Moderate,Low,Umbrellas not working
+2022-03-30,7.7,-1.4,3.1,35.9,0.0,0,0,15.5,16.0,10.0,06:42,19:18,cloudy,Freezing Cold,Dry,Low,Leaves scatter
+2022-03-31,18.0,6.7,12.8,76.2,0.0,0,0,19.9,12.5,10.0,06:41,19:19,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-04-01,16.8,7.2,11.8,59.8,7.637,1,0,29.7,15.4,10.0,06:39,19:20,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-04-02,11.7,3.5,7.1,41.3,0.0,0,0,24.5,16.0,10.0,06:37,19:21,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-04-03,8.0,5.7,7.1,69.4,2.306,1,0,22.9,15.3,10.0,06:36,19:23,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-04-04,11.7,4.4,8.0,48.3,0.0,0,0,25.9,16.0,10.0,06:34,19:24,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-04-05,13.2,7.5,9.8,48.7,0.444,1,0,18.4,15.5,10.0,06:32,19:25,rain,Freezing Cold,Heavy,Low,Small trees sway
+2022-04-06,11.2,6.7,8.8,88.5,6.828,1,0,33.0,13.5,10.0,06:31,19:26,rain,Freezing Cold,Heavy,Very High,
+2022-04-07,11.2,7.9,9.4,88.4,7.407,1,0,33.6,12.1,10.0,06:29,19:27,rain,Freezing Cold,Heavy,Very High,
+2022-04-08,17.2,9.4,13.0,62.1,0.446,1,0,22.1,14.6,10.0,06:28,19:28,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-04-09,13.3,8.4,10.5,65.2,1.467,1,0,27.3,15.8,10.0,06:26,19:29,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-04-10,11.5,6.2,8.7,51.2,0.938,1,0,32.0,16.0,10.0,06:24,19:30,rain,Freezing Cold,Heavy,High,
+2022-04-11,15.0,5.3,9.7,48.0,0.46,1,0,11.4,15.9,10.0,06:23,19:31,rain,Freezing Cold,Heavy,Low,Flags wave
+2022-04-12,22.7,8.9,14.4,58.9,1.265,1,0,12.6,15.9,10.0,06:21,19:32,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-04-13,20.3,11.7,15.4,66.1,0.23,1,0,23.6,15.9,10.0,06:20,19:33,rain,Freezing Cold,Moderate,High,Small trees sway
+2022-04-14,28.0,13.9,20.0,60.4,2.92,1,0,16.0,15.6,10.0,06:18,19:34,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-04-15,20.6,11.2,15.4,35.6,0.23,1,0,22.3,15.9,10.0,06:17,19:35,rain,Freezing Cold,Moderate,Low,Small trees sway
+2022-04-16,21.2,8.3,14.9,47.9,1.639,1,0,18.3,15.6,10.0,06:15,19:36,rain,Freezing Cold,Heavy,Low,Small trees sway
+2022-04-17,12.0,6.1,8.7,49.7,0.519,1,0,14.0,16.0,10.0,06:14,19:37,rain,Freezing Cold,Heavy,Low,Leaves scatter
+2022-04-18,10.7,5.6,8.0,51.5,3.983,1,0,31.2,15.4,10.0,06:12,19:38,rain,Freezing Cold,Heavy,High,
+2022-04-19,10.0,5.6,7.8,69.3,8.326,1,0,38.7,12.8,10.0,06:11,19:39,rain,Freezing Cold,Heavy,High,
+2022-04-20,16.6,6.1,10.5,44.9,0.0,0,0,27.2,16.0,10.0,06:09,19:40,clear-day,Freezing Cold,Dry,Low,Umbrellas not working
+2022-04-21,13.9,8.3,11.1,64.7,0.46,1,0,29.7,16.0,10.0,06:08,19:41,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-04-22,21.6,11.2,15.9,43.5,0.0,0,0,18.4,15.7,10.0,06:06,19:42,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-04-23,16.7,11.2,13.6,45.1,0.232,1,0,21.6,15.6,10.0,06:05,19:43,rain,Freezing Cold,Moderate,Low,Small trees sway
+2022-04-24,16.6,9.4,12.8,53.2,0.0,0,0,21.9,16.0,10.0,06:04,19:45,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-04-25,13.8,8.8,11.3,52.1,0.23,1,0,17.8,16.0,10.0,06:02,19:46,rain,Freezing Cold,Moderate,High,Leaves scatter
+2022-04-26,14.9,11.2,12.7,78.1,1.433,1,0,18.1,15.2,10.0,06:01,19:47,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-04-27,13.9,7.1,11.2,50.0,0.244,1,0,17.7,16.0,10.0,05:59,19:48,rain,Freezing Cold,Moderate,Low,Leaves scatter
+2022-04-28,15.5,5.6,9.7,34.4,0.23,1,0,16.9,16.0,10.0,05:58,19:49,rain,Freezing Cold,Moderate,Low,Leaves scatter
+2022-04-29,18.2,6.1,11.8,24.3,0.23,1,0,18.3,15.9,10.0,05:57,19:50,rain,Freezing Cold,Moderate,Low,Small trees sway
+2022-04-30,20.5,8.3,13.4,29.1,0.699,1,0,12.8,15.9,10.0,05:55,19:51,rain,Freezing Cold,Heavy,Low,Leaves scatter
+2022-05-01,20.0,9.3,13.8,50.7,0.699,1,0,16.5,16.0,10.0,05:54,19:52,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-05-02,13.3,11.7,12.4,83.7,1.717,1,0,23.8,13.5,10.0,05:53,19:53,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-05-03,17.1,11.1,13.3,75.0,0.0,0,0,21.9,15.9,10.0,05:52,19:54,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-05-04,17.8,10.0,13.1,84.9,1.978,1,0,21.1,13.7,10.0,05:50,19:55,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-05-05,21.8,13.8,17.4,58.7,0.46,1,0,13.0,16.0,10.0,05:49,19:56,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-05-06,15.7,10.6,13.2,80.3,1.902,1,0,20.0,14.3,10.0,05:48,19:57,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-05-07,10.6,8.8,9.7,86.2,2.328,1,0,36.4,13.4,10.0,05:47,19:58,rain,Freezing Cold,Heavy,Very High,
+2022-05-08,15.0,8.3,11.3,49.7,0.009,1,0,33.0,16.0,10.0,05:46,19:59,rain,Freezing Cold,Light,Low,
+2022-05-09,21.6,9.3,14.7,29.5,0.0,0,0,34.8,16.0,10.0,05:45,20:00,clear-day,Freezing Cold,Dry,Low,
+2022-05-10,21.7,12.1,16.2,28.2,0.469,1,0,33.0,16.0,10.0,05:44,20:01,rain,Freezing Cold,Heavy,Low,
+2022-05-11,22.8,13.3,16.6,43.7,0.0,0,0,31.2,16.0,10.0,05:42,20:02,cloudy,Freezing Cold,Dry,Low,
+2022-05-12,21.2,13.0,17.1,74.2,0.0,0,0,20.3,15.9,10.0,05:41,20:03,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-05-13,21.6,14.2,16.9,86.6,0.267,1,0,21.7,13.2,10.0,05:40,20:04,rain,Freezing Cold,Moderate,Very High,Small trees sway
+2022-05-14,20.7,14.0,16.8,90.3,2.288,1,0,12.5,11.5,10.0,05:39,20:05,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-05-15,25.6,14.2,18.6,84.0,0.41,1,0,15.0,11.2,10.0,05:38,20:06,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-05-16,23.8,17.3,19.9,81.3,1.042,1,0,18.2,15.3,30.0,05:38,20:07,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-05-17,25.0,14.3,19.3,50.8,0.0,0,0,31.3,15.5,10.0,05:37,20:08,cloudy,Freezing Cold,Dry,High,
+2022-05-18,22.8,13.8,17.9,46.9,0.0,0,0,13.1,16.0,10.0,05:36,20:09,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-05-19,19.9,12.4,15.4,82.3,1.94,1,0,14.6,14.1,10.0,05:35,20:10,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-05-20,21.0,13.4,16.8,85.5,2.148,1,0,21.7,10.2,10.0,05:34,20:11,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-05-21,32.0,16.2,23.2,75.9,0.0,0,0,14.3,9.0,100.0,05:33,20:12,cloudy,Cold,Dry,High,Leaves scatter
+2022-05-22,31.2,23.4,26.5,63.6,0.699,1,0,15.9,16.0,75.0,05:33,20:12,rain,Cold,Heavy,High,Leaves scatter
+2022-05-23,24.2,16.7,20.7,48.9,0.23,1,0,18.1,16.0,10.0,05:32,20:13,rain,Cold,Moderate,Low,Leaves scatter
+2022-05-24,20.5,15.0,17.3,61.9,3.274,1,0,24.0,16.0,10.0,05:31,20:14,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-05-25,21.1,13.8,16.3,59.6,0.469,1,0,16.6,15.7,10.0,05:30,20:15,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-05-26,20.6,13.8,17.1,70.2,0.0,0,0,18.1,16.0,10.0,05:30,20:16,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-05-27,26.1,17.9,20.5,83.9,1.519,1,0,16.4,14.2,10.0,05:29,20:17,rain,Cold,Heavy,Very High,Leaves scatter
+2022-05-28,24.2,18.0,20.6,80.8,3.554,1,0,13.3,15.5,30.0,05:29,20:18,rain,Cold,Heavy,Very High,Leaves scatter
+2022-05-29,26.1,17.1,21.0,61.2,0.0,0,0,14.3,16.0,10.0,05:28,20:18,clear-day,Cold,Dry,High,Leaves scatter
+2022-05-30,29.9,17.3,23.6,64.4,0.0,0,0,11.3,16.0,10.0,05:28,20:19,clear-day,Cold,Dry,High,Flags wave
+2022-05-31,33.8,20.6,28.1,54.6,0.0,0,0,25.4,15.9,30.0,05:27,20:20,clear-day,Cold,Dry,High,Umbrellas not working
+2022-06-01,20.8,15.8,17.6,78.6,17.013,1,0,28.9,14.1,10.0,05:27,20:21,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-06-02,26.2,16.3,20.1,86.5,11.954,1,0,14.8,10.9,30.0,05:26,20:21,rain,Cold,Heavy,Very High,Leaves scatter
+2022-06-03,23.6,16.9,20.2,77.7,0.0,0,0,14.1,10.2,10.0,05:26,20:22,cloudy,Cold,Dry,High,Leaves scatter
+2022-06-04,26.7,16.6,21.6,52.6,0.0,0,0,13.8,16.0,10.0,05:26,20:23,clear-day,Cold,Dry,High,Leaves scatter
+2022-06-05,25.5,17.0,21.0,39.7,0.469,1,0,17.5,16.0,10.0,05:25,20:23,rain,Cold,Heavy,Low,Leaves scatter
+2022-06-06,27.1,18.3,22.2,42.7,0.0,0,0,23.6,15.9,10.0,05:25,20:24,clear-day,Cold,Dry,Low,Small trees sway
+2022-06-07,25.6,17.8,21.1,65.0,1.009,1,0,25.9,16.0,10.0,05:25,20:25,rain,Cold,Heavy,High,Umbrellas not working
+2022-06-08,28.7,19.3,24.1,68.5,0.308,1,0,21.6,15.7,30.0,05:24,20:25,rain,Cold,Heavy,High,Small trees sway
+2022-06-09,28.3,20.7,23.8,68.1,7.179,1,0,30.9,15.0,30.0,05:24,20:26,rain,Cold,Heavy,High,Umbrellas not working
+2022-06-10,26.6,17.2,22.3,49.5,0.23,1,0,21.7,16.0,10.0,05:24,20:26,rain,Cold,Moderate,Low,Small trees sway
+2022-06-11,24.2,20.0,21.8,58.6,0.098,1,0,14.4,15.9,10.0,05:24,20:27,rain,Cold,Light,High,Leaves scatter
+2022-06-12,23.8,18.3,20.0,79.4,1.234,1,0,18.1,15.9,10.0,05:24,20:27,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-06-13,29.9,20.0,24.3,72.4,0.244,1,0,14.5,14.9,60.0,05:24,20:28,rain,Cold,Moderate,High,Leaves scatter
+2022-06-14,28.3,21.1,24.2,47.2,0.0,0,0,17.7,15.8,10.0,05:24,20:28,clear-day,Cold,Dry,Low,Leaves scatter
+2022-06-15,27.0,19.4,22.8,62.9,0.0,0,0,22.4,16.0,10.0,05:24,20:28,clear-day,Cold,Dry,High,Small trees sway
+2022-06-16,22.1,17.2,20.1,77.9,3.952,1,0,21.3,15.5,10.0,05:24,20:29,rain,Cold,Heavy,High,Small trees sway
+2022-06-17,32.1,20.6,25.9,60.4,0.23,1,0,20.0,15.2,75.0,05:24,20:29,rain,Cold,Moderate,High,Small trees sway
+2022-06-18,25.0,15.8,19.6,48.6,0.0,0,0,37.1,16.0,10.0,05:24,20:29,cloudy,Freezing Cold,Dry,Low,
+2022-06-19,22.9,12.5,17.6,40.6,0.0,0,0,29.5,16.0,10.0,05:24,20:30,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-06-20,25.3,15.0,20.4,38.6,0.0,0,0,22.3,16.0,10.0,05:24,20:30,clear-day,Cold,Dry,Low,Small trees sway
+2022-06-21,25.5,17.4,21.0,54.7,1.277,1,0,11.8,14.4,10.0,05:25,20:30,rain,Cold,Heavy,High,Flags wave
+2022-06-22,19.4,17.2,18.4,82.8,1.268,1,0,24.1,13.4,10.0,05:25,20:30,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-06-23,21.7,16.1,19.3,77.0,1.808,1,0,16.8,14.4,10.0,05:25,20:31,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-06-24,27.4,17.4,21.9,73.7,0.0,0,0,15.6,13.6,30.0,05:25,20:31,cloudy,Cold,Dry,High,Leaves scatter
+2022-06-25,32.1,20.8,26.2,55.4,0.0,0,0,11.5,15.8,10.0,05:26,20:31,clear-day,Cold,Dry,High,Flags wave
+2022-06-26,31.4,23.0,26.6,54.1,0.0,0,0,20.5,15.8,10.0,05:26,20:31,clear-day,Cold,Dry,High,Small trees sway
+2022-06-27,24.3,21.7,23.1,76.3,8.657,1,0,20.5,13.5,30.0,05:26,20:31,rain,Cold,Heavy,High,Small trees sway
+2022-06-28,25.0,19.2,22.0,50.2,0.0,0,0,12.6,16.0,10.0,05:27,20:31,cloudy,Cold,Dry,High,Leaves scatter
+2022-06-29,28.4,18.9,23.7,57.2,0.69,1,0,23.5,15.8,30.0,05:27,20:31,rain,Cold,Heavy,High,Small trees sway
+2022-06-30,31.6,21.1,25.7,55.9,1.38,1,0,22.1,15.9,10.0,05:28,20:31,rain,Cold,Heavy,High,Small trees sway
+2022-07-01,33.3,22.3,27.1,64.4,0.0,0,0,23.4,15.6,75.0,05:28,20:31,clear-day,Cold,Dry,High,Small trees sway
+2022-07-02,31.1,24.3,27.3,66.9,0.938,1,0,16.2,16.0,75.0,05:29,20:30,rain,Cold,Heavy,High,Leaves scatter
+2022-07-03,31.0,24.3,26.8,52.4,0.0,0,0,21.5,16.0,10.0,05:29,20:30,cloudy,Cold,Dry,High,Small trees sway
+2022-07-04,29.4,19.9,25.0,42.2,0.469,1,0,14.0,15.7,10.0,05:30,20:30,rain,Cold,Heavy,Low,Leaves scatter
+2022-07-05,30.0,21.8,24.6,61.6,0.83,1,0,20.7,15.7,10.0,05:30,20:30,rain,Cold,Heavy,High,Small trees sway
+2022-07-06,31.0,23.3,26.6,65.1,0.0,0,0,22.3,15.9,10.0,05:31,20:29,cloudy,Cold,Dry,High,Small trees sway
+2022-07-07,27.8,21.7,24.6,64.0,0.46,1,0,20.0,15.9,10.0,05:32,20:29,rain,Cold,Heavy,High,Small trees sway
+2022-07-08,28.8,20.6,23.1,79.1,2.506,1,0,19.4,15.7,10.0,05:32,20:29,rain,Cold,Heavy,High,Small trees sway
+2022-07-09,29.3,22.8,25.1,61.5,0.469,1,0,21.6,15.9,10.0,05:33,20:28,rain,Cold,Heavy,High,Small trees sway
+2022-07-10,28.3,20.5,23.6,56.2,0.0,0,0,20.3,16.0,10.0,05:34,20:28,clear-day,Cold,Dry,High,Small trees sway
+2022-07-11,27.9,19.4,23.4,63.5,0.0,0,0,20.2,15.8,10.0,05:34,20:28,clear-day,Cold,Dry,High,Small trees sway
+2022-07-12,31.7,21.2,26.0,66.8,0.0,0,0,23.3,16.0,60.0,05:35,20:27,cloudy,Cold,Dry,High,Small trees sway
+2022-07-13,32.8,24.0,27.8,56.4,0.154,1,0,18.0,15.9,60.0,05:36,20:27,rain,Cold,Moderate,High,Leaves scatter
+2022-07-14,32.1,22.8,27.2,59.0,0.23,1,0,16.1,16.0,60.0,05:37,20:26,rain,Cold,Moderate,High,Leaves scatter
+2022-07-15,28.9,23.4,25.8,56.9,0.0,0,0,17.8,16.0,10.0,05:37,20:25,cloudy,Cold,Dry,High,Leaves scatter
+2022-07-16,28.8,22.8,24.8,76.5,1.711,1,0,16.1,15.8,60.0,05:38,20:25,rain,Cold,Heavy,High,Leaves scatter
+2022-07-17,29.3,22.2,25.6,73.4,0.014,1,0,18.0,16.0,60.0,05:39,20:24,rain,Cold,Light,High,Leaves scatter
+2022-07-18,29.8,24.2,26.6,79.4,1.154,1,0,23.5,15.3,75.0,05:40,20:24,rain,Cold,Heavy,High,Small trees sway
+2022-07-19,33.8,23.3,28.4,60.7,0.0,0,0,18.1,16.0,10.0,05:41,20:23,clear-day,Cold,Dry,High,Leaves scatter
+2022-07-20,33.9,25.7,29.8,56.7,0.23,1,0,16.0,15.9,60.0,05:41,20:22,rain,Cold,Moderate,High,Leaves scatter
+2022-07-21,34.1,26.2,29.6,64.5,3.958,1,0,22.4,15.6,100.0,05:42,20:21,rain,Cold,Heavy,High,Small trees sway
+2022-07-22,34.3,26.2,29.8,53.8,0.051,1,0,20.6,15.8,30.0,05:43,20:20,rain,Cold,Light,High,Small trees sway
+2022-07-23,35.6,26.1,30.0,53.3,0.0,0,0,16.4,15.8,60.0,05:44,20:20,clear-day,Cold,Dry,High,Leaves scatter
+2022-07-24,35.0,26.2,30.7,52.1,0.699,1,0,23.4,16.0,30.0,05:45,20:19,rain,Cold,Heavy,High,Small trees sway
+2022-07-25,29.9,26.6,28.2,72.9,2.952,1,0,18.2,15.8,75.0,05:46,20:18,rain,Cold,Heavy,High,Small trees sway
+2022-07-26,29.2,22.4,25.7,57.3,1.509,1,0,23.5,15.9,75.0,05:47,20:17,rain,Cold,Heavy,High,Small trees sway
+2022-07-27,30.5,23.2,25.9,58.5,0.934,1,0,15.7,15.7,10.0,05:48,20:16,rain,Cold,Heavy,High,Leaves scatter
+2022-07-28,30.0,23.4,27.0,73.1,3.662,1,0,15.0,15.9,60.0,05:49,20:15,rain,Cold,Heavy,High,Leaves scatter
+2022-07-29,29.7,23.1,26.7,62.0,2.008,1,0,18.4,15.6,10.0,05:49,20:14,rain,Cold,Heavy,High,Small trees sway
+2022-07-30,30.3,23.4,26.6,49.8,0.0,0,0,22.3,16.0,10.0,05:50,20:13,cloudy,Cold,Dry,Low,Small trees sway
+2022-07-31,30.0,21.8,25.7,53.6,0.0,0,0,20.5,16.0,10.0,05:51,20:12,cloudy,Cold,Dry,High,Small trees sway
+2022-08-01,25.3,20.3,22.1,83.4,11.675,1,0,13.0,11.0,10.0,05:52,20:11,rain,Cold,Heavy,Very High,Leaves scatter
+2022-08-02,32.0,22.2,26.9,64.1,0.0,0,0,16.6,15.9,60.0,05:53,20:10,cloudy,Cold,Dry,High,Leaves scatter
+2022-08-03,32.0,22.5,26.9,57.4,0.0,0,0,22.3,16.0,30.0,05:54,20:09,clear-day,Cold,Dry,High,Small trees sway
+2022-08-04,33.5,24.8,28.8,58.3,0.0,0,0,18.4,16.0,60.0,05:55,20:08,cloudy,Cold,Dry,High,Small trees sway
+2022-08-05,32.1,26.1,28.4,58.4,0.0,0,0,16.7,16.0,60.0,05:56,20:06,cloudy,Cold,Dry,High,Leaves scatter
+2022-08-06,32.8,25.3,28.8,61.9,0.0,0,0,20.6,15.8,30.0,05:57,20:05,cloudy,Cold,Dry,High,Small trees sway
+2022-08-07,31.7,26.1,28.6,70.7,2.512,1,0,26.9,15.3,60.0,05:58,20:04,rain,Cold,Heavy,High,Umbrellas not working
+2022-08-08,33.8,25.7,29.5,68.5,0.23,1,0,19.6,15.9,60.0,05:59,20:03,rain,Cold,Moderate,High,Small trees sway
+2022-08-09,36.1,26.7,30.7,64.8,0.28,1,0,23.7,16.0,75.0,06:00,20:01,rain,Cold,Moderate,High,Small trees sway
+2022-08-10,30.5,24.9,27.5,62.4,0.416,1,0,20.6,16.0,30.0,06:01,20:00,rain,Cold,Heavy,High,Small trees sway
+2022-08-11,31.8,23.0,26.6,62.8,2.847,1,0,11.8,15.1,30.0,06:02,19:59,rain,Cold,Heavy,High,Flags wave
+2022-08-12,29.1,21.8,25.5,40.1,0.0,0,0,15.5,16.0,10.0,06:03,19:58,cloudy,Cold,Dry,Low,Leaves scatter
+2022-08-13,26.1,18.9,22.6,42.0,0.0,0,0,16.1,16.0,10.0,06:04,19:56,cloudy,Cold,Dry,Low,Leaves scatter
+2022-08-14,27.4,19.5,23.3,46.2,0.0,0,0,29.5,16.0,10.0,06:05,19:55,clear-day,Cold,Dry,Low,Umbrellas not working
+2022-08-15,27.9,20.5,23.8,49.9,0.0,0,0,18.4,16.0,10.0,06:06,19:54,cloudy,Cold,Dry,Low,Small trees sway
+2022-08-16,28.4,19.2,23.3,55.5,0.0,0,0,23.3,16.0,10.0,06:07,19:52,cloudy,Cold,Dry,High,Small trees sway
+2022-08-17,26.4,18.0,22.8,56.6,8.413,1,0,19.1,15.9,10.0,06:08,19:51,rain,Cold,Heavy,High,Small trees sway
+2022-08-18,29.7,18.4,23.6,56.1,0.0,0,0,11.8,15.9,10.0,06:09,19:49,cloudy,Cold,Dry,High,Flags wave
+2022-08-19,32.1,21.6,25.9,49.5,0.0,0,0,18.4,16.0,10.0,06:10,19:48,clear-day,Cold,Dry,Low,Small trees sway
+2022-08-20,31.8,24.3,27.2,54.7,0.0,0,0,19.1,16.0,30.0,06:11,19:46,cloudy,Cold,Dry,High,Small trees sway
+2022-08-21,27.4,22.5,24.9,69.5,0.0,0,0,18.4,15.9,30.0,06:12,19:45,cloudy,Cold,Dry,High,Small trees sway
+2022-08-22,25.8,22.9,24.1,82.0,3.409,1,0,14.1,15.0,60.0,06:13,19:43,rain,Cold,Heavy,Very High,Leaves scatter
+2022-08-23,29.5,22.4,25.4,72.7,0.242,1,0,18.4,12.1,60.0,06:14,19:42,rain,Cold,Moderate,High,Small trees sway
+2022-08-24,31.8,22.1,26.7,52.2,0.0,0,0,20.5,16.0,10.0,06:15,19:40,clear-day,Cold,Dry,High,Small trees sway
+2022-08-25,32.1,22.8,27.3,47.4,0.0,0,0,13.0,16.0,10.0,06:16,19:39,clear-day,Cold,Dry,Low,Leaves scatter
+2022-08-26,29.8,24.7,26.9,62.5,7.788,1,0,14.1,14.8,100.0,06:17,19:37,rain,Cold,Heavy,High,Leaves scatter
+2022-08-27,31.4,23.6,27.1,57.1,0.0,0,0,13.0,16.0,60.0,06:18,19:36,cloudy,Cold,Dry,High,Leaves scatter
+2022-08-28,26.9,22.9,24.5,73.2,0.0,0,0,16.8,15.7,60.0,06:19,19:34,cloudy,Cold,Dry,High,Leaves scatter
+2022-08-29,29.5,23.5,26.0,72.5,0.0,0,0,29.5,16.0,30.0,06:20,19:33,cloudy,Cold,Dry,High,Umbrellas not working
+2022-08-30,30.8,23.1,26.5,72.1,1.952,1,0,19.9,15.6,60.0,06:21,19:31,rain,Cold,Heavy,High,Small trees sway
+2022-08-31,29.2,21.2,24.8,58.2,0.586,1,0,31.7,15.5,10.0,06:22,19:29,rain,Cold,Heavy,High,
+2022-09-01,29.8,21.1,25.1,38.8,0.0,0,0,20.5,15.8,10.0,06:23,19:28,clear-day,Cold,Dry,Low,Small trees sway
+2022-09-02,25.8,17.2,21.2,52.7,0.0,0,0,14.4,16.0,10.0,06:24,19:26,clear-day,Cold,Dry,High,Leaves scatter
+2022-09-03,27.0,18.8,22.5,65.2,0.0,0,0,11.6,16.0,10.0,06:24,19:25,cloudy,Cold,Dry,High,Flags wave
+2022-09-04,31.7,22.4,25.7,65.6,0.0,0,0,14.8,16.0,60.0,06:25,19:23,cloudy,Cold,Dry,High,Leaves scatter
+2022-09-05,30.2,23.4,25.5,71.9,0.393,1,0,22.3,15.6,30.0,06:26,19:21,rain,Cold,Heavy,High,Small trees sway
+2022-09-06,23.4,19.7,21.8,89.5,20.025,1,0,15.9,9.1,10.0,06:27,19:20,rain,Cold,Heavy,Very High,Leaves scatter
+2022-09-07,22.4,18.6,20.4,78.8,0.0,0,0,20.6,14.8,10.0,06:28,19:18,cloudy,Cold,Dry,High,Small trees sway
+2022-09-08,25.3,18.5,21.4,63.3,0.0,0,0,13.7,16.0,10.0,06:29,19:16,cloudy,Cold,Dry,High,Leaves scatter
+2022-09-09,26.2,17.4,21.5,59.4,0.0,0,0,15.2,16.0,10.0,06:30,19:15,clear-day,Cold,Dry,High,Leaves scatter
+2022-09-10,29.8,18.8,23.4,55.3,0.0,0,0,10.0,16.0,10.0,06:31,19:13,clear-day,Cold,Dry,High,Flags wave
+2022-09-11,24.2,19.5,22.0,76.7,4.297,1,0,11.2,13.2,10.0,06:32,19:11,rain,Cold,Heavy,High,Flags wave
+2022-09-12,27.1,20.0,23.0,81.9,11.125,1,0,9.5,11.6,30.0,06:33,19:10,rain,Cold,Heavy,Very High,Flags wave
+2022-09-13,28.0,21.4,24.1,75.5,27.566,1,0,18.4,12.9,60.0,06:34,19:08,rain,Cold,Heavy,High,Small trees sway
+2022-09-14,26.3,17.5,22.2,54.4,0.0,0,0,15.0,16.0,10.0,06:35,19:06,clear-day,Cold,Dry,High,Leaves scatter
+2022-09-15,23.6,18.0,20.8,46.8,0.0,0,0,31.7,16.0,10.0,06:36,19:05,clear-day,Cold,Dry,Low,
+2022-09-16,24.0,14.3,19.1,45.0,0.0,0,0,9.5,16.0,10.0,06:37,19:03,clear-day,Freezing Cold,Dry,Low,Flags wave
+2022-09-17,23.2,18.4,20.5,60.4,0.0,0,0,14.4,16.0,10.0,06:38,19:01,cloudy,Cold,Dry,High,Leaves scatter
+2022-09-18,28.5,20.0,23.7,61.2,0.0,0,0,18.4,16.0,10.0,06:39,19:00,clear-day,Cold,Dry,High,Small trees sway
+2022-09-19,29.2,21.1,24.1,62.3,3.118,1,0,27.7,15.4,10.0,06:40,18:58,rain,Cold,Heavy,High,Umbrellas not working
+2022-09-20,25.5,19.8,22.5,63.8,0.0,0,0,18.7,16.0,30.0,06:41,18:56,cloudy,Cold,Dry,High,Small trees sway
+2022-09-21,26.8,17.5,21.6,63.3,0.0,0,0,12.8,16.0,10.0,06:42,18:54,clear-day,Cold,Dry,High,Leaves scatter
+2022-09-22,23.6,15.3,20.3,68.4,9.968,1,0,29.7,14.7,10.0,06:43,18:53,rain,Cold,Heavy,High,Umbrellas not working
+2022-09-23,17.0,10.9,13.7,48.5,0.0,0,0,35.3,16.0,10.0,06:44,18:51,clear-day,Freezing Cold,Dry,Low,
+2022-09-24,20.8,9.7,15.0,48.3,0.0,0,0,22.3,16.0,10.0,06:45,18:49,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-09-25,22.2,15.3,18.2,63.9,25.831,1,0,22.3,15.1,10.0,06:46,18:48,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-09-26,23.1,14.8,19.0,63.0,0.134,1,0,27.7,16.0,10.0,06:47,18:46,rain,Freezing Cold,Moderate,High,Umbrellas not working
+2022-09-27,20.2,16.1,18.2,49.4,0.0,0,0,15.7,16.0,10.0,06:48,18:44,cloudy,Freezing Cold,Dry,Low,Leaves scatter
+2022-09-28,20.6,12.4,16.7,56.7,0.0,0,0,22.3,16.0,10.0,06:49,18:43,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-09-29,18.9,12.5,15.7,56.1,0.0,0,0,27.7,16.0,10.0,06:50,18:41,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-09-30,16.4,11.7,14.4,59.1,0.0,0,0,19.4,16.0,10.0,06:51,18:39,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-10-01,16.3,10.9,14.1,84.1,12.931,1,0,28.4,13.3,10.0,06:52,18:38,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-10-02,15.9,11.4,14.3,59.1,0.431,1,0,29.6,15.6,10.0,06:53,18:36,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-10-03,11.4,9.2,10.4,66.0,10.527,1,0,32.2,15.1,10.0,06:54,18:34,rain,Freezing Cold,Heavy,High,
+2022-10-04,13.3,7.9,10.6,88.9,43.738,1,0,24.2,10.8,10.0,06:55,18:33,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-10-05,15.0,12.4,13.7,89.4,12.238,1,0,17.6,12.5,10.0,06:56,18:31,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-10-06,23.1,12.4,17.5,60.1,0.0,0,0,11.3,16.0,10.0,06:57,18:29,cloudy,Freezing Cold,Dry,High,Flags wave
+2022-10-07,24.7,15.8,19.5,56.5,0.0,0,0,17.4,16.0,10.0,06:58,18:28,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-10-08,15.6,9.3,12.2,53.3,0.72,1,0,25.9,16.0,10.0,06:59,18:26,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-10-09,16.4,7.5,12.1,52.0,0.0,0,0,22.3,16.0,10.0,07:00,18:25,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-10-10,19.7,11.8,15.5,45.0,0.0,0,0,20.5,16.0,10.0,07:01,18:23,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-10-11,21.1,11.1,16.0,56.5,0.0,0,0,11.6,16.0,10.0,07:02,18:21,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-10-12,20.8,14.5,17.2,54.4,0.0,0,0,31.7,16.0,10.0,07:03,18:20,clear-day,Freezing Cold,Dry,High,
+2022-10-13,20.3,13.2,18.5,82.2,12.922,1,0,25.9,13.7,10.0,07:05,18:18,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-10-14,19.2,11.7,14.8,66.4,8.555,1,0,14.4,14.5,10.0,07:06,18:17,rain,Freezing Cold,Heavy,High,Leaves scatter
+2022-10-15,20.2,10.8,15.4,61.4,0.0,0,0,18.4,16.0,10.0,07:07,18:15,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-10-16,18.1,12.0,15.3,58.2,0.0,0,0,9.8,16.0,10.0,07:08,18:14,cloudy,Freezing Cold,Dry,High,Flags wave
+2022-10-17,18.7,13.1,15.6,71.2,3.523,1,0,22.3,15.0,10.0,07:09,18:12,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-10-18,13.6,8.8,11.2,49.5,0.0,0,0,16.3,15.8,10.0,07:10,18:11,cloudy,Freezing Cold,Dry,Low,Leaves scatter
+2022-10-19,11.8,6.1,9.2,51.2,0.0,0,0,18.4,16.0,10.0,07:11,18:09,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-10-20,14.2,6.8,10.8,48.2,0.0,0,0,16.6,16.0,10.0,07:12,18:08,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-10-21,16.8,8.4,12.6,48.8,0.0,0,0,11.2,16.0,10.0,07:13,18:06,clear-day,Freezing Cold,Dry,Low,Flags wave
+2022-10-22,18.5,10.0,14.2,54.9,0.0,0,0,10.0,16.0,10.0,07:14,18:05,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-10-23,16.3,13.0,14.4,66.4,0.44,1,0,22.4,15.9,10.0,07:16,18:04,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-10-24,16.1,12.9,14.3,89.5,8.126,1,0,21.6,8.6,10.0,07:17,18:02,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-10-25,20.4,16.1,18.0,93.0,3.37,1,0,13.1,4.9,10.0,07:18,18:01,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-10-26,22.4,17.0,18.9,86.0,0.08,1,0,14.8,9.1,10.0,07:19,17:59,rain,Freezing Cold,Light,Very High,Leaves scatter
+2022-10-27,18.4,12.2,15.6,53.4,0.0,0,0,22.0,16.0,10.0,07:20,17:58,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-10-28,13.5,7.4,10.5,51.7,0.0,0,0,20.0,16.0,10.0,07:21,17:57,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-10-29,14.2,6.4,10.5,59.4,0.0,0,0,13.4,16.0,10.0,07:22,17:56,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-10-30,17.0,7.1,11.9,57.2,0.0,0,0,8.0,16.0,10.0,07:24,17:54,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-10-31,18.0,11.3,14.6,74.0,0.27,1,0,18.4,15.6,10.0,07:25,17:53,rain,Freezing Cold,Moderate,High,Small trees sway
+2022-11-01,19.4,15.0,16.9,82.1,4.043,1,0,13.3,11.7,10.0,07:26,17:52,rain,Freezing Cold,Heavy,Very High,Leaves scatter
+2022-11-02,20.9,13.5,16.7,59.5,0.0,0,0,15.5,16.0,10.0,07:27,17:51,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-11-03,19.4,11.4,14.9,63.9,0.0,0,0,9.5,15.9,10.0,07:28,17:49,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-11-04,21.3,11.6,15.9,79.4,0.0,0,0,13.7,13.0,10.0,07:29,17:48,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-11-05,23.9,18.0,20.1,74.9,0.0,0,0,16.4,16.0,10.0,07:31,17:47,cloudy,Cold,Dry,High,Leaves scatter
+2022-11-06,23.2,18.7,20.7,76.1,0.08,1,0,14.8,16.0,10.0,06:32,16:46,rain,Cold,Light,High,Leaves scatter
+2022-11-07,24.5,14.0,21.2,49.4,0.134,1,0,17.4,16.0,10.0,06:33,16:45,rain,Cold,Moderate,Low,Leaves scatter
+2022-11-08,14.0,8.6,11.2,35.2,0.0,0,0,19.8,16.0,10.0,06:34,16:44,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-11-09,11.7,4.5,8.4,49.3,0.0,0,0,21.8,16.0,10.0,06:35,16:43,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-11-10,19.0,9.0,13.6,67.0,0.0,0,0,12.1,16.0,10.0,06:37,16:42,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-11-11,20.0,14.8,17.5,87.0,22.652,1,0,22.3,11.4,10.0,06:38,16:41,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-11-12,20.2,16.3,19.1,70.3,1.862,1,0,21.1,14.7,10.0,06:39,16:40,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-11-13,15.9,5.9,10.4,64.0,0.862,1,0,29.5,15.9,10.0,06:40,16:39,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-11-14,7.0,3.5,5.0,49.5,0.0,0,0,37.1,16.0,10.0,06:41,16:38,clear-day,Freezing Cold,Dry,Low,
+2022-11-15,7.9,2.4,4.7,59.5,10.346,1,0,23.4,14.8,10.0,06:42,16:37,rain,Freezing Cold,Heavy,High,Small trees sway
+2022-11-16,10.0,4.5,7.0,73.7,9.6,1,0,25.4,12.4,10.0,06:44,16:37,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-11-17,7.5,3.5,4.8,51.9,0.0,0,0,21.9,16.0,10.0,06:45,16:36,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-11-18,6.3,1.6,3.9,48.6,0.0,0,0,29.5,16.0,10.0,06:46,16:35,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-11-19,4.4,0.2,2.3,44.3,0.0,0,0,18.7,16.0,10.0,06:47,16:34,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-11-20,3.7,-1.0,1.4,36.5,0.0,0,0,29.4,16.0,10.0,06:48,16:34,clear-day,Freezing Cold,Dry,Low,Umbrellas not working
+2022-11-21,5.0,-2.4,1.6,39.1,0.0,0,0,24.1,15.9,10.0,06:49,16:33,clear-day,Freezing Cold,Dry,Low,Small trees sway
+2022-11-22,10.7,3.4,6.9,40.9,0.0,0,0,18.1,16.0,10.0,06:51,16:33,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-11-23,12.9,6.4,9.1,37.1,0.0,0,0,16.3,16.0,10.0,06:52,16:32,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-11-24,11.7,4.5,8.2,58.4,0.0,0,0,10.8,16.0,10.0,06:53,16:31,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-11-25,12.9,8.3,9.9,65.7,0.44,1,0,26.3,14.5,10.0,06:54,16:31,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-11-26,13.5,6.3,9.6,40.4,0.0,0,0,22.5,16.0,10.0,06:55,16:30,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-11-27,15.2,9.4,11.4,63.8,17.18,1,0,35.3,13.2,10.0,06:56,16:30,rain,Freezing Cold,Heavy,High,
+2022-11-28,13.0,5.8,10.2,61.8,0.0,0,0,24.2,16.0,10.0,06:57,16:30,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-11-29,6.2,2.5,4.6,60.0,0.0,0,0,13.0,16.0,10.0,06:58,16:29,cloudy,Freezing Cold,Dry,High,Leaves scatter
+2022-11-30,14.4,4.8,9.5,73.7,10.084,1,0,42.5,13.7,10.0,06:59,16:29,rain,Freezing Cold,Heavy,High,
+2022-12-01,5.9,2.4,4.1,42.6,0.0,0,0,40.7,15.8,10.0,07:00,16:29,cloudy,Freezing Cold,Dry,Low,
+2022-12-02,7.5,0.3,3.8,51.2,0.0,0,0,14.6,16.0,10.0,07:01,16:29,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-12-03,14.4,8.0,11.5,74.0,11.882,1,0,26.7,13.8,10.0,07:02,16:28,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-12-04,7.4,4.0,5.5,43.8,0.0,0,0,25.9,16.0,10.0,07:03,16:28,clear-day,Freezing Cold,Dry,Low,Umbrellas not working
+2022-12-05,8.7,2.4,5.4,49.0,0.0,0,0,13.3,16.0,10.0,07:04,16:28,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-12-06,14.2,5.5,10.7,82.9,18.496,1,0,25.9,10.9,10.0,07:05,16:28,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-12-07,14.7,13.0,13.9,91.8,11.217,1,0,18.7,7.7,10.0,07:06,16:28,rain,Freezing Cold,Heavy,Very High,Small trees sway
+2022-12-08,12.5,6.3,10.2,63.1,0.0,0,0,25.9,16.0,10.0,07:07,16:28,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-12-09,7.2,2.2,4.2,51.4,0.0,0,0,18.9,16.0,10.0,07:08,16:28,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-12-10,3.9,-0.2,2.3,55.0,0.0,0,0,18.7,16.0,10.0,07:09,16:28,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-12-11,4.4,0.8,3.0,79.4,7.368,1,1,22.2,12.7,10.0,07:10,16:28,snow,Freezing Cold,Heavy,High,Small trees sway
+2022-12-12,3.4,-1.4,0.9,75.0,0.52,0,1,16.9,14.4,10.0,07:10,16:28,snow,Freezing Cold,Heavy,High,Leaves scatter
+2022-12-13,4.5,-3.6,-0.1,57.3,0.0,0,0,18.4,16.0,10.0,07:11,16:28,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-12-14,3.6,-0.5,1.2,50.9,0.0,0,0,24.1,16.0,10.0,07:12,16:29,clear-day,Freezing Cold,Dry,High,Small trees sway
+2022-12-15,5.8,0.7,3.3,74.8,12.674,1,0,24.5,14.1,10.0,07:13,16:29,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-12-16,6.8,3.5,5.5,89.6,20.424,1,0,30.9,8.2,10.0,07:13,16:29,rain,Freezing Cold,Heavy,Very High,Umbrellas not working
+2022-12-17,6.7,3.0,4.7,59.9,0.0,0,0,27.7,16.0,10.0,07:14,16:30,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-12-18,4.4,0.8,2.4,52.7,0.0,0,0,25.9,16.0,10.0,07:15,16:30,cloudy,Freezing Cold,Dry,High,Umbrellas not working
+2022-12-19,3.4,-0.5,1.2,53.8,0.0,0,0,24.1,16.0,10.0,07:15,16:30,cloudy,Freezing Cold,Dry,High,Small trees sway
+2022-12-20,4.0,-0.5,1.4,53.0,0.0,0,0,17.0,16.0,10.0,07:16,16:31,clear-day,Freezing Cold,Dry,High,Leaves scatter
+2022-12-21,4.4,-2.0,1.1,57.8,0.0,0,0,11.2,16.0,10.0,07:16,16:31,clear-day,Freezing Cold,Dry,High,Flags wave
+2022-12-22,7.4,1.6,4.6,78.0,5.353,1,0,30.1,14.1,10.0,07:17,16:32,rain,Freezing Cold,Heavy,High,Umbrellas not working
+2022-12-23,14.0,-12.8,3.3,75.2,27.998,1,1,46.4,11.8,10.0,07:17,16:32,snow,Freezing Cold,Heavy,High,
+2022-12-24,-9.3,-13.8,-11.6,44.8,0.0,0,0,40.7,16.0,10.0,07:18,16:33,cloudy,,Dry,Low,
+2022-12-25,-2.6,-9.8,-6.2,48.0,0.0,0,0,27.7,16.0,10.0,07:18,16:34,clear-day,Freezing Cold,Dry,Low,Umbrellas not working
+2022-12-26,-1.7,-7.5,-4.3,46.4,0.0,0,0,29.5,16.0,10.0,07:18,16:34,cloudy,Freezing Cold,Dry,Low,Umbrellas not working
+2022-12-27,1.4,-1.7,-0.2,45.4,0.0,0,0,16.8,16.0,10.0,07:19,16:35,cloudy,Freezing Cold,Dry,Low,Leaves scatter
+2022-12-28,8.3,1.0,4.5,47.2,0.0,0,0,18.4,16.0,10.0,07:19,16:36,cloudy,Freezing Cold,Dry,Low,Small trees sway
+2022-12-29,10.0,4.6,7.4,45.8,0.0,0,0,15.1,16.0,10.0,07:19,16:36,clear-day,Freezing Cold,Dry,Low,Leaves scatter
+2022-12-30,16.1,8.1,10.8,49.5,0.0,0,0,10.8,15.3,10.0,07:19,16:37,cloudy,Freezing Cold,Dry,Low,Flags wave
+2022-12-31,12.7,9.3,10.5,88.1,6.941,1,0,9.8,7.3,10.0,07:20,16:38,rain,Freezing Cold,Heavy,Very High,Flags wave
