@@ -7,3 +7,4 @@
 /Resources/NewYork_DemographicsByZipCode.xlsx filter=lfs diff=lfs merge=lfs -text
 /static/data/nyc_geojson_by_zip.json filter=lfs diff=lfs merge=lfs -text
 /data_cleaning_process/loading_data.ipynb filter=lfs diff=lfs merge=lfs -text
+/Resources/weather_2022.csv filter=lfs diff=lfs merge=lfs -text
