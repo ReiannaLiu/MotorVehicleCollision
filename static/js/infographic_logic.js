@@ -7,8 +7,6 @@ d3.json(infoData).then(function (data) {
     infojson = data;
 
     document.getElementById("zipcode").innerHTML = zipcode;
-    document.getElementById("borough").innerHTML = infojson[0].borough;
-    document.getElementById("county").innerHTML = infojson[0].county;
 
     // Process data to get the sums of each category
     let injuredSum = {
