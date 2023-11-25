@@ -1,6 +1,4 @@
-api_keys/geoapify.txt
-api_keys/openweather.txt
-api_keys/googlemap.txt
+api_keys
 
 api_keys/openweather.txt
 # Byte-compiled / optimized / DLL files

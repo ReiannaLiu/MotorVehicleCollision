@@ -4,11 +4,23 @@
 <head>
     <title>Motor Collision - Columbia University</title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <!-- Leaflet JS -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
 
 <body>
     <!-- Navigation bar -->
@@ -20,11 +32,11 @@
                 <div class="subtitle">in the city of New York</div>
             </a>
             <div class="vertical-line"></div>
-            <a class="navbar-brand brand-secondary" href="#">Motor Vehicle Collision Dashboard</a>
+            <a class="navbar-brand brand-secondary">Motor Vehicle Collision Dashboard</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">API Documentation</a>
@@ -60,13 +72,11 @@
         </div>
     </div>
 
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <!-- Custom Script -->
     <script src="../static/js/index_logic.js"></script>
 
-    <!-- Bootstrap JS and its dependencies -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- leaflet-choropleth JavaScript -->
+    <script type="text/javascript" src="../static/js/choropleth.js"></script>
 </body>
 
 </html>
