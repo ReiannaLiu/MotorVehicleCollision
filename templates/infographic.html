@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motor Collision - Columbia University</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <!-- Leaflet JS -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Chart library-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <!-- Branding and logo: update the href to link to Columbia University's page if desired -->
+            <a class="navbar-brand" href="https://www.columbia.edu/" style="line-height: 1;">
+                <div>Columbia University</div>
+                <div class="subtitle">in the city of New York</div>
+            </a>
+            <div class="vertical-line"></div>
+            <a class="navbar-brand brand-secondary">Motor Vehicle Collision Dashboard</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">API Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">By Region</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events & News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        var zipcode = "{{ zip_code }}";
+    </script>
+
+    <!-- Main content -->
+    <div class="infographic-header">
+        <h1> Infographic by Zipcode in New York City</h1>
+        <hr class="header-divider">
+        <div class="location">
+            Postal Code: <span id="zipcode"></span>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding-top: 20px;">
+        <div class="row">
+            <!-- Column for the bar chart -->
+            <div class="col-md-4" style="padding-left: 40px; text-align: center;">
+                <h5>Injuries and Fatalities by Category</h5>
+                <canvas id="bar" style="width: 100%; height: 270px;"></canvas>
+            </div>
+            <!-- Column for pie chart -->
+            <div class="col-md-4" style="padding-left: 0px; text-align: center; margin-left: 0px;">
+                <h5>Primary Contributing Factors and Vehicle Types</h5>
+                <div class="pie-chart-container">
+                    <canvas id="contributingFactorPie" class="small-pie-chart"></canvas>
+                    <canvas id="vehicleTypePie" class="small-pie-chart"></canvas>
+                </div>
+            </div>
+            <!-- Column for boxplot -->
+            <div class="col-md-4" style="padding-left: 0px; text-align: center; margin-left: 0px;">
+                <h5>Weather Conditions</h5>
+                <div id="boxplot" style="width: 100%; height: 300px;"></div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-1" style="padding-left: 40px;">
+                <form style="text-align: left;">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aggregateTime" id="Hour" value="hour"
+                            checked>
+                        <label class="form-check-label" for="Hour">
+                            Hour
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aggregateTime" id="Weekday" value="weekday">
+                        <label class="form-check-label" for="Weekday">
+                            Weekday
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aggregateTime" id="Month" value="month">
+                        <label class="form-check-label" for="Month">
+                            Month
+                        </label>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-11">
+                <h5 style="text-align: center;">Distribution of Traffic Accidents</h5>
+                <div id="lineChart" style="width: 100%; height: 300px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Script -->
+    <script src="../static/js/infographic_logic.js"></script>
+</body>
+
+</html>

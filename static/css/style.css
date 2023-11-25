@@ -65,3 +65,89 @@ html {
     font-size: 1em;
     vertical-align: super;
 }
+
+.black-popup .leaflet-popup-content-wrapper {
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.black-popup .leaflet-popup-content {
+    min-width: 300px;
+}
+
+.custom-popup h1 {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.popup-section {
+    padding: 10px;
+    text-align: center;
+}
+
+.popup-section img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.popup-footer {
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.infographic-header {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.infographic-header h1 {
+    margin: 0;
+    padding: 0pt;
+    font-size: 2em;
+}
+
+.infographic-header .location {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.header-divider {
+    border: 0;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 20px 25%;
+}
+
+.pie-chart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+.small-pie-chart {
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 125px;
+    height: 125px;
+    margin: 0 5px;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    accent-color: #007bff;
+}
+
+.form-check-label {
+    margin-left: 0.3em;
+}
