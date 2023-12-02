@@ -23,6 +23,7 @@ Base.prepare(autoload_with=engine)
 # Save references to each table
 MotorCollision = Base.classes.motor_collisions
 CollisionByZip = Base.classes.collision_by_zip
+Whether = Base.classes.weather_2022_info
 
 # Define a schema for the MotorCollision table
 class MotorCollisionSchema(SQLAlchemyAutoSchema):
@@ -35,8 +36,14 @@ class CollisionByZipSchema(SQLAlchemyAutoSchema):
         model = CollisionByZip
         load_instance = True
 
+class WhetherSchema(SQLAlchemyAutoSchema):
+    class Meta:
+        model = Whether
+        load_instance = True
+
 motor_collision_schema = MotorCollisionSchema()
 collision_by_zip_schema = CollisionByZipSchema()
+whether_schema = WhetherSchema()
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
@@ -53,6 +60,10 @@ def index():
 @app.route("/infographic/<zip_code>")
 def infographic(zip_code):
     return render_template('infographic.html', zip_code=zip_code)
+
+@app.route("/analysis_board")
+def analysis_board():
+    return render_template('analysis.html')
 
 @app.route("/api/v1.0/motor_collision")
 def read_motor_collision():
@@ -78,7 +89,8 @@ def read_motor_collision_by_zip_by_weekday(zip_code):
     all_collisions = session.query(MotorCollision).filter(MotorCollision.zip_code == zip_code).all()
 
     # Aggregate data by weekday
-    weekday_by_zip = {0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0}
+    # Initialize the dictionary for counting occurrences per weekday
+    weekday_by_zip = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
     for collision in all_collisions:
         weekday_by_zip[collision.crash_day_of_week] += 1
 
@@ -107,6 +119,56 @@ def read_motor_collision_by_zip_by_month(zip_code):
         month_by_zip[collision.crash_datetime.month] += 1
 
     return jsonify(month_by_zip)
+
+@app.route("/api/v1.0/motor_collision/by_month")
+def read_motor_collision_by_month():
+    # Query all records from the MotorCollision table
+    all_collisions = session.query(MotorCollision).all()
+
+    # Aggregate data by month
+    month_by_zip = {month: 0 for month in range(1,13)}
+    for collision in all_collisions:
+        month_by_zip[collision.crash_datetime.month] += 1
+
+    return jsonify(month_by_zip)
+
+@app.route("/api/v1.0/motor_collision/monthly_average")
+def read_motor_collision_monthly_average():
+    # Query all records from the MotorCollision table
+    all_collisions = session.query(MotorCollision).all()
+
+    # Sum all the data and divide by the number of months
+    return jsonify(len(all_collisions)/12)
+
+@app.route("/api/v1.0/motor_collision/total_count")
+def read_motor_collision_total_count():
+    # Query all records from the MotorCollision table
+    all_collisions = session.query(MotorCollision).all()
+
+    # Aggregate data by month
+    total_count = len(all_collisions)
+
+    return jsonify(total_count)
+
+@app.route("/api/v1.0/motor_collision/total_deaths")
+def read_motor_collision_total_deaths():
+    # Query all records from the MotorCollision table
+    all_collisions = session.query(MotorCollision).all()
+
+    # Aggregate data by month
+    total_deaths = sum([collision.number_of_deaths for collision in all_collisions])
+
+    return jsonify(total_deaths)
+
+@app.route("/api/v1.0/motor_collision/total_injuries")
+def read_motor_collision_total_injuries():
+    # Query all records from the MotorCollision table
+    all_collisions = session.query(MotorCollision).all()
+
+    # Aggregate data by month
+    total_injuries = sum([collision.number_of_injuries for collision in all_collisions])
+
+    return jsonify(total_injuries)
 
 @app.route("/api/v1.0/collision_by_zip")
 def read_collision_by_zip():

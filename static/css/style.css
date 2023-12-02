@@ -151,3 +151,143 @@ html {
 .form-check-label {
     margin-left: 0.3em;
 }
+
+#info-table {
+    width: 100%;
+    /* Full width */
+    border-collapse: collapse;
+    /* Collapse borders */
+    table-layout: fixed;
+    /* Helps in equal distribution of space */
+}
+
+#info-table th,
+#info-table td {
+    border: 1px solid #ddd;
+    /* Gray border */
+    padding: 8px;
+    /* Padding inside cells */
+    text-align: left;
+    /* Align text to the left, change to 'center' if preferred */
+}
+
+#info-table th {
+    background-color: #000000;
+    /* Light gray background */
+    color: rgb(231, 230, 230);
+    /* Text color for headers */
+    font-weight: bold;
+    /* Make header font bold */
+}
+
+#info-table tr:hover {
+    background-color: #5d5757;
+}
+
+/* Add hover effect for rows */
+
+#info-table tr:nth-child(even) {
+    background-color: #635d5d;
+}
+
+/* Zebra stripes for rows */
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 600px) {
+
+    #info-table th,
+    #info-table td {
+        display: block;
+        width: 100%;
+    }
+
+    #info-table th {
+        text-align: center;
+        /* Center header text for small screens */
+    }
+}
+
+#by_month_chart {
+    width: 100%;
+    height: 100%;
+}
+
+.card-custom {
+    width: 24rem;
+    /* Fixed width */
+    height: 28rem;
+    /* Height adjusts to content */
+    margin: 0.5rem;
+    /* Margin around the card */
+    padding: 0.5rem;
+    /* Padding inside the card */
+    background-color: #121212;
+    /* Slightly off-black background */
+    color: #ffffff;
+    /* White text for contrast */
+    border: 1px solid #343a40;
+    /* Subtle border color */
+    border-radius: 0.5rem;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Soft shadow for depth */
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: space-between;
+    /* Distribute space between items */
+}
+
+.card-img-custom {
+    width: 100%;
+    height: 200px;
+    /* Fixed image height */
+    object-fit: cover;
+    /* Cover the area without stretching */
+    border-top-left-radius: 0.5rem;
+    /* Match card's rounded corners */
+    border-top-right-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 1rem;
+    /* Consistent padding */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Primary button color */
+    border: none;
+    border-radius: 0.25rem;
+    /* Slightly rounded button edges */
+    color: #ffffff;
+    margin-top: auto;
+    /* Pushes the button to the bottom */
+    transition: background-color 0.2s ease;
+    /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    /* Larger font size for title */
+    font-weight: 500;
+    /* Medium font weight for title */
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    /* Standard font size for text */
+    margin-bottom: 1rem;
+    /* Space before the button */
+}
+
+.column-custom {
+    padding: 0.5rem;
+    /* Reduced padding for the columns */
+}
