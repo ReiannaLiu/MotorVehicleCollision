@@ -13,3 +13,4 @@
 /Resources/collision_2022.csv filter=lfs diff=lfs merge=lfs -text
 /Resources/collision_2022_classified.csv filter=lfs diff=lfs merge=lfs -text
 /data_cleaning_process/collisions_EDA_plots.ipynb filter=lfs diff=lfs merge=lfs -text
+/modeling/classification.ipynb filter=lfs diff=lfs merge=lfs -text
