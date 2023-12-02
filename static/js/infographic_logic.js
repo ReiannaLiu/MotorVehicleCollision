@@ -49,6 +49,7 @@ d3.json(infoData).then(function (data) {
         } else {
             vehicleType[item.vehicle_type_code_1] = 1;
         }
+
     })
 
     //-----------------------Infographic Creation -----------------------------
@@ -110,9 +111,9 @@ d3.json(infoData).then(function (data) {
     var contributingFactorPieChart = new Chart(contributingFactorPie, {
         type: 'pie',
         data: {
-            labels: Object.keys(contributingFactor),
+            labels: Object.keys(contributingFactor).slice(0, 8),
             datasets: [{
-                data: Object.values(contributingFactor),
+                data: Object.values(contributingFactor).slice(0, 8),
                 backgroundColor: [
                     'rgba(255, 159, 64, 0.9)', // Brighter Orange
                     'rgba(75, 192, 192, 0.9)',  // Brighter Teal
@@ -121,8 +122,9 @@ d3.json(infoData).then(function (data) {
                     'rgba(54, 162, 235, 0.9)',  // Brighter Blue
                     'rgba(255, 206, 86, 0.9)',  // Brighter Yellow
                     'rgba(231,233,237, 0.9)',   // Brighter Light Grey
-                    'rgba(255, 159, 64, 0.9)'   // Brighter Orange
+                    'rgba(205, 220, 57, 0.9)'   // Bright Lime Green
                 ]
+
             }]
         },
         options: {
@@ -165,7 +167,7 @@ d3.json(infoData).then(function (data) {
                     'rgba(54, 162, 235, 0.9)',  // Brighter Blue
                     'rgba(255, 206, 86, 0.9)',  // Brighter Yellow
                     'rgba(231,233,237, 0.9)',   // Brighter Light Grey
-                    'rgba(255, 159, 64, 0.9)'   // Brighter Orange
+                    'rgba(205, 220, 57, 0.9)'   // Bright Lime Green
                 ]
             }]
         },
@@ -201,7 +203,6 @@ var hour_json;
 
 d3.json(hour_data).then(function (data) {
     hour_json = data;
-    console.log(hour_json);
     if (Object.keys(hour_json).length == 0) {
         // no charts available
         d3.select('#lineChart').innerHTML = "No data available for this zipcode";
@@ -233,8 +234,8 @@ d3.json(month_data).then(function (data) {
 
 function init(jsonData, timeFrame) {
     let data = [{
-        x: Object.keys(hour_json),
-        y: Object.values(hour_json),
+        x: Object.keys(jsonData),
+        y: Object.values(jsonData),
         type: "line"
     }];
 
@@ -264,34 +265,64 @@ d3.selectAll('input[name="aggregateTime"]').on("change", function () {
     let aggregateTime = d3.select('input[name="aggregateTime"]:checked').property("value");
     let data = [];
 
-    if (aggregateTime == 'hour') {
+    if (aggregateTime === 'hour') {
         data = [{
-            x: Object.keys(hour_json),
+            x: Object.keys(hour_json), // Assuming these are hours (0-23)
             y: Object.values(hour_json),
             type: "line"
         }];
     }
-    else if (aggregateTime == 'weekday') {
+    else if (aggregateTime === 'weekday') {
         data = [{
-            x: Object.keys(wekday_json),
+            x: Object.keys(wekday_json).map(d => parseInt(d)), // Assuming these are weekday numbers (0-6)
             y: Object.values(wekday_json),
             type: "line"
         }];
     }
-    else if (aggregateTime == 'month') {
+    else if (aggregateTime === 'month') {
         data = [{
-            x: Object.keys(month_json),
+            x: Object.keys(month_json).map(d => parseInt(d)), // Assuming these are month numbers (1-12)
             y: Object.values(month_json),
             type: "line"
         }];
     }
 
-    if (data) {
-        updatePlotly(data);
+    if (data.length) {
+        updatePlotly(data, aggregateTime);
     }
 });
 
-function updatePlotly(newData) {
-    Plotly.restyle("lineChart", "x", [newData[0].x]);
-    Plotly.restyle("lineChart", "y", [newData[0].y]);
+function updatePlotly(newData, aggregateTime) {
+    let xAxisLabels;
+    if (aggregateTime === 'weekday') {
+        xAxisLabels = newData[0].x.map(x => ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][x]);
+    } else if (aggregateTime === 'month') {
+        xAxisLabels = newData[0].x.map(x => ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][x - 1]);
+    } else {
+        xAxisLabels = newData[0].x;
+    }
+
+    Plotly.restyle("lineChart", {
+        x: [xAxisLabels],
+        y: [newData[0].y],
+        'text': newData[0].x.map((x, i) => {
+            let label = aggregateTime === 'weekday' ? ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][x] :
+                aggregateTime === 'month' ? ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][x - 1] :
+                    x;
+        })
+    }, [0]);
 }
+
+// Call init function for hour data initially
+d3.json(hour_data).then(function (data) {
+    hour_json = data;
+    if (Object.keys(hour_json).length === 0) {
+        d3.select('#lineChart').html("No data available for this zipcode");
+    } else {
+        updatePlotly([{
+            x: Object.keys(hour_json),
+            y: Object.values(hour_json),
+            type: "line"
+        }], 'hour');
+    }
+});

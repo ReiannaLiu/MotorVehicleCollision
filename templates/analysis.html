@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motor Collision - Columbia University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <!-- Leaflet JS -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <!-- Branding and logo: update the href to link to Columbia University's page if desired -->
+            <a class="navbar-brand" href="https://www.columbia.edu/" style="line-height: 1;">
+                <div>Columbia University</div>
+                <div class="subtitle">in the city of New York</div>
+            </a>
+            <div class="vertical-line"></div>
+            <a class="navbar-brand brand-secondary">Motor Vehicle Collision Dashboard</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analysis_board">Analysis Board</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">By Region</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">API Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="padding-top: 100px;">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\heatmap_by_weekday_hour.png" class="card-img-top card-img-custom"
+                        alt="Accident Heatmap by Different Time Aggregation">
+                    <div class="card-body">
+                        <h5 class="card-title">Accident Heatmap by Different Time Aggregation</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-light">View More Analysis</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\distribution_vehicle_type_comparison.png"
+                        class="card-img-top card-img-custom" alt="Accident Heatmap by Weekday and Month">
+                    <div class="card-body">
+                        <h5 class="card-title">Distributions of Vehicle Types Involved in the Accidents</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-light">View More Analysis</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\top_contributing_factors.png" class="card-img-top card-img-custom"
+                        alt="Top 10 Contributing Factors to Accidents">
+                    <div class="card-body">
+                        <h5 class="card-title">Top 10 Contributing Factors to Accidents</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-light">View More Analysis</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\accidents_by_time_analysis.png" class="card-img-top card-img-custom"
+                        alt="Accidents by Time Analaysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Accidents by Different Time Aggregation</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-light">View More Analysis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\daily_crash_counts.png" class="card-img-top card-img-custom"
+                        alt="Accidents by Time Analaysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Crash Counts with Daily Average and 7-Day Moving Average</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-light">View More Analysis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Custom Script -->
+    <script src="../static/js/analysis_logic.js"></script>
+</body>
+
+</html>
