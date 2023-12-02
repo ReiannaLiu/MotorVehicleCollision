@@ -1,6 +1,10 @@
 //-----------------------Data Sources -----------------------------
 var geoData = "static/data/nyc_geojson_by_zip_with_counts.json";
+var infoData = "http://127.0.0.1:5000/api/v1.0/motor_collision";
 var geojson;
+var totalAccidentsData = "http://127.0.0.1:5000/api/v1.0/motor_collision/total_count";
+var totalDeathsData = "http://127.0.0.1:5000/api/v1.0/motor_collision/total_deaths";
+var totalInjuriesData = "http://127.0.0.1:5000/api/v1.0/motor_collision/total_injuries";
 
 //-----------------------Map Creation -----------------------------
 // Initialize the map to center on New York
@@ -60,4 +64,128 @@ d3.json(geoData).then(function (data) {
         }
 
     }).addTo(map);
+});
+
+Promise.all([
+    d3.json("http://127.0.0.1:5000/api/v1.0/motor_collision/by_month"),
+    d3.json("http://127.0.0.1:5000/api/v1.0/motor_collision/monthly_average")
+]).then(function (data) {
+    // Process the monthly accidents data into the format Plotly expects
+    const monthlyAccidentData = Object.keys(data[0]).map(month => ({
+        x: month, // Month number as string
+        y: data[0][month] // Number of accidents
+    }));
+
+    // Sort the data by month number
+    monthlyAccidentData.sort((a, b) => parseInt(a.x) - parseInt(b.x));
+
+    // Get the monthly average data
+    const monthlyAverageData = data[1];
+
+    // Prepare the trace for the monthly accident data
+    const accidentTrace = {
+        x: monthlyAccidentData.map(d => d.x), // Month numbers
+        y: monthlyAccidentData.map(d => d.y), // Accident counts
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: 'Monthly Accidents',
+        marker: { color: 'white' }
+    };
+
+    // Prepare the trace for the average line
+    const averageTrace = {
+        x: ["1", "12"], // Start from month 1 to 12
+        y: [monthlyAverageData, monthlyAverageData], // Same average value for all months
+        type: 'scatter',
+        mode: 'lines',
+        name: 'Monthly Average',
+        line: {
+            color: 'red',
+            dash: 'dash'
+        }
+    };
+
+    // Combine the traces
+    const dataTraces = [accidentTrace, averageTrace];
+
+    // Define the layout with dark theme
+    const layout = {
+        title: {
+            text: 'Crash Count Over Time',
+            font: {
+                color: 'white'
+            }
+        },
+        xaxis: {
+            title: 'Month',
+            tickvals: monthlyAccidentData.map(d => d.x),
+            ticktext: monthlyAccidentData.map(d => new Date(2000, d.x - 1).toLocaleString('default', { month: 'short' })), // Convert month number to short name
+            showgrid: false,
+            zeroline: false,
+            color: 'white'
+        },
+        yaxis: {
+            title: 'Number of Crashes',
+            color: 'white',
+            showgrid: false,
+            zeroline: false
+        },
+        legend: {
+            x: 0.9,
+            y: 1,
+            xanchor: 'right',
+            yanchor: 'top',
+            bgcolor: 'rgba(0,0,0,0)',
+            bordercolor: 'white',
+            font: {
+                color: 'white'
+            },
+            font: {
+                color: 'white'
+            },
+            title: {
+                text: 'Legend',
+                font: {
+                    color: 'white'
+                }
+            }
+        },
+        paper_bgcolor: 'black', // Background color outside the plotting area
+        plot_bgcolor: 'black', // Background color of the plotting area
+        margin: { // Adjust margins to fit the container
+            l: 40,
+            r: 40,
+            b: 150,
+            t: 60,
+            pad: 4
+        }
+    };
+
+    const config = {
+        displayModeBar: false,
+        responsive: true
+    };
+
+    // Create the Plotly chart with the updated layout and configuration
+    Plotly.newPlot('by_month_chart', dataTraces, layout, config);
+
+});
+
+
+//-----------------------Table Appending -----------------------------
+const dataPromises = [
+    d3.json(totalAccidentsData),
+    d3.json(totalInjuriesData),
+    d3.json(totalDeathsData)
+];
+
+Promise.all(dataPromises).then(function (values) {
+    // 'values' is an array that contains the results of the above promises in the order they were provided
+    const [accidentsData, injuriesData, deathsData] = values;
+
+    // Now you can append the data in the correct order
+    const tableRow = d3.select("#info-table tbody").append("tr"); // Select the table and append a new row
+    tableRow.append("td").text(accidentsData);
+    tableRow.append("td").text(injuriesData);
+    tableRow.append("td").text(deathsData);
 });
