@@ -22,3 +22,4 @@
 /data_cleaning_process/weather_collision_EDA.ipynb filter=lfs diff=lfs merge=lfs -text
 /Resources/allzipcodes_collision_weather_df.csv filter=lfs diff=lfs merge=lfs -text
 /Resources/collision_2022_classified_new.csv filter=lfs diff=lfs merge=lfs -text
+/Resources/collision_weather.csv filter=lfs diff=lfs merge=lfs -text
