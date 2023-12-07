@@ -291,3 +291,14 @@ html {
     padding: 0.5rem;
     /* Reduced padding for the columns */
 }
+
+.modal-title,
+.modal-body p,
+.modal-footer button {
+    color: #000000;
+}
+
+.modal-subtitle {
+    text-align: center;
+    color: #000000;
+}

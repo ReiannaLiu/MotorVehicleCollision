@@ -16,7 +16,7 @@
     <!-- D3 library -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
 
-    <!-- Bootstrap JS and its dependencies -->
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -60,6 +60,7 @@
     </nav>
     <div class="container-fluid" style="padding-top: 100px;">
         <div class="row">
+            <!-- Accident Heatmap by Different Time Aggregation-->
             <div class="col-md-3 col-sm-6 column-custom">
                 <div class="card card-custom">
                     <img src="static\images\heatmap_by_weekday_hour.png" class="card-img-top card-img-custom"
@@ -69,7 +70,29 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-light">View More Analysis</a>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Accident Heatmap by Different
+                                            Time Aggregation</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 class="modal-subtitle">Accident Heatmap by Weekday and Month</h5>
+                                        <img src="static/images/heatmap_by_weekday_month.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,7 +105,29 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-light">View More Analysis</a>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
+                                        Some quick example text to build on the card title and make up the bulk of the
+                                        card's content.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +140,29 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-light">View More Analysis</a>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
+                                        Some quick example text to build on the card title and make up the bulk of the
+                                        card's content.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,7 +175,29 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
-                        <a href="#" class="btn btn-light">View More Analysis</a>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
+                                        Some quick example text to build on the card title and make up the bulk of the
+                                        card's content.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,7 +211,29 @@
                         <h5 class="card-title">Daily Crash Counts with Daily Average and 7-Day Moving Average</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-light">View More Analysis</a>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
+                                        Some quick example text to build on the card title and make up the bulk of the
+                                        card's content.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
