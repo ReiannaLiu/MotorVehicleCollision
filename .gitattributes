@@ -28,3 +28,7 @@
 /modeling/clustering.ipynb filter=lfs diff=lfs merge=lfs -text
 /static/images/heatmap_by_weekday_month.png filter=lfs diff=lfs merge=lfs -text
 /static/images/info_preview.png filter=lfs diff=lfs merge=lfs -text
+/static/images/accident_distribution_by_wind_level.png filter=lfs diff=lfs merge=lfs -text
+/static/images/detailed_vehicle_type_distribution.png filter=lfs diff=lfs merge=lfs -text
+/static/images/distribution_vehicle_type_comparison.png filter=lfs diff=lfs merge=lfs -text
+/static/images/general_distribution_vehicle_type.png filter=lfs diff=lfs merge=lfs -text
