@@ -1,5 +1,6 @@
 //-----------------------Data Sources -----------------------------
 var infoData = "http://127.0.0.1:5000/api/v1.0/motor_collision/" + zipcode;
+var boxData = "http://127.0.0.1:5000/api/v1.0/weather_collision/" + zipcode;
 var infojson;
 
 //-----------------------Data Loading -----------------------------
@@ -25,7 +26,7 @@ d3.json(infoData).then(function (data) {
 
     let contributingFactor = {};
 
-    let vehicleType = {};
+    let severity = {};
 
     data.forEach(item => {
         injuredSum.cyclist += item.number_of_cyclist_injured;
@@ -38,20 +39,19 @@ d3.json(infoData).then(function (data) {
         killedSum.pedestrian += item.number_of_pedestrians_killed;
         killedSum.persons += item.number_of_persons_killed;
 
-        if (item.contributing_factor_vehicle_1 in contributingFactor) {
-            contributingFactor[item.contributing_factor_vehicle_1] += 1;
+        if (item.contributing_factor in contributingFactor) {
+            contributingFactor[item.contributing_factor] += 1;
         } else {
-            contributingFactor[item.contributing_factor_vehicle_1] = 1;
+            contributingFactor[item.contributing_factor] = 1;
         }
 
-        if (item.vehicle_type_code_1 in vehicleType) {
-            vehicleType[item.vehicle_type_code_1] += 1;
+        if (item.severity_of_accident in severity) {
+            severity[item.severity_of_accident] += 1;
         } else {
-            vehicleType[item.vehicle_type_code_1] = 1;
+            severity[item.severity_of_accident] = 1;
         }
 
     })
-
     //-----------------------Infographic Creation -----------------------------
     // Create the bar chart
     const chartData = {
@@ -69,10 +69,10 @@ d3.json(infoData).then(function (data) {
             label: 'Killed',
             data: [killedSum.pedestrian, killedSum.cyclist, killedSum.motorist, killedSum.persons],
             backgroundColor: [
-                'rgba(54, 162, 235, 0.9)',  // Brighter Blue
-                'rgba(255, 206, 86, 0.9)',  // Brighter Yellow
-                'rgba(231,233,237, 0.9)',   // Brighter Light Grey
-                'rgba(255, 159, 64, 0.9)'   // Brighter Orange
+                'rgba(255, 159, 64, 0.9)', // Brighter Orange
+                'rgba(75, 192, 192, 0.9)',  // Brighter Teal
+                'rgba(153, 102, 255, 0.9)', // Brighter Purple
+                'rgba(255, 99, 132, 0.9)'   // Brighter Pink
             ]
         }]
     };
@@ -86,6 +86,7 @@ d3.json(infoData).then(function (data) {
                 y: {
                     beginAtZero: true,
                     ticks: {
+                        min: 0,
                         stepSize: 1,
                         color: 'rgba(211, 211, 211, 1)'
                     }
@@ -98,9 +99,7 @@ d3.json(infoData).then(function (data) {
             },
             plugins: {
                 legend: {
-                    labels: {
-                        color: 'rgba(211, 211, 211, 1)'
-                    }
+                    display: false,
                 }
             }
         }
@@ -152,13 +151,13 @@ d3.json(infoData).then(function (data) {
         }
     });
 
-    var vehicleTypePie = document.getElementById('vehicleTypePie').getContext('2d');
-    var vehicleTypePieChart = new Chart(vehicleTypePie, {
+    var severityTypePie = document.getElementById('severityTypePie').getContext('2d');
+    var severityPieChart = new Chart(severityTypePie, {
         type: 'pie',
         data: {
-            labels: Object.keys(vehicleType),
+            labels: Object.keys(severity),
             datasets: [{
-                data: Object.values(vehicleType),
+                data: Object.values(severity),
                 backgroundColor: [
                     'rgba(255, 159, 64, 0.9)', // Brighter Orange
                     'rgba(75, 192, 192, 0.9)',  // Brighter Teal
@@ -325,4 +324,47 @@ d3.json(hour_data).then(function (data) {
             type: "line"
         }], 'hour');
     }
+});
+
+d3.json(boxData).then(function (data) {
+    var colors = ['rgba(255, 159, 64, 0.9)', 'rgba(75, 192, 192, 0.9)', 'rgba(153, 102, 255, 0.9)', 'rgba(255, 99, 132, 0.9)'];
+    var boxplotData = Object.keys(data).map(function (key, index) {
+        return {
+            x: data[key],
+            type: 'box',
+            name: key,
+            marker: {
+                color: colors[index % colors.length]
+            },
+            line: {
+                color: colors[index % colors.length]
+            },
+            width: 0.5
+        };
+    });
+
+    var layout = {
+        paper_bgcolor: 'black',
+        plot_bgcolor: 'black',
+        yaxis: {
+            zeroline: false,
+            color: 'white'
+        },
+        xaxis: {
+            color: 'white'
+        },
+        boxmode: 'group',
+        showlegend: false,
+        margin: {
+            l: 50,
+            r: 50,
+            b: 50,
+            t: 50,
+            pad: 4
+        }
+    };
+
+    Plotly.newPlot('boxplot', boxplotData, layout);
+}).catch(function (error) {
+    console.error('Error fetching data:', error);
 });

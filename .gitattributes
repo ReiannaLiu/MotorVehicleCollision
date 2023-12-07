@@ -27,3 +27,4 @@
 /data_cleaning_process/weather_zipcode_plots.ipynb filter=lfs diff=lfs merge=lfs -text
 /modeling/clustering.ipynb filter=lfs diff=lfs merge=lfs -text
 /static/images/heatmap_by_weekday_month.png filter=lfs diff=lfs merge=lfs -text
+/static/images/info_preview.png filter=lfs diff=lfs merge=lfs -text
