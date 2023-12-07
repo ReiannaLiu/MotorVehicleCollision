@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motor Collision - Columbia University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <!-- Leaflet JS -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Chart library-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <!-- Branding and logo: update the href to link to Columbia University's page if desired -->
+            <a class="navbar-brand" href="https://www.columbia.edu/" style="line-height: 1;">
+                <div>Columbia University</div>
+                <div class="subtitle">in the city of New York</div>
+            </a>
+            <div class="vertical-line"></div>
+            <a class="navbar-brand brand-secondary">Motor Vehicle Collision Dashboard</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analysis_board">Analysis Board</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api">API Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="text-center mb-4">API Documentation</h1>
+
+        <!-- API Method 1 -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision</h2>
+            <p>Returns a list of all motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision</div>
+        </div>
+
+        <!-- API Method 2 -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/total_count</h2>
+            <p>Returns the total count of motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/total_count</div>
+        </div>
+
+        <!-- API Method: Motor Collision by ZIP Code -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/&lt;zip_code&gt;</h2>
+            <p>Returns all motor collision records filtered by ZIP code.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/&lt;zip_code&gt;</div>
+        </div>
+
+        <!-- API Method: Weather Collision by ZIP Code -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/weather_collision/&lt;zip_code&gt;</h2>
+            <p>Returns weather collision data filtered by ZIP code.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/weather_collision/&lt;zip_code&gt;</div>
+        </div>
+
+        <!-- API Method: Motor Collision Statistics -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_statistics</h2>
+            <p>Returns statistics for motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_statistics</div>
+        </div>
+
+        <!-- API Method: Motor Collision by ZIP Code and Weekday -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/&lt;zip_code&gt;/by_weekday</h2>
+            <p>Returns motor collision records by weekday filtered by ZIP code.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/&lt;zip_code&gt;/by_weekday</div>
+        </div>
+
+        <!-- API Method: Motor Collision by ZIP Code and Hour -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/&lt;zip_code&gt;/by_hour</h2>
+            <p>Returns motor collision records by hour filtered by ZIP code.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/&lt;zip_code&gt;/by_hour</div>
+        </div>
+
+        <!-- API Method: Motor Collision by ZIP Code and Month -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/&lt;zip_code&gt;/by_month</h2>
+            <p>Returns motor collision records by month filtered by ZIP code.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/&lt;zip_code&gt;/by_month</div>
+        </div>
+
+        <!-- API Method: Motor Collision by Month -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/by_month</h2>
+            <p>Returns motor collision records aggregated by month.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/by_month</div>
+        </div>
+
+        <!-- API Method: Motor Collision Monthly Average -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/monthly_average</h2>
+            <p>Returns the monthly average of motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/monthly_average</div>
+        </div>
+
+        <!-- API Method: Motor Collision Total Count -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/total_count</h2>
+            <p>Returns the total count of motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/total_count</div>
+        </div>
+
+        <!-- API Method: Motor Collision Total Deaths -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/total_deaths</h2>
+            <p>Returns the total number of deaths from motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/total_deaths</div>
+        </div>
+
+        <!-- API Method: Motor Collision Total Injuries -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/motor_collision/total_injuries</h2>
+            <p>Returns the total number of injuries from motor collisions.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/motor_collision/total_injuries</div>
+        </div>
+
+        <!-- API Method: Collision by ZIP -->
+        <div class="api-method">
+            <h2><span class="method-type">GET</span> /api/v1.0/collision_by_zip</h2>
+            <p>Returns collision records grouped by ZIP code.</p>
+            <div class="endpoint">Endpoint: /api/v1.0/collision_by_zip</div>
+        </div>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Your Company Name. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Set the current year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>

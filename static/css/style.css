@@ -312,3 +312,57 @@ html {
 .indented-text {
     text-indent: 40px;
 }
+
+/* Styles specific to API method blocks */
+.api-method {
+    background-color: #222;
+    /* Darker background for API method containers */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Styles for the method type indicator (GET, POST, etc.) */
+.method-type {
+    font-weight: bold;
+    color: #0d6efd;
+    /* Bootstrap's primary color for emphasis */
+}
+
+/* Styles for the endpoint text display */
+.endpoint {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    /* Dark background for endpoint information */
+    color: #fff;
+    /* White text for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    color: #6c757d;
+    /* Grey color for footer text */
+}
+
+.section-title {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    color: #cccccc;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.section-description i {
+    color: #0d6efd;
+    margin-right: 5px;
+}

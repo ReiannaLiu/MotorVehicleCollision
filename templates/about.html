@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motor Collision - Columbia University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+    <!-- Leaflet JS -->
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <!-- Bootstrap JS and its dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Chart library-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- ... other links and scripts ... -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+</head>
+
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <!-- Branding and logo: update the href to link to Columbia University's page if desired -->
+            <a class="navbar-brand" href="https://www.columbia.edu/" style="line-height: 1;">
+                <div>Columbia University</div>
+                <div class="subtitle">in the city of New York</div>
+            </a>
+            <div class="vertical-line"></div>
+            <a class="navbar-brand brand-secondary">Motor Vehicle Collision Dashboard</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analysis_board">Analysis Board</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api">API Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="padding-top: 100px;">
+        <!-- Interactive Map Overview Section -->
+        <div class="map-overview">
+            <h2 class="section-title"><i class="fas fa-map-marked-alt"></i> Interactive Map Overview</h2>
+            <p class="section-description">
+                <i class="fas fa-circle-notch"></i> Explore a dynamic choropleth map created using
+                <strong>leaflet.js</strong> and <strong>D3.js</strong>. This map visualizes motor collision frequencies
+                across New York City by zip code, with color intensities indicating accident hotspots.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-info-circle"></i> Interactive zones on the map feature custom popups with key
+                statistics, and links to detailed infographics for each zip code, providing a more granular analysis of
+                collision data.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-chart-line"></i> The map is complemented by a live statistics table, updated in
+                real-time via <strong>Flask</strong> API calls. The integration of <strong>Plotly.js</strong> offers an
+                interactive 'Crash Count Over Time' chart, revealing monthly trends against average counts.
+            </p>
+        </div>
+
+        <!-- Infographic Overview Section -->
+        <div class="infographic-overview">
+            <h2 class="section-title"><i class="fas fa-chart-area"></i> Infographic Insights by Zipcode</h2>
+            <p class="section-description">
+                <i class="fas fa-traffic-light"></i> Delve into detailed visualizations of motor collision statistics in
+                New York City. Interactive charts and graphs, powered by <strong>Chart.js</strong> and
+                <strong>Plotly.js</strong>, bring to life data unique to each selected zipcode.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-tachometer-alt"></i> Discover insights on injuries, fatalities, and primary
+                contributing factors of accidents. These complex datasets are presented in an easily digestible format,
+                enhancing accessibility and understanding.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-cloud-sun-rain"></i> The impact of weather on accidents is depicted through innovative
+                boxplot visualizations, offering an analytical perspective on the relationship between environmental
+                factors and collision occurrences.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-clock"></i> Graphical representations of traffic accident distributions across time
+                frames highlight peak accident hours and prevalent patterns, providing valuable temporal insights for
+                safety analysis.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-crosshairs"></i> Engage with custom popups embedded in the map, offering zip
+                code-specific statistics and guiding you to a deeper narrative of traffic patterns and safety
+                challenges.
+            </p>
+        </div>
+
+        <!-- Analysis Board Overview Section -->
+        <div class="analysis-board-overview">
+            <h2 class="section-title"><i class="fas fa-analytics"></i> Analysis Board Overview</h2>
+            <p class="section-description">
+                <i class="fas fa-map-marked-alt"></i> The Analysis Board presents a holistic dashboard, aggregating
+                diverse metrics such as time, weather conditions, and contributing factors, to paint a comprehensive
+                picture of motor collision trends in New York City.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-cloud-showers-heavy"></i> Examine the nuanced interplay between accidents and weather
+                through detailed boxplots, offering insights into how environmental variables influence collision rates.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-car-crash"></i> Uncover patterns in traffic incidents with in-depth temporal data
+                analyses, identifying key times for potential enhancement of road safety measures.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-thermometer-half"></i> Dive into analyses that reveal correlations between temperature,
+                wind levels, and accident occurrences, showcasing a multifaceted approach to urban safety.
+            </p>
+            <p class="section-description">
+                <i class="fas fa-search-plus"></i> Engage with user-centric interactive elements, from zoomable maps to
+                clickable charts, each leading to detailed infographics for an enriched data exploration experience.
+            </p>
+        </div>
+    </div>
+
+</body>
