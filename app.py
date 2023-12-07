@@ -79,6 +79,14 @@ def infographic(zip_code):
 def analysis_board():
     return render_template('analysis.html')
 
+@app.route("/api")
+def api():
+    return render_template('api.html')
+
+@app.route("/about")
+def about():
+    return render_template('about.html')
+
 @app.route("/api/v1.0/motor_collision")
 def read_motor_collision():
     # Query all records from the MotorCollision table
