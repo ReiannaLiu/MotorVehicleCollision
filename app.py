@@ -24,6 +24,8 @@ Base.prepare(autoload_with=engine)
 MotorCollision = Base.classes.motor_collisions
 CollisionByZip = Base.classes.collision_by_zip
 Whether = Base.classes.weather_2022_info
+Statistics = Base.classes.motor_statistic
+WeatherCollision = Base.classes.weather_collision
 
 # Define a schema for the MotorCollision table
 class MotorCollisionSchema(SQLAlchemyAutoSchema):
@@ -41,9 +43,21 @@ class WhetherSchema(SQLAlchemyAutoSchema):
         model = Whether
         load_instance = True
 
+class StatisticsSchema(SQLAlchemyAutoSchema):
+    class Meta:
+        model = Statistics
+        load_instance = True
+
+class WeatherCollisionSchema(SQLAlchemyAutoSchema):
+    class Meta:
+        model = WeatherCollision
+        load_instance = True
+
 motor_collision_schema = MotorCollisionSchema()
 collision_by_zip_schema = CollisionByZipSchema()
 whether_schema = WhetherSchema()
+statistics_schema = StatisticsSchema()
+weather_collision_schema = WeatherCollisionSchema()
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
@@ -73,6 +87,28 @@ def read_motor_collision():
     # Serialize the query results to JSON using the schema
     result = motor_collision_schema.dump(all_collisions, many=True)
     return jsonify(result)
+
+@app.route("/api/v1.0/motor_statistics")
+def read_motor_statistics():
+    # Query all records from the MotorCollision table
+    all_statistics = session.query(Statistics).all()
+    
+    # Serialize the query results to JSON using the schema
+    result = statistics_schema.dump(all_statistics, many=True)
+    return jsonify(result)
+
+@app.route("/api/v1.0/weather_collision/<zip_code>")
+def read_weather_collision_by_zip(zip_code):
+    # Query icon and total_inflicted column from the MotorCollision table
+    all_collisions = session.query(WeatherCollision.icon, WeatherCollision.total_inflicted).filter(WeatherCollision.zip_code == zip_code).all()
+
+    # convert to format: icon: [1, 2, 3,]
+    result = defaultdict(list)
+    for icon, total_inflicted in all_collisions:
+        result[icon].append(total_inflicted)
+
+    return jsonify(result)
+
 
 @app.route("/api/v1.0/motor_collision/<zip_code>")
 def read_motor_collision_by_zip(zip_code):

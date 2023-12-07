@@ -2,9 +2,7 @@
 var geoData = "static/data/nyc_geojson_by_zip_with_counts.json";
 var infoData = "http://127.0.0.1:5000/api/v1.0/motor_collision";
 var geojson;
-var totalAccidentsData = "http://127.0.0.1:5000/api/v1.0/motor_collision/total_count";
-var totalDeathsData = "http://127.0.0.1:5000/api/v1.0/motor_collision/total_deaths";
-var totalInjuriesData = "http://127.0.0.1:5000/api/v1.0/motor_collision/total_injuries";
+var statistics = "http://127.0.0.1:5000/api/v1.0/motor_statistics";
 
 //-----------------------Map Creation -----------------------------
 // Initialize the map to center on New York
@@ -52,7 +50,7 @@ d3.json(geoData).then(function (data) {
                 </div> 
                 <div class="popup-section">
                     <a href="/infographic/${feature.properties.postalCode}" stype="display:block;">
-                    <img src="#"> 
+                    <img src="static/images/info_preview.png"> 
                     </a>
                 </div>
                 <div class="popup-footer">
@@ -153,7 +151,7 @@ Promise.all([
         paper_bgcolor: 'black', // Background color outside the plotting area
         plot_bgcolor: 'black', // Background color of the plotting area
         margin: { // Adjust margins to fit the container
-            l: 40,
+            l: 70,
             r: 40,
             b: 150,
             t: 60,
@@ -173,19 +171,10 @@ Promise.all([
 
 
 //-----------------------Table Appending -----------------------------
-const dataPromises = [
-    d3.json(totalAccidentsData),
-    d3.json(totalInjuriesData),
-    d3.json(totalDeathsData)
-];
 
-Promise.all(dataPromises).then(function (values) {
-    // 'values' is an array that contains the results of the above promises in the order they were provided
-    const [accidentsData, injuriesData, deathsData] = values;
-
-    // Now you can append the data in the correct order
-    const tableRow = d3.select("#info-table tbody").append("tr"); // Select the table and append a new row
-    tableRow.append("td").text(accidentsData);
-    tableRow.append("td").text(injuriesData);
-    tableRow.append("td").text(deathsData);
+d3.json(statistics).then(function (data) {
+    const tableRow = d3.select("#info-table tbody").append("tr");
+    tableRow.append("td").text(data[0].number_of_accidents);
+    tableRow.append("td").text(data[0].number_of_injuries);
+    tableRow.append("td").text(data[0].number_of_deaths);
 });
