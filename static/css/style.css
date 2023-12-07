@@ -301,4 +301,14 @@ html {
 .modal-subtitle {
     text-align: center;
     color: #000000;
+    margin-bottom: 0;
+}
+
+.img-fluid {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.indented-text {
+    text-indent: 40px;
 }

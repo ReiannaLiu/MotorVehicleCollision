@@ -71,16 +71,16 @@
                             the
                             card's content.</p>
                         <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal1">View More
                             Analysis</a>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="analysisModal1" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel1" aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel">Accident Heatmap by Different
+                                        <h5 class="modal-title" id="analysisModalLabel1">Accident Heatmap by Different
                                             Time Aggregation</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -89,6 +89,22 @@
                                     <div class="modal-body">
                                         <h5 class="modal-subtitle">Accident Heatmap by Weekday and Month</h5>
                                         <img src="static/images/heatmap_by_weekday_month.png" class="img-fluid">
+                                        <p class="indented-text">To be added.</p>
+                                        <h5 class="modal-subtitle">Accident Heatmap by Weekday and Hour</h5>
+                                        <img src="static/images/heatmap_by_weekday_hour.png" class="img-fluid">
+                                        <p class="indented-text">The heatmap displays the number of accidents by weekday
+                                            and hour, providing a detailed temporal breakdown of when accidents occur.
+                                            Darker shades indicate higher accident counts, revealing that midweek days,
+                                            particularly during the hours of 3 pm to 6 pm, see the highest frequency of
+                                            accidents, possibly due to rush hour traffic. Saturday evenings also show an
+                                            elevated number of accidents. In contrast, the early morning hours across
+                                            all days have the lowest occurrence, likely due to reduced traffic. This
+                                            visualization underscores the critical times when road safety measures could
+                                            be intensified to prevent accidents, especially during the busiest hours of
+                                            the week.</p>
+                                        <h5 class="modal-subtitle">Accident Heatmap by Month and Hour</h5>
+                                        <img src="static/images/heatmap_by_month_hour.png" class="img-fluid">
+                                        <p class="indented-text">To be added.</p>
                                     </div>
                                 </div>
                             </div>
@@ -97,33 +113,73 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 column-custom">
+                <!--Distribution of Vehicle Types Involved-->
                 <div class="card card-custom">
                     <img src="static\images\distribution_vehicle_type_comparison.png"
-                        class="card-img-top card-img-custom" alt="Accident Heatmap by Weekday and Month">
+                        class="card-img-top card-img-custom"
+                        alt="Distributions of Vehicle Types Involved in the Accidents">
                     <div class="card-body">
                         <h5 class="card-title">Distributions of Vehicle Types Involved in the Accidents</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">This bar chart illustrates the distribution of different types of vehicles
+                            involved in accidents. </p>
                         <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal2">View More
                             Analysis</a>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="analysisModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel2" aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <h5 class="modal-title" id="analysisModalLabel">Accidents by Different Time
+                                            Aggregation</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
-                                        Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.
+                                        <h5 class="modal-subtitle">Distribution of Vehicle Types Involved in Accidents
+                                            (Detailed)</h5>
+                                        <img src="static/images/detailed_vehicle_type_distribution.png"
+                                            class="img-fluid">
+                                        <p class="indented-text">This bar chart illustrates the distribution of
+                                            different types of vehicles involved in accidents. Sedans lead, followed
+                                            closely by station wagons/sport utility vehicles, indicating these vehicle
+                                            types are more frequently involved in accidents, which could correlate with
+                                            their prevalence on the roads. Other types, like taxis, bikes, and e-bikes,
+                                            have a smaller representation, suggesting fewer incidents. Notably, there
+                                            are very few accidents involving more specialized vehicles such as
+                                            ambulances and e-scooters.</p>
+                                        <h5 class="modal-subtitle">Distribution of Vehicle Types Involved in Accidents
+                                            (General)</h5>
+                                        <img src="static/images/general_distribution_vehicle_type.png"
+                                            class="img-fluid">
+                                        <p class="indented-text">The chart presents a generalized overview of the types
+                                            of vehicles most often implicated in traffic incidents. Cars are the most
+                                            common vehicle type involved, followed by SUVs, indicating a higher
+                                            incidence of accidents with these vehicles. The involvement of cyclists is
+                                            also significant, suggesting a potential area of focus for improving road
+                                            safety for non-motorized traffic. Trucks, scooters, emergency vehicles, and
+                                            motorcycles are involved in accidents less frequently, according to this
+                                            data. It's important for urban planners and traffic safety officials to
+                                            consider these patterns when designing interventions to reduce traffic
+                                            accidents.</p>
+                                        <img src="static\images\distribution_vehicle_type_comparison.png"
+                                            class="img-fluid">
+                                        <p class="indented-text">The graph presents a side-by-side comparison of vehicle
+                                            types involved in accidents, categorized into general and detailed
+                                            distributions. On the left, the 'General Distribution' chart simplifies
+                                            vehicle types into broader categories such as 'Car' and 'SUV', showing that
+                                            cars are the most frequently involved in accidents. On the right, the
+                                            'Detailed Distribution' provides a more nuanced view, breaking down the
+                                            categories further—'Sedan', 'Station Wagon/Sport Utility Vehicle', and so
+                                            forth. Both graphs highlight that standard passenger vehicles like sedans
+                                            and SUVs are the most common in accidents, suggesting they are either more
+                                            numerous on the roads or more prone to incidents. The detailed chart also
+                                            illustrates the involvement of other specific vehicle types, like taxis and
+                                            motorcycles, providing a clearer picture for targeted road safety
+                                            strategies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -132,33 +188,186 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 column-custom">
+                <!--Top 10 Contributing Factors-->
                 <div class="card card-custom">
                     <img src="static\images\top_contributing_factors.png" class="card-img-top card-img-custom"
                         alt="Top 10 Contributing Factors to Accidents">
                     <div class="card-body">
                         <h5 class="card-title">Top 10 Contributing Factors to Accidents</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text">The plot shows a count of accidents sorted by contributing factors,
+                            arranged in descending order. </p>
                         <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal3">View More
                             Analysis</a>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="analysisModal3" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel3" aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <h5 class="modal-title" id="analysisModalLabel1">Top 10 Contributing Factors to
+                                            Accidents</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
-                                        Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.
+                                        <img src="static\images\top_contributing_factors.png" class="img-fluid">
+                                        <p class="indented-text">The plot shows a count of accidents sorted by
+                                            contributing factors, arranged in descending order. The x-axis lists the
+                                            contributing factors to accidents, while the y-axis quantifies the number of
+                                            accidents associated with each factor. “Driver inattention/Distraction" is
+                                            at the greatest height, representing the most prevalent contributing factor
+                                            to accidents within the dataset. This factor significantly surpasses the
+                                            others, indicating it is a primary concern for road safety interventions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 column-custom">
+                <!-- Accidents by Different Time Aggregation -->
+                <div class="card card-custom">
+                    <img src="static\images\accidents_by_time_analysis.png" class="card-img-top card-img-custom"
+                        alt="Accidents by Time Analaysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Accidents by Different Time Aggregation</h5>
+                        <p class="card-text">The dual graphs depict the number of accidents categorized by both the day
+                            of the week and time of day. </p>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal4">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal4" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel4" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Accidents by Different Time
+                                            Aggregation</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="static\images\accidents_by_time_analysis.png" class="img-fluid">
+                                        <p class="indented-text">The dual graphs depict the number of accidents
+                                            categorized by both the day of the week and time of day. In the first graph,
+                                            the distribution of accidents is fairly consistent across the days, with
+                                            slight variations, suggesting no single day is dramatically safer or more
+                                            dangerous. In the second graph, there's a clear pattern showing that most
+                                            accidents occur during 'Other Hours,' which includes daytime and evening,
+                                            followed by 'Rush Hours,' indicating high traffic volume likely contributes
+                                            to more accidents. 'Late Night' and 'Early Morning' periods see fewer
+                                            accidents, which could be due to lower traffic volumes during these times.
+                                            The data suggest that interventions to improve road safety could be most
+                                            impactful during peak traffic hours and throughout most of the day.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Daily Crash Counts -->
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\daily_crash_counts.png" class="card-img-top card-img-custom"
+                        alt="Accidents by Time Analaysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Daily Crash Counts with Daily Average and 7-Day Moving Average</h5>
+                        <p class="card-text">The time series chart illustrates daily crash counts over a period,
+                            overlaid with both a daily average (green dashed line) and a 7-day moving average (red
+                            dashed line). </p>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal5">View More
+                            Analysis</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal5" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel5" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts with Daily
+                                            Average and 7-Day Moving Average </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="static/images/daily_crash_counts.png" class="img-fluid">
+                                        <p class="indented-text">The time series chart illustrates daily crash counts
+                                            over a period, overlaid with both a daily average (green dashed line) and a
+                                            7-day moving average (red dashed line). The blue dots represent daily crash
+                                            data, with spikes indicating days with higher-than-average crashes. The
+                                            7-day moving average smooths out daily fluctuations, providing a clearer
+                                            view of the overall trend, which helps identify patterns or shifts in
+                                            accident frequency over time. The daily average appears relatively constant,
+                                            serving as a benchmark against which daily and weekly variations can be
+                                            assessed. Peaks above the daily average suggest days with unusually high
+                                            accident counts, while troughs indicate fewer accidents than average.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 column-custom">
+                <!-- Crash Counts Over Time -->
+                <div class="card card-custom">
+                    <img src="static/images/seasonality_month.png" class="card-img-top card-img-custom"
+                        alt="Accidents by Time Analaysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Crash Counts Over Time by Month</h5>
+                        <p class="card-text">The line graph displays the monthly crash count for 2022. The x-axis
+                            represents the month of the year, while the y-axis shows the number of crashes.</p>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal6">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal6" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel6" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Crash Counts Over Time by Month
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="static/images/seasonality_month.png" class="img-fluid">
+                                        <p class="indented-text">The line graph displays the monthly crash count for
+                                            2022. The x-axis represents the month of the year, while the y-axis shows
+                                            the number of crashes. The blue line indicates the actual number of crashes
+                                            each month, while the red dashed line represents the monthly average crash
+                                            count for the year. </p>
+
+                                        <p class="indented-text">From the graph, there's a noticeable fluctuation in
+                                            crash numbers, with peaks suggesting months where crashes were more
+                                            frequent. Specifically, there’s a significant peak around the middle of the
+                                            year, indicating a month with an exceptionally high number of crashes
+                                            compared to the rest. Towards the end of the year, there’s a sharp decline
+                                            in the number of crashes, followed by a slight increase.
+                                        </p>
+
+                                        <p class="indented-text">The monthly average crash count, depicted by the red
+                                            dashed line, provides a benchmark to compare the actual crash counts
+                                            against. Months that lie above this line had a higher-than-average number of
+                                            crashes, whereas months below it had fewer crashes than average. This
+                                            information could be valuable for analyzing seasonal effects on road safety
+                                            and could help in planning safety measures or resource allocation for
+                                            traffic management.</p>
                                     </div>
                                 </div>
                             </div>
@@ -168,32 +377,105 @@
             </div>
             <div class="col-md-3 col-sm-6 column-custom">
                 <div class="card card-custom">
-                    <img src="static\images\accidents_by_time_analysis.png" class="card-img-top card-img-custom"
-                        alt="Accidents by Time Analaysis">
+                    <img src="static/images/accident_distribution_by_wind_level.png"
+                        class="card-img-top card-img-custom"
+                        alt="Probability Distribution of Accidents in 2022 for Different Wind Levels">
                     <div class="card-body">
-                        <h5 class="card-title">Accidents by Different Time Aggregation</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <h5 class="card-title">Probability Distribution of Accidents in 2022 for Different Wind Levels
+                        </h5>
+                        <p class="card-text">The line graph displays the monthly crash count for 2022. The x-axis
+                            represents the month of the year, while the y-axis shows the number of crashes.</p>
                         <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal7">View More
                             Analysis</a>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="analysisModal7" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel7" aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <h5 class="modal-title" id="analysisModalLabel">Probability Distribution of
+                                            Accidents in 2022 for Different Wind Levels
+                                        </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
-                                        Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.
+                                        <img src="static/images/accident_distribution_by_wind_level.png"
+                                            class="img-fluid">
+                                        <p class="indented-text">The graph depicts the probability distribution of
+                                            accidents
+                                            for different wind levels throughout 2022. Each bell-shaped curve represents
+                                            the
+                                            likelihood of accident counts at varying wind intensities. The overlapping
+                                            nature of the distributions suggests that there is no clear, singular effect
+                                            of
+                                            wind on the probability of accidents, as the ranges of accident numbers for
+                                            different wind levels are quite similar. The peak of each distribution
+                                            indicates
+                                            the most probable number of accidents at a particular wind level, and the
+                                            width
+                                            of the curves reflects the variability of accidents associated with that
+                                            wind
+                                            level. Notably, no single wind level stands out as having a significantly
+                                            different impact on the number of accidents, implying that wind may not be a
+                                            decisive factor in the frequency of accidents.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static/images/temperature_boxplot.png" class="card-img-top card-img-custom"
+                        alt="Distribution of Number of Crashes on Different Temperature Levels">
+                    <div class="card-body">
+                        <h5 class="card-title">Distribution of Number of Crashes on Different Temperature Levels</h5>
+                        <p class="card-text">Moderate temperatures seem to have a higher median number of crashes
+                            compared to other categories, with a notable spread of data points indicating variability in
+                            crash frequency. </p>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal8">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal8" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel8" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel">Distribution of Number of
+                                            Crashes on
+                                            Different Temperature Levels
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="static/images/temperature_boxplot.png" class="img-fluid">
+                                        <p class="indented-text">The boxplots visualize the distribution of crashes
+                                            across
+                                            different temperature levels. Moderate temperatures seem to have a higher
+                                            median
+                                            number of crashes compared to other categories, with a notable spread of
+                                            data
+                                            points indicating variability in crash frequency. Cold temperatures show a
+                                            similar range of crash numbers, with outliers suggesting occasional spikes
+                                            in
+                                            crashes during colder weather. Freezing temperatures have the smallest
+                                            interquartile range, indicating more consistent crash numbers, while warm
+                                            and
+                                            hot temperatures show a wider spread, with warm temperatures having a
+                                            slightly
+                                            higher median number of crashes. This information could suggest that driver
+                                            behavior or road conditions at moderate to warm temperatures might
+                                            contribute to
+                                            higher crash frequencies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -205,31 +487,43 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 column-custom">
                 <div class="card card-custom">
-                    <img src="static\images\daily_crash_counts.png" class="card-img-top card-img-custom"
-                        alt="Accidents by Time Analaysis">
+                    <img src="static/images/accident_count_by_weather.png" class="card-img-top card-img-custom"
+                        alt="Distribution of Number of Accidents on Different Weather Conditions">
                     <div class="card-body">
-                        <h5 class="card-title">Daily Crash Counts with Daily Average and 7-Day Moving Average</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">Distribution of Number of Accidents on Different Weather Conditions</h5>
+                        <p class="card-text">Rain and cloudy weather show a wide range of accident counts, with rain
+                            exhibiting some outliers, indicating occasional spikes in accident numbers during such
+                            weather.</p>
                         <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal">View More
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal9">View More
                             Analysis</a>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="analysisModal" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="analysisModal9" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel9" aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel">Daily Crash Counts Analysis</h5>
+                                        <h5 class="modal-title" id="analysisModalLabel">Distribution of Number of
+                                            Accidents on Different Weather Conditions
+                                        </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <!-- Your analysis content goes here. You can include text, images, etc. -->
-                                        Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.
+                                        <img src="static/images/accident_count_by_weather.png" class="img-fluid">
+                                        <p class="indented-text">The boxplots illustrate the distribution of accident
+                                            numbers under different weather conditions. Rain and cloudy weather show a
+                                            wide range of accident counts, with rain exhibiting some outliers,
+                                            indicating occasional spikes in accident numbers during such weather. Clear
+                                            days have a relatively compact distribution but with a slight skew towards
+                                            higher accident counts. Snowy conditions, while having fewer accidents
+                                            overall, display a tight distribution with fewer outliers, suggesting a more
+                                            consistent accident rate during such conditions. Overall, the variability in
+                                            accident counts is greatest during rainy and cloudy weather, which could be
+                                            due to the impact of these conditions on visibility and road surface
+                                            conditions, affecting driving safety.</p>
                                     </div>
                                 </div>
                             </div>
