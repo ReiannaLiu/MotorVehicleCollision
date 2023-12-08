@@ -49,11 +49,16 @@ The project utilizes two primary Jupyter notebooks for EDA:
 ## Machine Learning (ML) 
 
 ### Classification Models
-The classification models are built to predict accident severity based on weather conditions and accident's contributing factors. The models are trained on the cleaned dataset and the best model is selected based on the accuracy score. The models are evaluated using the following metrics:
+The classification models are built to predict accident severity based on weather conditions and accident's contributing factors. 
 
-- **Random Forest Classifier**: Predicting accident severity based on weather condition and accident's contributing factors.
-- **Support Vector Classifier**: Predicting accident severity based on a.
-- 
+#### Data Preprocessing
+- **Data Normalization**: Normalizing the data using StandardScaler and OneHotEncoder to prepare the data for the machine learning models.
+- **Data Splitting**: Splitting the data into training and testing datasets using train_test_split.
+- **Data Model Building**: Build the models using **OneVsRestClassifier**, **SDGClassifier with grid search**, **Random Forest Classifier**, **Gradient Boosting Classifier**, and **Neural Network Classifier**. 
+- **Data Model Evaluation**: Evaluate the models using **accuracy score**, **confusion matrix**, and **classification report**.
+
+### Clustering Models
+
 
 
 ## Setup and Installation
