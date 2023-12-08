@@ -32,3 +32,4 @@
 /static/images/detailed_vehicle_type_distribution.png filter=lfs diff=lfs merge=lfs -text
 /static/images/distribution_vehicle_type_comparison.png filter=lfs diff=lfs merge=lfs -text
 /static/images/general_distribution_vehicle_type.png filter=lfs diff=lfs merge=lfs -text
+/data_cleaning_process/graph_analysis.ipynb filter=lfs diff=lfs merge=lfs -text
