@@ -66,8 +66,25 @@ The classification models are built to predict whether an accident involves pede
 
 
 ### Clustering Models
+The clustering models are designed to group various factors and attributes that may contribute to accidents in order to gain insights into potential patterns or associations among these factors. The primary objective is to identify distinct clusters within the data and visualize them on a map of New York City to discern any spatial patterns or differences among the clusters.
 
+#### Data Preprocessing
+Data Normalization: The data is preprocessed by applying StandardScaler for numerical features and Ordinal encoding for categorical features.
 
+#### Clustering Model
+K-Means Clustering: The K-Means clustering algorithm is utilized to partition the data into four clusters. The choice of four clusters is determined through the elbow method, which helps identify an appropriate number of clusters by examining the within-cluster sum of squares at different cluster counts.
+
+#### Variables Description
+The clustering analysis focuses on the following three columns, as they are considered the most crucial factors contributing to accidents:
+
+- 'precip_category': This column accounts for the level of precipitation during the day of the accident
+- 'crash_hour_category': This column is mapped to the following categories based on crash hour:'Early Morning','Late Night','Other Hours','Rush Hours'
+- 'severity_of_accident': This column represents the severity of accidents, categorized based on injuries and fatalities
+
+The selection of these three columns is based on their significance in representing weather conditions, accident severity, and timing, which are among the most critical aspects of accidents. The decision to omit the 'contributing_factor' column, which contains numerous causes with limited entries, was made to focus on more conclusive and informative features.
+
+#### Visualization
+Cluster Visualization on ArcGIS Map: The results of the clustering analysis are visualized on an ArcGIS map, accessible at https://arcg.is/0H9ej8. This visualization provides a spatial representation of the identified clusters, allowing us to observe any geographical patterns or trends among the clustered factors.
 
 ## Setup and Installation
 1. **Clone the Repository**: Fetch the project files onto your system.
