@@ -213,13 +213,13 @@ html {
 }
 
 .card-custom {
-    width: 24rem;
+    width: 30rem;
     /* Fixed width */
-    height: 28rem;
+    height: 26rem;
     /* Height adjusts to content */
-    margin: 0.5rem;
+    margin: 1rem;
     /* Margin around the card */
-    padding: 0.5rem;
+    padding: 1rem;
     /* Padding inside the card */
     background-color: #121212;
     /* Slightly off-black background */

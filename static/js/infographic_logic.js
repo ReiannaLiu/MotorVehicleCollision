@@ -294,7 +294,7 @@ d3.selectAll('input[name="aggregateTime"]').on("change", function () {
 function updatePlotly(newData, aggregateTime) {
     let xAxisLabels;
     if (aggregateTime === 'weekday') {
-        xAxisLabels = newData[0].x.map(x => ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][x]);
+        xAxisLabels = newData[0].x.map(x => ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'][x]);
     } else if (aggregateTime === 'month') {
         xAxisLabels = newData[0].x.map(x => ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][x - 1]);
     } else {
@@ -305,7 +305,7 @@ function updatePlotly(newData, aggregateTime) {
         x: [xAxisLabels],
         y: [newData[0].y],
         'text': newData[0].x.map((x, i) => {
-            let label = aggregateTime === 'weekday' ? ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][x] :
+            let label = aggregateTime === 'weekday' ? ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'][x] :
                 aggregateTime === 'month' ? ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][x - 1] :
                     x;
         })
