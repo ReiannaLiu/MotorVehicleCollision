@@ -9,6 +9,16 @@ html {
     /* High contrast text */
 }
 
+/* Styles for custom bullet points */
+.custom-bullet-list {
+    list-style-type: disc;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.custom-bullet-list li {
+    margin-bottom: 10px; /* Adjust the spacing between bullet points */
+}
+
 /* Styles for the custom navbar */
 .navbar-custom {
     background-color: #000000;
