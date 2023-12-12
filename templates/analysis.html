@@ -63,9 +63,105 @@
 
         <div class="row">
 
-
-            <!-- Weather & Total Accident Counts-->
+            <!-- Temporal Analysis-->
             <div class="col-md-4 col-sm-6 column-custom">
+                <div class="card card-custom">
+                    <img src="static\images\daily_crash_counts.png" class="card-img-top card-img-custom"
+                        alt="Temporal Analysis">
+                    <div class="card-body">
+                        <h5 class="card-title">Temporal Analysis</h5>
+                        <p class="card-text">Chronological Patterns: Unveiling the Daily and Monthly Trends of Traffic
+                            Accidents in NYC</p>
+                        <!-- Button trigger modal -->
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal5">View More
+                            Analysis</a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analysisModal1" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="analysisModalLabel1">Temporal Analysis</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 class="modal-subtitle" style="text-align: left">Daily Time Series</h5>
+                                        <p class="indented-text"> We first take a look at the daily time series. </p>
+                                        <img src="static/images/daily_crash_counts.png" class="img-fluid">
+                                        <p class="indented-text"> The time series chart illustrates daily crash counts
+                                            over a period, overlaid with both a daily average (green dashed line) and a
+                                            7-day moving average (red dashed line). The blue dots represent daily crash
+                                            data, with spikes indicating days with higher-than-average crashes. The
+                                            7-day moving average smooths out daily fluctuations, providing a clearer
+                                            view of the overall trend over time. </p>
+                                        <p class="indented-text"> We can observe that:
+                                            <ul>
+                                                <li>There is a weekly seasonality in accidents.</li>
+                                                <li>Troughs, indicating fewer accidents than average, usually occur in winter
+                                                    and during holiday seasons.</li>
+                                                <li>Summer is the peak season for accidents.</li>
+                                            </ul></p>
+                                        <br>
+                                        <h5 class="modal-subtitle text-align-left">Seasonality by Month</h5>
+                                        <img src="static/images/seasonality_month.png" class="img-fluid">
+                                        <p class="indented-text">The line graph displays the monthly crash count for
+                                            2022. The x-axis represents the month of the year, while the y-axis shows
+                                            the number of crashes. The blue line indicates the actual number of crashes
+                                            each month, while the red dashed line represents the monthly average crash
+                                            count for the year.</p>
+                                        <p class="indented-text">We can observe that:
+                                            <ul>
+                                                <li>There is a monthly seasonality in accidents.</li>
+                                                <li>there is a significant peak around the middle of the year,
+                                                    particularly in May and June. The number of crashes remains high until
+                                                    October, coinciding with the onset of colder days when people tend to stay
+                                                    indoors.</li>
+                                                <li>There is a sharp decline in the number of crashes during holiday
+                                                    seasons, particularly at the beginning and end of the year.</li>
+                                            </ul></p>
+                                        <br>
+                                        <h5 class="modal-subtitle text-align-left">Aggregated Temporal Pattern by Day of the Week and
+                                            time of the days</h5>
+                                        <img src="static/images/accidents_by_time_analysis.png" class="img-fluid">
+                                        <p class="indented-text">Let's also dive into the non-motorists-involved cases.
+                                        </p>
+
+                                        <img src="static/images/ts_nonmotorist.png" class="img-fluid">
+                                        <p class="indented-text"> We can observe that: 
+                                            <ul>
+                                                <li>Pedestrians are more likely to be involved than cyclists in accidents that include non-motorists victims.</li>
+                                                <li>Accident counts peak on Friday and during rush hours.</li>
+                                            </ul></p>
+                                        <br>
+                                        <h5 class="modal-subtitle text-align-left">Disaggregated Time Study</h5>
+                                        <img src="static/images/heatmap_by_weekday_month.png" class="img-fluid">
+                                        <img src="static/images/heatmap_by_weekday_hour.png" class="img-fluid">
+                                        <img src="static/images/heatmap_by_month_hour.png" class="img-fluid">
+                                        <p class="indented-text">These heatmaps display the number of accidents by day of week 
+                                            and month, by day of week and hour, and by month and hour, respectively, where 
+                                            arker shades indicate higher accident counts. We can make the following observations:
+                                            <ul>
+                                                <li>Accidents during working days peak during working hours, while being more evenly distributed 
+                                                    throughout the day (even at night hours) on weekends.</li>
+                                                <li>Also, Midweek days, particularly Fridays during the hours of 3 pm to 6 pm, see the highest frequency of
+                                                    accidents.</li>
+                                                <li>From May to August, between 3 pm and 5 pm, peak accident counts are observed.</li> </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Weather & Total Accident Counts-->
+             <div class="col-md-4 col-sm-6 column-custom">
                 <div class="card card-custom">
                     <img src="static\images\weather_totalcount.png" class="card-img-top card-img-custom"
                         alt="Weather & Total Accident Counts">
@@ -78,75 +174,79 @@
                             Analysis</a>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="analysisModal1" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel1" aria-hidden="true">
+                        <div class="modal fade" id="analysisModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="analysisModalLabel2" aria-hidden="true">
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel1">Weather & Total Accident Counts
+                                        <h5 class="modal-title" id="analysisModalLabel2">Weather & Total Accident Counts
                                         </h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h5 class="modal-subtitle">Impact of Weather Conditions on Total Accident Counts
-                                        </h5>
                                         <img src="static/images/weather_totalcount.png" class="img-fluid">
                                         <p class="indented-text">The boxplots depict how accident numbers in New York
                                             City during
-                                            2022 varied across various weather conditions. Rain and cloudy weather show
-                                            a wide range
-                                            of accident counts, with rain exhibiting some outliers, indicating
-                                            occasional spikes in
-                                            accident numbers during such weather. Clear days have a relatively compact
-                                            distribution
-                                            but with a slight skew towards higher accident counts. Snowy conditions,
-                                            while having
-                                            fewer accidents overall, display a tight distribution with fewer outliers,
-                                            suggesting a
-                                            more consistent accident rate during such conditions. Overall, the
+                                            2022 varied across various weather conditions. We observe that:
+                                            <ul>
+                                                <li>Rain and cloudy weather show
+                                                    a wide range
+                                                    of accident counts, with rain exhibiting some high outliers. </li>
+                                                <li>Clear days have a relatively compact
+                                                    distribution
+                                                    but with a slight skew towards higher accident counts.</li>
+                                                <li>Snowy conditions have
+                                                    fewer accidents overall and display a tight distribution with fewer outliers,
+                                                    likely due to limited samples (as there were only 18 snowy days in 2022) in our dataset. </li>
+                                            </ul> 
+                                            Overall, the
                                             variability in accident counts is greatest during
-                                            rainy and cloudy weather, which could be due to the impact of these
+                                            rainy and cloudy weather, possibly due to the impact of these
                                             conditions on visibility
                                             and road surface conditions, affecting driving safety.</p>
-
-                                        <h5 class="modal-subtitle">Impact of Wind Level on Total Accident Counts</h5>
+                                        <p class="indented-text">Lets's dive deep into additional weather details to examine the impact of weather on daily accident counts.</p>
+                                        <br>
+                                        <h5 class="modal-subtitle" style = "text-align: left">Wind Level</h5>
                                         <img src="static/images/wind_totalcounts.png" class="img-fluid">
                                         <img src="static/images/accident_distribution_by_wind_level.png"
                                             class="img-fluid">
-
-
-
-                                        <h5 class="modal-subtitle">Impact of Temperature on Total Accident Counts</h5>
+                                        <br>
+                                        <h5 class="modal-subtitle" style = "text-align: left">Temperature</h5>
                                         <img src="static/images/temp_totalcounts.png" class="img-fluid">
                                         <img src="static/images/accident_distribution_by_temp_category.png"
                                             class="img-fluid">
-                                        <p class="indented-text">The boxplots visualize the distribution of crashes
-                                            across different
-                                            temperature levels during 2022 in New York City. Moderate temperatures seem
-                                            to have a higher
-                                            median number of crashes compared to other categories, with a notable spread
-                                            of data points
-                                            indicating variability in crash frequency. Cold temperatures show a similar
-                                            range of crash
-                                            numbers, with outliers suggesting occasional spikes in crashes during colder
-                                            weather.
-                                            Freezing temperatures have the smallest interquartile range, indicating more
-                                            consistent
-                                            crash numbers, while warm and hot temperatures show a wider spread, with
-                                            warm temperatures
-                                            having a slightly higher median number of crashes. This information could
-                                            suggest that driver
-                                            behavior or road conditions at moderate to warm temperatures might
-                                            contribute to higher crash frequencies.</p>
-
-
-                                        <h5 class="modal-subtitle">Impact of Precipitation on Total Accident Counts</h5>
+                                        <br>
+                                        <h5 class="modal-subtitle" style = "text-align: left">Precipitation</h5>
                                         <img src="static/images/precip_totalcount.png" class="img-fluid">
                                         <img src="static/images/accident_distribution_by_precip_level.png"
+                                            class="img-fluid">        
+                                        <br>
+                                        <h5 class="modal-subtitle" style = "text-align: left">Visibility</h5>
+                                        <img src="static/images/vis_totalcount.png" class="img-fluid">
+                                        <img src="static/images/accident_distribution_by_vis_level.png"
                                             class="img-fluid">
 
+                                        <p class="indented-text">
+                                            <ul>
+                                                The patterns mostly align with our general expectation that more crashes tend to occur on days with bad weather conditions,
+                                                partly confirming the validity of our dataset.
+                                                <li> <strong>Wind Level: </strong> On days with strong winds, the median number of crashes tend to 
+                                                    be higher than the other and we see 
+                                                    high outliers of crashes on days with "small tree sway" wind level.
+                                                </li>
+                                                <li><strong>Temperature: </strong> We have the most day counts for warm and moderate temperatures, with moderate days 
+                                                    showing the greatest spread of data points across all temperatures. We observe a high median number of crashes on hot days. 
+                                                    Warm days also exhibit a slightly higher median number of crashes. </li>
+                                                <li><strong>Precipitation: </strong> We observe the highest median, 25th quantile, and 75th
+                                                     quantile number of traffic crashes, as well as high outliers, on days with heavy precipitation. Additionally, 
+                                                    the median number of traffic crashes on moderate precipitation days is the lowest.</li>
+                                                <li><strong>Visibility: </strong> Most days are of good visibility in 2022. The median number of crashes are on a similar level across all 
+                                                    visibility levels. We identify some high outliers and a higher 25th quantile number on days with poor visibility.</li>
+                               
+                                            </ul> 
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -156,16 +256,13 @@
             </div>
 
 
-
-
-
             <div class="col-md-4 col-sm-6 column-custom">
                 <!--Top 10 Contributing Factors-->
                 <div class="card card-custom">
                     <img src="static\images\top_contributing_factors.png" class="card-img-top card-img-custom"
                         alt="Contributing Factors">
                     <div class="card-body">
-                        <h5 class="card-title">Contributing Factors</h5>
+                        <h5 class="card-title">Top Contributing Factors</h5>
                         <p class="card-text">Examining the Specific Weather Conditions Affecting Accident Contributing
                             Factors in NYC </p>
                         <!-- Button trigger modal -->
@@ -178,7 +275,7 @@
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel1"> Contributing Factors</h5>
+                                        <h5 class="modal-title" id="analysisModalLabel3"> Top Contributing Factors</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -187,49 +284,57 @@
                                         <h5 class="modal-subtitle">Overall Accident Counts by Contributing Factors</h5>
                                         <img src="static/images/top_contributing_factors.png" class="img-fluid">
                                         <p class="indented-text">The plot shows a count of accidents sorted by
-                                            contributing factors, arranged in descending order. The x-axis lists the
-                                            contributing factors to accidents, while the y-axis quantifies the number of
-                                            accidents associated with each factor. “Driver inattention/Distraction" is
-                                            at the greatest height, representing the most prevalent contributing factor
-                                            to accidents within the dataset. This factor significantly surpasses the
-                                            others, indicating it is a primary concern for road safety interventions.
+                                            contributing factors, arranged in descending order. In the chart, 'Driver inattention/Distraction' 
+                                            emerges as the most prevalent contributing factor to accidents, closely followed by 'Failure to Yield 
+                                            Right-of-Way'—a characteristic pattern observed in NYC.
+                                        </p>
+                                        <br>
+                                        <p class="indented-text">Let's dive into the influence of weather conditions on the contributing factors.
                                         </p>
 
 
-                                        <h5 class="modal-subtitle">Weather Impact on Contributing Factors</h5>
-                                        <h6 class="modal-subtitle">with a focus on the top 10 accidents-prone areas</h6>
                                         <img src="static/images/contributingfactors_weather_top10.png"
                                             class="img-fluid">
                                         <img src="static/images/contributingfactors_moreweather_top10.png"
                                             class="img-fluid">
 
-                                        <h6 class="modal-subtitle">with a focus on nonmotorists-involved accidents</h6>
                                         <img src="static/images/contributingfactors_nonmotorist.png" class="img-fluid">
-                                        <p class="indented-text">Driver Inattention/Distraction consistently dominates
-                                            as a leading factor across all conditions and accident types, maintaining
-                                            its prominence. On snowy days, Failure to Yield Right-of-Way is also
-                                            prevalent, constituting 51.77% of pedestrian-involved accidents and 24.64%
-                                            of cyclist-involved accidents. A noteworthy trend emerges when comparing
-                                            contributing factors between pedestrians and cyclists, with Bicyclist error
-                                            taking a more significant role in causing accidents, surpassing Pedestrian
-                                            error in cases involving nonmotorists. For the rightmost chart, despite
+                                        <p class="indented-text"> We identify that:
+                                            <ul>
+                                                <li>"Driver Inattention/Distraction" consistently dominates
+                                                    as a leading factor across all conditions and accident types, maintaining
+                                                    its prominence. </li>
+                                                <li>On snowy days, "Failure to Yield Right-of-Way" is also
+                                                    prevalent, constituting 51.77% of pedestrian-involved accidents and 24.64%
+                                                    of cyclist-involved accidents.</li>
+                                                <li>On freezing cold days, "Unsafe Speed" is notably more problematic, with a 
+                                                    significantly higher relative frequency compared to other seasons.
+                                                </li>
+                                                <li>A noteworthy trend emerges when comparing contributing factors between pedestrians 
+                                                    and cyclists, with "Bicyclist error" taking a more significant role in causing accidents, surpassing "Pedestrian
+                                                    error" in cases involving non-motorists.</li>
+                                            </ul></p>
+                                        <br>
+                                        <p class="indented-text">The last set of plots directs us to take a closer look into 
+                                            the impact of additional weather details on accidents involving cyclists, considering some noticeable
+                                            differences across various weather conditions. In contrast, the plot for
+                                            pedestrian-involved accidents show few discernible differences. Note that in the rightmost chart, despite
                                             variations in contributing factors across different weather conditions for
                                             accidents involving both pedestrians and cyclists, the total number of cases
                                             is 45, potentially tempering the observable effects shown in this plot. </p>
-                                        <p class="indented-text">We can delve deeper into the impact of additional
-                                            weather details on accidents involving cyclists, considering some noticeable
-                                            differences across various weather conditions. In contrast, the plot for
-                                            pedestrian-involved accidents show few discernible differences. </p>
-
-                                        <h6 class="modal-subtitle">with a focus on cyclists-involved accidents</h6>
+                                        <br>
                                         <img src="static/images/contributingfactors_cyclists.png" class="img-fluid">
-                                        <p class="indented-text">This plot provides a detailed breakdown of the
-                                            influence of additional weather details on contributing factors to
-                                            cyclists-involved accidents. It reveals that Bicyclist error/confusion
-                                            becomes more pronounced on extremely cold days, days characterized by poor
-                                            visibility, or those with significantly strong wind intensity. These
-                                            specific weather conditions appear to amplify the role of bicyclist error in
-                                            contributing to accidents involving cyclists.</p>
+                                        <p class="indented-text"> Other than the already discussed two most prominent contributing factors, we take a 
+                                            closer look at the Bicyclist-specific causes here.
+                                            Some specific weather conditions appear to amplify the role of "Bicyclist Error" in
+                                            contributing to accidents involving cyclists. 
+                                            Particularly, "Bicyclist Error/Confusion" becomes more pronounced on:
+                                            <ul>
+                                                <li>Extremely cold days</li>
+                                                <li>Days with poor visibility</li>
+                                                <li>Days with significantly strong wind intensity.</li>
+                                            </ul>
+                                            </p>
                                     </div>
                                 </div>
                             </div>
@@ -243,8 +348,13 @@
 
 
 
+
+
+
+        <div class="row">
+
             <div class="col-md-4 col-sm-6 column-custom">
-                <!-- Accidents by Different Time Aggregation -->
+                <!-- Severity of Accidents -->
                 <div class="card card-custom">
                     <img src="static\images\severity_weather_top10.png" class="card-img-top card-img-custom"
                         alt="Severity of Accidents">
@@ -262,37 +372,50 @@
                             <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel">Severity of Accidents</h5>
+                                        <h5 class="modal-title" id="analysisModalLabel4">Severity of Accidents</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h5 class="modal-subtitle">Impact of Weather on the Severity of Accidents</h5>
-                                        <h6 class="modal-subtitle">with a focus on the top 10 accidents-prone areas in
-                                            2022</h6>
+                                        <p class ="indented-text"> To simplify the cases, we classify 
+                                            the accidents based on the total number of injuries and deaths. An accident 
+                                            is labeled as 'Minor' if there are no injuries or deaths, 'Serious' if there 
+                                            are injuries but no deaths, and 'Fatal' if it involves deaths. Within the 
+                                            'Serious' category, accidents are further divided into subcategories: 
+                                            'Serious (Low)' with 0-3 injuries, 'Serious (Medium)' with 3-10 injuries, 
+                                            and 'Serious (High)' with more than 10 injuries. In the 'Fatal' category, 
+                                            accidents are additionally segmented into 'Fatal' with 0-3 deaths and 'Very 
+                                            Fatal' with more than 3 deaths. 
+                                        </p>
                                         <img src="static/images/severity_weather_top10.png" class="img-fluid">
                                         <img src="static/images/severity_moreweather_top10.png" class="img-fluid">
-                                        <p class="indented-text">We can discern subtle distinctions among categories.
-                                            For example, the occurrence of very fatal cases seems to be higher on days
-                                            with heavy precipitation and higher temperatures compared to days with no
-                                            rain and milder temperatures. Additionally, within the visibility category,
-                                            there is a lower frequency of minor cases on days with poor visibility
-                                            compared to those with clearer visibility. However, we are unable to
-                                            pinpoint significant differences across categories, and therefore, there are
+                                        <p class="indented-text">We can discern subtle distinctions among categories:
+                                            <ul>
+                                                <li>The occurrence of very fatal cases seems to be higher on days
+                                                    with heavy precipitation and higher temperatures compared to days with no
+                                                    rain and milder temperatures.</li>
+                                                <li>Within the visibility category, there is a lower frequency of minor cases on days with poor visibility
+                                                    compared to those with clearer visibility.</li>
+                                            </ul>
+                                            However, we are unable to pinpoint significant differences across categories, and therefore, there are
                                             no clear clues regarding the degree of impact weather has on the severity of
                                             traffic accidents. </p>
-
-
-                                        <h5 class="modal-subtitle">Relative Frequency of Serious Accidents in
-                                            Nonmotorists-Involved Cases </h5>
-                                        <p class="indented-text">We categorize accidents based on the parties involved,
-                                            including only pedestrians, only cyclists, both pedestrians and motorists,
-                                            both pedestrians and cyclists, both cyclists and motorists, and cases
-                                            involving pedestrians, cyclists, and motorists. We exclude accidents
-                                            involving only motorists due to their high frequency; their inclusion in the
-                                            graph would overshadow the presence of the other two types of cases.
-                                        </p>
+                                        <br>
+                                        <h5 class="modal-subtitle" style = "text-align:left">Relative Frequency of Serious Accidents in
+                                            Non-Motorists-Involved Cases </h5>
+                                        <p class="indented-text"> Let's categorize accidents based on the parties involved and delve into each category more closely. 
+                                            The defined categories include:
+                                            <ul>
+                                                <li><strong>Only Pedestrians: </strong> Accidents involving pedestrians victims exclusively.</li>
+                                                <li><strong>Only Cyclists: </strong> Accidents involving cyclists victims exclusively.</li>
+                                                <li><strong>Pedestrians & Motorists: </strong> Accidents involving both pedestrians and motorists victims.</li>
+                                                <li><strong>Pedestrians & Cyclists: </strong> Accidents involving both pedestrians and cyclists victims.</li>
+                                                <li><strong>Cyclists & Motorists:  </strong>  Accidents involving both cyclists and motorists victims.</li>
+                                                <li><strong>Pedestrians, Cyclists, and Motorists:  </strong> Accidents involving pedestrians, cyclists, and motorists victims.</li>
+                                            </ul>
+                                            Accidents exclusively involving motorists victims are excluded from the analysis due to their high frequency, 
+                                            which could overshadow the presence of the other two types of cases.
                                         <p class="indented-text">Note that we define involvement by whether the party
                                             sustains injuries and/or fatalities in the accident. Specifically, our
                                             analysis focuses on accidents with a severity level beyond minor, meaning
@@ -302,11 +425,14 @@
 
                                         <p class="indented-text">These adjacent plots display accident counts and the
                                             relative frequency of accidents at various severity levels involving
-                                            nonmotorists. The left plot suggests that pedestrians are more susceptible
-                                            to injuries in accidents, with the majority involving fewer than 3 people.
-                                            As the number of parties involved in an accident increases, the severity
-                                            level tends to rise. Notably, the two accidents involving pedestrians,
-                                            cyclists, and motorists resulted in fatalities.</p>
+                                            nonmotorists. We observe that:
+                                            <ul>
+                                                <li>Pedestrians are more susceptible
+                                                    to injuries in accidents, with the majority involving fewer than 3 injuries. </li>
+                                                <li>As the number of parties involved in an accident increases, the severity
+                                                    level tends to rise. Notably, the two accidents involving pedestrians,
+                                                    cyclists, and motorists resulted in fatalities.</li>
+                                            </ul></p>
 
                                     </div>
                                 </div>
@@ -317,103 +443,7 @@
             </div>
         </div>
 
-
-
-
-
-
-        <div class="row">
-
-
-            <!-- Weather & Total Accident Counts-->
-            <div class="col-md-4 col-sm-6 column-custom">
-                <div class="card card-custom">
-                    <img src="static\images\daily_crash_counts.png" class="card-img-top card-img-custom"
-                        alt="Temporal Analysis">
-                    <div class="card-body">
-                        <h5 class="card-title">Temporal Analysis</h5>
-                        <p class="card-text">Chronological Patterns: Unveiling the Daily and Monthly Trends of Traffic
-                            Accidents in NYC</p>
-                        <!-- Button trigger modal -->
-                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#analysisModal5">View More
-                            Analysis</a>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="analysisModal5" tabindex="-1" role="dialog"
-                            aria-labelledby="analysisModalLabel5" aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document"> <!-- Use modal-lg or modal-xl here -->
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="analysisModalLabel1">Temporal Analysis</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img src="static/images/daily_crash_counts.png" class="img-fluid">
-                                        <p class="indented-text">The time series chart illustrates daily crash counts
-                                            over a period, overlaid with both a daily average (green dashed line) and a
-                                            7-day moving average (red dashed line). The blue dots represent daily crash
-                                            data, with spikes indicating days with higher-than-average crashes. The
-                                            7-day moving average smooths out daily fluctuations, providing a clearer
-                                            view of the overall trend, which helps identify patterns or shifts in
-                                            accident frequency over time. The daily average appears relatively constant,
-                                            serving as a benchmark against which daily and weekly variations can be
-                                            assessed. Peaks above the daily average suggest days with unusually high
-                                            accident counts, while troughs indicate fewer accidents than average.</p>
-
-                                        <h5 class="modal-subtitle">Seasonality by Month</h5>
-                                        <img src="static/images/seasonality_month.png" class="img-fluid">
-                                        <p class="indented-text">The line graph displays the monthly crash count for
-                                            2022. The x-axis represents the month of the year, while the y-axis shows
-                                            the number of crashes. The blue line indicates the actual number of crashes
-                                            each month, while the red dashed line represents the monthly average crash
-                                            count for the year.</p>
-                                        <p class="indented-text">There's a noticeable fluctuation in crash numbers.
-                                            Notably, there is a significant peak around the middle of the year,
-                                            particularly in May and June. The number of crashes remains high until
-                                            October, coinciding with the onset of colder days when people tend to stay
-                                            indoors. There is a sharp decline in the number of crashes during holiday
-                                            seasons, particularly at the beginning and end of the year.</p>
-
-
-                                        <h5 class="modal-subtitle">Aggregated Temporal Pattern by Day of the Week and
-                                            time of the days</h5>
-                                        <img src="static/images/accidents_by_time_analysis.png" class="img-fluid">
-
-                                        <p class="indented-text">We identify that accident counts peak on Friday and
-                                            during rush hours. </p>
-                                        <p class="indented-text">Let's also dive into the nonmotorists-involved cases.
-                                        </p>
-
-                                        <img src="static/images/ts_nonmotorist.png" class="img-fluid">
-                                        <p class="indented-text">Unsurprisingly, most nonmotorists accidents take place
-                                            during rush hours and weekdays, with Friday standing out the most. </p>
-
-                                        <h5 class="modal-subtitle">Disaggregated Time Study</h5>
-                                        <img src="static/images/heatmap_by_weekday_month.png" class="img-fluid">
-                                        <img src="static/images/heatmap_by_weekday_hour.png" class="img-fluid">
-                                        <p class="indented-text">The heatmap displays the number of accidents by weekday
-                                            and hour, providing a detailed temporal breakdown of when accidents occur.
-                                            Darker shades indicate higher accident counts, revealing that midweek days,
-                                            particularly during the hours of 3 pm to 6 pm, see the highest frequency of
-                                            accidents, possibly due to rush hour traffic. Saturday evenings also show an
-                                            elevated number of accidents. In contrast, the early morning hours across
-                                            all days have the lowest occurrence, likely due to reduced traffic. This
-                                            visualization underscores the critical times when road safety measures could
-                                            be intensified to prevent accidents, especially during the busiest hours of
-                                            the week. </p>
-                                        <img src="static/images/heatmap_by_month_hour.png" class="img-fluid">
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            
 
 
             <div class="col-md-4 col-sm-6 column-custom">
@@ -445,9 +475,8 @@
                                             class="img-fluid">
                                         <p class="indented-text">This bar chart illustrates the distribution of
                                             different types of vehicles involved in accidents. Sedans lead, followed
-                                            closely by station wagons/sport utility vehicles, indicating these vehicle
-                                            types are more frequently involved in accidents, which could correlate with
-                                            their prevalence on the roads. Other types, like taxis, bikes, and e-bikes,
+                                            closely by station wagons/sport utility vehicles, which could correlate with
+                                            their prevalence on the roads. Other vehicle types, like taxis, bikes, and e-bikes,
                                             have a smaller representation, suggesting fewer incidents. Notably, there
                                             are very few accidents involving more specialized vehicles such as
                                             ambulances and e-scooters.</p>
@@ -455,25 +484,23 @@
                                             class="img-fluid">
                                         <p class="indented-text">The chart presents a generalized overview of the types
                                             of vehicles most often implicated in traffic incidents. Cars are the most
-                                            common vehicle type involved, followed by SUVs, indicating a higher
-                                            incidence of accidents with these vehicles. The involvement of cyclists is
-                                            also significant, suggesting a potential area of focus for improving road
-                                            safety for non-motorized traffic. Trucks, scooters, emergency vehicles, and
+                                            common vehicle type involved, followed by SUVs. <strong>The involvement of cyclists is
+                                                also significant, suggesting a potential area of focus for improving road
+                                                safety for non-motorized traffic.</strong> Trucks, scooters, emergency vehicles, and
                                             motorcycles are involved in accidents less frequently, according to this
-                                            data. It's important for urban planners and traffic safety officials to
-                                            consider these patterns when designing interventions to reduce traffic
-                                            accidents.</p>
+                                            data. </p>
 
                                         <img src="static/images/distribution_vehicle_type_comparison.png"
                                             class="img-fluid">
                                         <p class="indented-text">The graph presents a side-by-side comparison of vehicle
                                             types involved in accidents, categorized into general and detailed
                                             distributions. On the left, the 'General Distribution' chart simplifies
-                                            vehicle types into broader categories such as 'Car' and 'SUV', showing that
-                                            cars are the most frequently involved in accidents. On the right, the
+                                            vehicle types into broader categories such as 'Car' and 'SUV'. On the right, the
                                             'Detailed Distribution' provides a more nuanced view, breaking down the
                                             categories further—'Sedan', 'Station Wagon/Sport Utility Vehicle', and so
-                                            forth. Both graphs highlight that standard passenger vehicles like sedans
+                                            forth. </p>
+                                        <p class = "indented-text">
+                                            Both graphs highlight that standard passenger vehicles like sedans
                                             and SUVs are the most common in accidents, suggesting they are either more
                                             numerous on the roads or more prone to incidents. The detailed chart also
                                             illustrates the involvement of other specific vehicle types, like taxis and
