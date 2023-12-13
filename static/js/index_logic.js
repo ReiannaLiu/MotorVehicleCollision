@@ -129,7 +129,7 @@ Promise.all([
             zeroline: false
         },
         legend: {
-            x: 0.9,
+            x: 1.2,
             y: 1,
             xanchor: 'right',
             yanchor: 'top',

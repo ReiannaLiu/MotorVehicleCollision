@@ -25,11 +25,12 @@ The project is mainly driven by the following objectives:
 - **Database**: SQLite and SQLAlchemy ORM for data management.
 
 ## Exploratory Data Analysis (EDA)
-The project utilizes two primary Jupyter notebooks for EDA:
+The project utilizes three primary Jupyter notebooks for EDA:
 
 1. **Collisions EDA**: `collisions_EDA_plots.ipynb`
-   - Examines aggregated temporal patterns based on the day of the week, month, and time of day.
+   - Examines aggregated temporal patterns based on the day of the week, month, and time of day. 
    - Observes accident data by vehicle types and contributing factors.
+   
 
 2. **Weather Impact EDA**: `weather_collision_EDA.ipynb`
    - Evaluates the correlation between weather conditions and accident rates of different severity level, as well as the contributing factors to accidents, within the top 10 accident-prone areas.
@@ -46,11 +47,11 @@ The project utilizes two primary Jupyter notebooks for EDA:
 - **Data Cleaning**: Ensuring accuracy and reliability in analysis.
 
 ### Insights and Visualizations
-- **Contributing Factors**: Highlighting 'Driver Inattention/Distraction' and 'Failure to Yield Right-of-Way' as two predominant contributing factors.
-- **Weather Conditions**: Analyzing accidents in different weather scenarios.
-- **Temporal Patterns**: Revealing peak accident times and days.
-- **Seasonality Analysis**: Understanding month-wise accident trends.
-- **Severity of Accidents**: Classifying the accidents based on the total number of injuries and deaths. An accident is labeled as 'Minor' if there are no injuries or deaths, 'Serious' if there are injuries but no deaths, and 'Fatal' if it involves deaths. Within the 'Serious' category, accidents are further divided into subcategories: 'Serious (Low)' with 0-3 injuries, 'Serious (Medium)' with 3-10 injuries, and 'Serious (High)' with more than 10 injuries. In the 'Fatal' category, accidents are additionally segmented into 'Fatal' with 0-3 deaths and 'Very Fatal' with more than 3 deaths.
+- **Contributing Factors**: Highlighting 'Driver Inattention/Distraction' and 'Failure to Yield Right-of-Way' as two predominant contributing factors. On freezing cold days, "Unsafe Speed" is notably more problematic, with a significantly higher relative frequency compared to other seasons. For non-motorists-involved collisions, "Bicyclist Error/Confusion" is more pronounced than "Pedestrians Error/Confusion", particularly on extremely cold days, days with poor visibility, and days with significantly strong wind intensity.
+- **Weather Conditions**: Analyzing the impact of weather on daily traffic accidents counts. Observing that 'rainy' and 'cloudy' days show a wide range of accident counts, with 'rainy' exhibiting some high outliers; and that warm and hot days exhibit a higher median number of crashes than other days.
+- **Temporal Patterns**: Revealing peak accident times and days are in midweek days, during working hours, particularly Fridays during the hours of 3 pm to 6 pm, while being more evenly distributed throughout the day (even at night hours) on weekends.
+- **Seasonality Analysis**: Identifying a weekly and monthly seasonality in accidents, where troughs usually occur in winter and during holiday seasons (particularly at the beginning and end of the year) and summer (from May to June) is the peak season for accidents. 
+- **Severity of Accidents**: Classifying the accidents based on the total number of injuries and deaths. An accident is labeled as 'Minor' if there are no injuries or deaths, 'Serious' if there are injuries but no deaths, and 'Fatal' if it involves deaths. Within the 'Serious' category, accidents are further divided into subcategories: 'Serious (Low)' with 0-3 injuries, 'Serious (Medium)' with 3-10 injuries, and 'Serious (High)' with more than 10 injuries. In the 'Fatal' category, accidents are additionally segmented into 'Fatal' with 0-3 deaths and 'Very Fatal' with more than 3 deaths. Observing that as the number of parties involved in an accident increases, the severity level tends to rise. Notably, the two accidents involving pedestrians, cyclists, and motorists resulted in fatalities.
 
 ## Machine Learning (ML) 
 
@@ -62,7 +63,9 @@ The classification models are built to predict whether an accident involves pede
 - **Data Splitting**: Splitting the data into training and testing datasets using train_test_split.
 - **Data Model Building**: Build the models using **SDGClassifier with grid search**, **Random Forest Classifier**, **Gradient Boosting Classifier**, and **Neural Network Classifier**. 
 - **Data Model Evaluation**: Evaluate the models using **accuracy score**, **recall score**, **AUC score**, **f1 score**, **Average Precision score**, **confusion matrix**, and **classification report**.
-- **Model Performance**: Our models achieve high accuracy scores overall; however, their performance in other metrics is poor. This outcome aligns with our expectations due to the constrained accessibility to additional traffic-related attributes. Factors such as real-time traffic volume, road conditions, and specific information about involved vehicle types (which, although present in our dataset, contain a lot of missing values) are crucial variables that could significantly enhance the models' explanatory power. The absence of these critical attributes likely contributes to the models' limitations in effectively capturing the complexities of traffic-related scenarios.
+
+#### Model Performance
+Our models achieve high accuracy scores overall; however, their performance in other metrics is poor. This outcome aligns with our expectations due to the constrained accessibility to additional traffic-related attributes. Factors such as real-time traffic volume, road conditions, and specific information about involved vehicle types (which, although present in our dataset, contain a lot of missing values) are crucial variables that could significantly enhance the models' explanatory power. The absence of these critical attributes likely contributes to the models' limitations in effectively capturing the complexities of traffic-related scenarios.
 
 
 ### Clustering Models
