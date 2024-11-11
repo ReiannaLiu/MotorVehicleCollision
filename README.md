@@ -101,5 +101,18 @@ Cluster Visualization on ArcGIS Map: The results of the clustering analysis are 
 - **Analysis Board**: Dive into deeper analyses at `/analysis_board`.
 - **API Documentation**: Utilize the cleaned datasets for extended analysis.
 
+### Running the Application Locally with Docker
+To run the application locally using Docker, follow these steps:
+1. **Pull the Docker Image**  
+   Fetch the project’s Docker image from Docker Hub:
+   ```bash
+   docker pull xybljy/mvc:latest
+2. **Start the Docker Container**  
+   ```bash
+   docker run -p 8000:5000 xybljy/mvc:latest
+3. **Access the Application**  
+   Open your web browser and visit:
+   ```bash
+   http://localhost:8000
 ## Contributing to the Project
 We encourage contributions! If you're looking to add or modify features, please adhere to the existing code structure and document any changes comprehensively.
