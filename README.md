@@ -1,4 +1,4 @@
-# Decode NYC Crash 2022 
+# Decode NYC Crash 2023
 
 ## Overview
 This project offers a comprehensive analysis of motor vehicle collisions in New York City. By leveraging diverse datasets, it uncovers patterns in accidents, evaluates contributing factors, and examines the influence of weather conditions. The result is an interactive dashboard, enriched with infographics and data visualizations, enabling users to delve into the nuances of traffic safety within specific zip codes.
